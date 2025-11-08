@@ -1,7 +1,7 @@
 // V2 MỚI: GỘP 4 file installs (count, daily, monthly, yearly) vào 1 file
-import { withCors } from "../_lib/util.js";
-import { hllCount, sCard } from "../_lib/upstash.js";
-import { Calendar } from "../_lib/calendar.js";
+import { withCors } from "./_lib/util.js";
+import { hllCount, sCard } from "./_lib/upstash.js";
+import { Calendar } from "./_lib/calendar.js";
 
 // --- Logic từ installs/count.js ---
 async function handleCount(app) {
