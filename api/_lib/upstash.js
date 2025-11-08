@@ -1,19 +1,21 @@
-const U = () => ({
-  url: process.env.UPSTASH_REST_URL,
-  token: process.env.UPSTASH_REST_TOKEN
-});
-async function upstash(cmd, ...args) {
-  const { url, token } = U();
-  const r = await fetch(url, {
-    method: "POST",
-    headers: { Authorization: `Bearer ${token}`, "Content-Type":"application/json" },
-    body: JSON.stringify({ cmd, args })
-  });
-  const j = await r.json();
-  if (!r.ok) throw new Error(`upstash:${r.status} ${JSON.stringify(j)}`);
-  return j.result;
+// Lấy từ file upstash.txt
+const BASE = () => (process.env.UPSTASH_REST_URL || "").replace(/\/+$/,"");
+const HDRS = () => ({ Authorization:`Bearer ${process.env.UPSTASH_REST_TOKEN}` });
+
+const enc = s => encodeURIComponent(s);
+
+async function call(path, method="GET") {
+  const r = await fetch(`${BASE()}/${path}`, { method, headers: HDRS() });
+  if (!r.ok) return null;
+  const t = await r.text();
+  try { return JSON.parse(t).result ?? JSON.parse(t); } catch { return t; }
 }
-export const hllAdd = (key, member) => upstash("PFADD", key, member);
-export const hllCount = (key) => upstash("PFCOUNT", key);
-export const sAdd = (key, member) => upstash("SADD", key, member);
-export const sIsMember = (key, member) => upstash("SISMEMBER", key, member);
+
+// HyperLogLog
+export const hllAdd   = (key, member) => call(`pfadd/${enc(key)}/${enc(member)}`, "POST");
+export const hllCount = (key)         => call(`pfcount/${enc(key)}`);
+
+// Sets
+export const sAdd      = (key, member) => call(`sadd/${enc(key)}/${enc(member)}`, "POST");
+export const sIsMember = (key, member) => call(`sismember/${enc(key)}/${enc(member)}`);
+export const sCard     = (key)         => call(`scard/${enc(key)}`); // V2: Bổ sung SCARD (đếm tổng)
