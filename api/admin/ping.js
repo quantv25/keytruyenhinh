@@ -1,6 +1,6 @@
 import crypto from "node:crypto";
-import { withCors, readJson, tzPeriodKey } from "../../_lib/util.js";
-import { hllAdd } from "../../_lib/upstash.js";
+import { withCors, readJson, tzPeriodKey } from "../_lib/util.js";
+import { hllAdd } from "../_lib/upstash.js";
 
 const sha256 = s => crypto.createHash("sha256").update(String(s)).digest("hex");
 
