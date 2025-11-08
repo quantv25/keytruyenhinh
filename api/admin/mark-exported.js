@@ -1,4 +1,4 @@
-import { withCors, requireAdmin, readJson } from "../../_lib/util.js";
+import { withCors, requireAdmin, readJson } from "../_lib/util.js";
 export default async function handler(req, res) {
   if (!withCors(req,res)) return;
   if (!requireAdmin(req,res)) return;
