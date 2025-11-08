@@ -1,5 +1,5 @@
 // V2 MỚI: GỘP 3 file admin (generate-codes, generate-csv, report) vào 1 file
-import { withCors, requireAdmin, readJson, nowIso } from "../_lib/util.js";
+import { withCors, requireAdmin, readJson, nowIso } from "./_lib/util.js";
 import { readCodes, writeCodes } from "./_lib/gh.js";
 import { buildSeries } from "./_lib/report.js";
 
@@ -78,4 +78,3 @@ export default withCors(async function handler(req, res) {
 
   // Method không hợp lệ
   return res.status(405).json({ ok:false, error:"method_not_allowed" });
-});
