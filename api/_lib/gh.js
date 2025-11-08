@@ -2,12 +2,21 @@
 // Đọc/ghi file JSON mã trên GitHub (Contents API)
 async function ghGetFileRaw() {
   const { GITHUB_REPO, GITHUB_TOKEN, GITHUB_BRANCH="main", CODES_PATH } = process.env;
+  if (!GITHUB_REPO || !GITHUB_TOKEN || !CODES_PATH) {
+    console.error("Missing GITHUB_REPO, GITHUB_TOKEN, or CODES_PATH");
+    // Sửa lỗi: Trả về đối tượng lỗi, không throw
+    return { ok: false, status: 500, error: "Missing env vars" };
+  }
   const u = `https://api.github.com/repos/${GITHUB_REPO}/contents/${CODES_PATH}?ref=${GITHUB_BRANCH}`;
   const r = await fetch(u, { headers: { Authorization:`Bearer ${GITHUB_TOKEN}`, "User-Agent":"pachiatv-key-svc" } });
-  if (!r.ok) throw new Error(`gh get ${r.status}`);
+  
+  // SỬA LỖI: Trả về status, không throw
+  if (!r.ok) {
+    return { ok: false, status: r.status };
+  }
   const j = await r.json();
   const text = Buffer.from(j.content||"", j.encoding||"base64").toString("utf8");
-  return { sha:j.sha, text };
+  return { ok: true, sha:j.sha, text };
 }
 
 async function ghPutFileRaw(newText, sha, message) {
@@ -17,14 +26,24 @@ async function ghPutFileRaw(newText, sha, message) {
     message: message || `update ${CODES_PATH}`,
     content: Buffer.from(newText, "utf8").toString("base64"),
     branch: GITHUB_BRANCH,
-    sha
   };
+
+  // SỬA LỖI: Chỉ thêm SHA nếu nó tồn tại (để update file)
+  // Nếu SHA là null (file mới), nó sẽ tạo file mới
+  if (sha) {
+    body.sha = sha;
+  }
+
   const r = await fetch(u, {
     method: "PUT",
     headers: { Authorization:`Bearer ${GITHUB_TOKEN}`, "User-Agent":"pachiatv-key-svc", "Content-Type":"application/json" },
     body: JSON.stringify(body)
   });
-  if (!r.ok) throw new Error(`gh put ${r.status}`);
+  if (!r.ok) {
+    const errorBody = await r.text();
+    console.error("ghPutFileRaw failed:", errorBody);
+    throw new Error(`gh put ${r.status}: ${errorBody}`);
+  }
   return r.json();
 }
 
@@ -42,10 +61,40 @@ function norm(rec) {
 }
 
 export async function readCodes() {
-  const { sha, text } = await ghGetFileRaw();
-  let arr; try { arr = JSON.parse(text); } catch { arr = []; }
-  if (!Array.isArray(arr)) arr = [];
-  const list = arr.map(norm).filter(x => x && x.code);
+  let sha = null;
+  let text = "[]";
+  let list = [];
+
+  try {
+    const file = await ghGetFileRaw();
+    if (file.ok) {
+      // File tồn tại, đọc bình thường
+      sha = file.sha;
+      text = file.text;
+    } else {
+      // Lỗi (404, 401, v.v.),
+      // Nếu là 404 (file not found), coi như file rỗng và sẽ được tạo mới lúc writeCodes
+      console.warn(`ghGetFileRaw failed with status ${file.status}. Assuming new file.`);
+      text = "[]"; // Mặc định là mảng rỗng
+      sha = null; // Sẽ tạo file mới khi write
+    }
+  } catch (e) {
+    console.error("Error in readCodes -> ghGetFileRaw:", e);
+    text = "[]"; // Mặc định mảng rỗng nếu có lỗi
+    sha = null;
+  }
+
+  try {
+    // Đảm bảo text không rỗng trước khi parse
+    const arr = JSON.parse(text || "[]");
+    if (Array.isArray(arr)) {
+      list = arr.map(norm).filter(x => x && x.code);
+    }
+  } catch (e) {
+    console.error("Error parsing codes.json content:", text, e);
+    // Giữ list = []
+  }
+  
   return { sha, list };
 }
 
