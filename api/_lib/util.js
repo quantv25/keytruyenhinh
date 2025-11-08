@@ -9,13 +9,16 @@ export async function readJson(req) {
 }
 
 export function requireAdmin(req, res) {
-  const ok = (req.headers["quan2510-huyen1110-minh2709"] || "")
-  if (!ok) {
-    res.status(401).json({ ok: false, error: "unauthorized" });
-    return false;
-  }
+  const headerKey = (req.headers?.['quan2510-huyen1110-minh2709'] ?? req.headers?.['quan2510-huyen1110-minh2709'] ?? '').toString().trim();
+  const queryKey  = (req.query?.key ?? '').toString().trim();
+  const got = headerKey || queryKey;
+  const expect = (process.env.ADMIN_KEY || '').toString().trim();
+
+  if (!expect) { res.status(500).json({ ok:false, error:'ADMIN_KEY_not_configured' }); return false; }
+  if (got !== expect) { res.status(401).json({ ok:false, error:'unauthorized' }); return false; }
   return true;
 }
+
 
 export function nowIso() { return new Date().toISOString(); }
 
