@@ -1,27 +1,24 @@
-import crypto from "node:crypto";
-import { withCors, readJson, tzPeriodKey } from "../../_lib/util.js";
-import { hllAdd } from "../../_lib/upstash.js";
+// api/install/ping.js
+import { withCors, readJson, tzPeriodKey } from "../_lib/util.js";
+import { hllAdd, sAdd } from "../_lib/upstash.js";
 
-const sha256 = s => crypto.createHash("sha256").update(String(s)).digest("hex");
+export default withCors(async function handler(req, res) {
+  if (req.method !== "POST") return res.status(405).json({ ok: false, error: "method_not_allowed" });
+  const body = await readJson(req);
+  const device = (body.device || "").toString().trim();
+  const app = (body.app || "PachiaTV").toString().trim();
+  if (!device) return res.status(400).json({ ok: false, error: "device_required" });
 
-export default async function handler(req, res) {
-  if (!withCors(req,res)) return;
-  if (req.method !== "POST") return res.status(405).json({ ok:false, error:"method_not_allowed" });
+  const now = new Date();
+  const { day, month, year } = tzPeriodKey(now, +(process.env.TZ_OFFSET_MINUTES || 420));
 
-  const b = await readJson(req);
-  let dev = (b.device || b.deviceId || b.device_id || b.android_id || "").toString().trim();
-  if (!/^[a-f0-9]{64}$/i.test(dev)) dev = sha256(dev || (req.headers["user-agent"]||""));
+  // Đếm unique theo từng kỳ
+  await hllAdd(`installs:day:${day}`, device);
+  await hllAdd(`installs:month:${month}`, device);
+  await hllAdd(`installs:year:${year}`, device);
 
-  const now = new Date().toISOString();
-  const day = tzPeriodKey(now, "day");
-  const mon = tzPeriodKey(now, "month");
-  const yr  = tzPeriodKey(now, "year");
+  // (tuỳ chọn) lưu set all devices
+  await sAdd(`installs:devices:${app}`, device);
 
-  await Promise.all([
-    hllAdd(`installs:day:${day}`, dev),
-    hllAdd(`installs:month:${mon}`, dev),
-    hllAdd(`installs:year:${yr}`, dev),
-  ]).catch(()=>{});
-
-  return res.status(200).json({ ok:true, device: dev });
-}
+  res.json({ ok: true, device, app, day, month, year });
+});
