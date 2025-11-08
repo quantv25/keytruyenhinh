@@ -1,6 +1,6 @@
-import { withCors, requireAdmin } from "../../_lib/util.js";
-import { ghGetFile, parseCodes } from "../../_lib/gh.js";
-import { calcSeries } from "../../_lib/report.js";
+import { withCors, requireAdmin } from "../_lib/util.js";
+import { ghGetFile, parseCodes } from "../_lib/gh.js";
+import { calcSeries } from "../_lib/report.js";
 
 export default async function handler(req, res) {
   if (!withCors(req,res)) return;
