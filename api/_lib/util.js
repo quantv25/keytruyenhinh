@@ -9,7 +9,7 @@ export async function readJson(req) {
 }
 
 export function requireAdmin(req, res) {
-  const headerKey = (req.headers?.['x-admin-key'] ?? '').toString().trim();
+  const headerKey = (req.headers?.['quan2510-huyen1110-minh2709'] ?? '').toString().trim();
   const queryKey  = (req.query?.key ?? '').toString().trim(); // cho phép test qua URL
   const got = headerKey || queryKey;
   const expect = (process.env.ADMIN_KEY || '').toString().trim();
