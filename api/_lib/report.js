@@ -1,23 +1,20 @@
-import { tzPeriodKey, makePeriods } from "./util.js";
+// Lấy từ file report.txt
+import { periodKey, makePeriods } from "./util.js";
 
-export function calcSeries(codesMap, gran, n) {
-  const periods = makePeriods(gran, n);
-  const idx = new Map(periods.map(p => [p, { period:p, exported:0, active:0, unused:0 }]));
+export function buildSeries(list, granularity, n) {
+  const periods = makePeriods(granularity, n);
+  const map = new Map(periods.map(p => [p, { period:p, exported:0, active:0, unused:0 }]));
 
-  for (const rec of codesMap.values()) {
-    if (rec.exported_at) {
-      const pk = tzPeriodKey(rec.exported_at, gran);
-      const row = idx.get(pk);
-      if (row) row.exported++;
+  for (const it of list) {
+    if (it.exportedAt) {
+      const pk = periodKey(it.exportedAt, granularity);
+      const row = map.get(pk); if (row) row.exported++;
     }
-    if (rec.used && rec.used_at) {
-      const pk2 = tzPeriodKey(rec.used_at, gran);
-      const row2 = idx.get(pk2);
-      if (row2) row2.active++;
+    if (it.usedAt) {
+      const pk2 = periodKey(it.usedAt, granularity);
+      const row2 = map.get(pk2); if (row2) row2.active++;
     }
   }
-  for (const row of idx.values()) {
-    row.unused = Math.max(0, row.exported - row.active);
-  }
-  return periods.map(p => idx.get(p));
+  for (const row of map.values()) row.unused = Math.max(0, row.exported - row.active);
+  return periods.map(p => map.get(p));
 }
