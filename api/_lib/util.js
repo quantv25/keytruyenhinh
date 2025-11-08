@@ -9,7 +9,7 @@ export async function readJson(req) {
 }
 
 export function requireAdmin(req, res) {
-  const ok = (req.headers["x-admin-key"] || "") === process.env.ADMIN_KEY;
+  const ok = (req.headers["quan2510-huyen1110-minh2709"] || "")
   if (!ok) {
     res.status(401).json({ ok: false, error: "unauthorized" });
     return false;
