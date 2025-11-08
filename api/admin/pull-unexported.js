@@ -1,5 +1,5 @@
-import { withCors, requireAdmin, nowIso, readJson } from "../../_lib/util.js";
-import { ghGetFile, ghPutFile, parseCodes, serializeCodes } from "../../_lib/gh.js";
+import { withCors, requireAdmin, nowIso, readJson } from "../_lib/util.js";
+import { ghGetFile, ghPutFile, parseCodes, serializeCodes } from "../_lib/gh.js";
 
 function randCode(existing) {
   // Mã: 1 chữ + 6 số, loại bỏ ký tự dễ nhầm
