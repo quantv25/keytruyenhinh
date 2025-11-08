@@ -1,17 +1,19 @@
-const base = () => process.env.UPSTASH_REST_URL;
-const hdrs = () => ({ Authorization: `Bearer ${process.env.UPSTASH_REST_TOKEN}` });
-
-export async function hllAdd(key, value) {
-  const u = `${base()}/pfadd/${encodeURIComponent(key)}/${encodeURIComponent(value)}`;
-  await fetch(u, { method:"POST", headers: hdrs() }).catch(()=>{});
+const U = () => ({
+  url: process.env.UPSTASH_REST_URL,
+  token: process.env.UPSTASH_REST_TOKEN
+});
+async function upstash(cmd, ...args) {
+  const { url, token } = U();
+  const r = await fetch(url, {
+    method: "POST",
+    headers: { Authorization: `Bearer ${token}`, "Content-Type":"application/json" },
+    body: JSON.stringify({ cmd, args })
+  });
+  const j = await r.json();
+  if (!r.ok) throw new Error(`upstash:${r.status} ${JSON.stringify(j)}`);
+  return j.result;
 }
-
-export async function hllCount(key) {
-  try {
-    const u = `${base()}/pfcount/${encodeURIComponent(key)}`;
-    const r = await fetch(u, { headers: hdrs() });
-    const t = await r.text();
-    const num = Number(t);
-    return Number.isFinite(num) ? num : 0;
-  } catch { return 0; }
-}
+export const hllAdd = (key, member) => upstash("PFADD", key, member);
+export const hllCount = (key) => upstash("PFCOUNT", key);
+export const sAdd = (key, member) => upstash("SADD", key, member);
+export const sIsMember = (key, member) => upstash("SISMEMBER", key, member);
