@@ -1,9 +1,9 @@
-import { withCors, requireAdmin, readJson, nowIso } from './_lib/util.js';
+import { withCors, requireAdmin, readJson, nowIso, periodKey } from './_lib/util.js';
 import { readCodes, writeCodes } from './_lib/gh.js';
 import { buildSeries } from './_lib/report.js';
 
-// --- Logic sinh mã (từ add-codes.txt) ---
-function genCode(existing) {
+// --- Hàm Gen Code (Lấy từ file V1 cũ) ---
+function gen(existing) {
   const letters = "abcdefghjkmnpqrstuvwxyz";
   while (true) {
     const head = letters[Math.floor(Math.random()*letters.length)];
@@ -12,77 +12,127 @@ function genCode(existing) {
     if (!existing.has(code.toLowerCase())) return code;
   }
 }
-// --- Hết logic sinh mã ---
 
 // --- Xử lý các action ---
 
-// GET /api/admin?report=...
-async function handleGetReport(req, res) {
+// POST /api/admin?action=generate-codes
+async function handleGenerateCodes(req, res) {
+  const body = await readJson(req);
+  const n = Math.min(10000, Math.max(1, parseInt(body.n || "0", 10) || 0));
+  if (n === 0) return res.status(400).json({ ok:false, error:"invalid_n" });
+
+  const { sha, list } = await readCodes();
+  const existing = new Set(list.map(x => x.code.toLowerCase()));
+  const now = nowIso();
+  const newCodes = [];
+
+  for (let i=0; i<n; i++) {
+    const code = gen(existing);
+    existing.add(code.toLowerCase());
+    list.push({
+      code,
+      used: false,
+      exported: true,
+      exportedAt: now
+    });
+    newCodes.push(code);
+  }
+
+  await writeCodes(list, sha, `[V2] Generate ${n} codes`);
+  res.json({ ok:true, codes: newCodes });
+}
+
+// POST /api/admin?action=generate-csv
+async function handleGenerateCsv(req, res) {
+  const body = await readJson(req);
+  const n = Math.min(10000, Math.max(1, parseInt(body.n || "0", 10) || 0));
+  if (n === 0) return res.status(400).json({ ok:false, error:"invalid_n" });
+
+  const { sha, list } = await readCodes();
+  const existing = new Set(list.map(x => x.code.toLowerCase()));
+  const now = nowIso();
+  const newCodes = [];
+
+  for (let i=0; i<n; i++) {
+    const code = gen(existing);
+    existing.add(code.toLowerCase());
+    list.push({
+      code,
+      used: false,
+      exported: true,
+      exportedAt: now
+    });
+    newCodes.push(code);
+  }
+
+  await writeCodes(list, sha, `[V2] Generate ${n} codes for CSV`);
+
+  const csvString = "code\n" + newCodes.join("\n");
+  res.setHeader('Content-Type', 'text/csv');
+  res.setHeader('Content-Disposition', `attachment; filename="vip_codes_${n}.csv"`);
+  res.status(200).send(csvString);
+}
+
+// GET /api/admin?action=report&granularity=...&n=...
+async function handleReport(req, res) {
   const gran = (req.query.granularity || "day").toString();
   const n = Math.min(365, Math.max(1, parseInt(req.query.n || "30", 10) || 30));
+
   const { list } = await readCodes();
   const series = buildSeries(list, gran, n);
   res.json({ ok:true, data:{ series } });
 }
 
-// POST /api/admin (action=csv | action=codes)
-async function handleGenerateCodes(req, res) {
-  const body = await readJson(req);
-  const n = Math.min(10000, Math.max(1, parseInt(body.n || "1", 10) || 1));
-  const action = (req.query.action || "codes").toString(); // 'codes' (JSON) or 'csv'
-
-  const { sha, list } = await readCodes();
-  const existing = new Set(list.map(x => x.code.toLowerCase()));
+// GET /api/admin?action=list-all-codes (CHỨC NĂNG MỚI)
+async function handleListAllCodes(req, res) {
+  const { list } = await readCodes();
   
-  const newCodes = [];
-  const now = nowIso();
+  // Sắp xếp lại: chưa dùng (used=false) lên đầu
+  list.sort((a, b) => {
+    if (a.used && !b.used) return 1;
+    if (!a.used && b.used) return -1;
+    return 0;
+  });
 
-  for (let i=0; i < n; i++) {
-    const code = genCode(existing);
-    existing.add(code.toLowerCase());
-    newCodes.push(code);
-    
-    // Thêm vào danh sách chính (đã đánh dấu exported)
-    list.push({
-      code: code,
-      used: false,
-      exported: true,
-      exportedAt: now
-    });
-  }
-
-  // Ghi lại file codes.json trên GitHub
-  await writeCodes(list, sha, `generate and export ${n} codes`);
-
-  // Trả về cho app
-  if (action === 'csv') {
-    const csvHeader = "code\n";
-    const csvBody = newCodes.join("\n");
-    res.setHeader('Content-Type', 'text/csv');
-    res.setHeader('Content-Disposition', `attachment; filename="vip_codes_${n}.csv"`);
-    res.status(200).send(csvHeader + csvBody);
-  } else {
-    // Mặc định trả JSON
-    res.json({ ok: true, codes: newCodes });
-  }
+  res.json({ ok: true, data: { codes: list } });
 }
 
 // --- Bộ định tuyến (Router) ---
 export default withCors(async function handler(req, res) {
-  if (!requireAdmin(req, res)) return; // Check Admin Key
+  if (!requireAdmin(req,res)) return; // Kiểm tra Admin Key trước
+
+  const action = (req.query.action || "default").toString();
 
   try {
-    if (req.method === 'GET') {
-      // Mặc định là báo cáo (giống V1)
-      await handleGetReport(req, res);
-    } else if (req.method === 'POST') {
-      // Sinh mã (V2)
-      await handleGenerateCodes(req, res);
+    if (req.method === 'POST') {
+      switch (action) {
+        case 'generate-codes':
+          await handleGenerateCodes(req, res);
+          break;
+        case 'generate-csv':
+          await handleGenerateCsv(req, res);
+          break;
+        default:
+          res.status(400).json({ ok: false, error: "invalid_action_for_post" });
+      }
+    } else if (req.method === 'GET') {
+      switch (action) {
+        case 'report':
+          await handleReport(req, res);
+          break;
+        // THÊM MỚI:
+        case 'list-all-codes':
+          await handleListAllCodes(req, res);
+          break;
+        default:
+          // Mặc định cho GET (để test key)
+          res.json({ ok: true, message: "Admin key is valid." });
+      }
     } else {
       res.status(405).json({ ok: false, error: "method_not_allowed" });
     }
   } catch (e) {
-    console.error("Error in /api/admin handler:", e);
+    console.error(`Error in /api/admin (action=${action}):`, e);
     res.status(500).json({ ok: false, error: "internal_server_error", message: e.message });
   }
 });
