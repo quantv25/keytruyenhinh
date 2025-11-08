@@ -1,7 +1,7 @@
 // V2 MỚI: GỘP 3 file (ping, check, verify-code) vào 1 file
-import { withCors, readJson, periodKey, nowIso } from "../_lib/util.js";
-import { hllAdd, sAdd, sIsMember } from "../_lib/upstash.js";
-import { readCodes, writeCodes } from "../_lib/gh.js";
+import { withCors, readJson, periodKey, nowIso } from "./_lib/util.js";
+import { hllAdd, sAdd, sIsMember } from "./_lib/upstash.js";
+import { readCodes, writeCodes } from "./_lib/gh.js";
 
 // --- Logic từ ping.js ---
 async function handlePing(b) {
