@@ -1,7 +1,5 @@
-// Lấy từ file upstash.txt
 const BASE = () => (process.env.UPSTASH_REST_URL || "").replace(/\/+$/,"");
 const HDRS = () => ({ Authorization:`Bearer ${process.env.UPSTASH_REST_TOKEN}` });
-
 const enc = s => encodeURIComponent(s);
 
 async function call(path, method="GET") {
@@ -11,11 +9,9 @@ async function call(path, method="GET") {
   try { return JSON.parse(t).result ?? JSON.parse(t); } catch { return t; }
 }
 
-// HyperLogLog
 export const hllAdd   = (key, member) => call(`pfadd/${enc(key)}/${enc(member)}`, "POST");
 export const hllCount = (key)         => call(`pfcount/${enc(key)}`);
-
-// Sets
 export const sAdd      = (key, member) => call(`sadd/${enc(key)}/${enc(member)}`, "POST");
 export const sIsMember = (key, member) => call(`sismember/${enc(key)}/${enc(member)}`);
-export const sCard     = (key)         => call(`scard/${enc(key)}`); // V2: Bổ sung SCARD (đếm tổng)
+// THEM HAM SCARD (Dem so luong device da bo QC)
+export const sCard     = (key)         => call(`scard/${enc(key)}`);
