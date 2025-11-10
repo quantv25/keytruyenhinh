@@ -1,9 +1,11 @@
 [
   {
     "code": "t720181",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-09T09:48:14.825Z"
+    "exportedAt": "2025-11-09T09:48:14.825Z",
+    "usedAt": "2025-11-10",
+    "usedBy": "TEST_DEVICE_123"
   },
   {
     "code": "b061232",
