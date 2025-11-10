@@ -10,16 +10,18 @@
   {
     "code": "b061232",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-11-09T09:48:34.267Z",
+    "usedBy": "26840cc6f79bfb6a",
     "usedAt": "2025-11-10T07:39:41.897Z",
-    "usedBy": "26840cc6f79bfb6a"
+    "exported": true,
+    "exportedAt": "2025-11-09T09:48:34.267Z"
   },
   {
     "code": "d285232",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-09T09:49:25.502Z"
+    "exportedAt": "2025-11-09T09:49:25.502Z",
+    "usedAt": "2025-11-10T08:45:51.687Z",
+    "usedBy": "TEST_SHA256"
   },
   {
     "code": "z875380",
