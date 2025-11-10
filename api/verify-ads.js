@@ -26,8 +26,27 @@ export default async function handler(req, res) {
     const devShort = String(device).slice(0,16);
     const row = list[i];
 
+    // Tạo timestamp với timezone
+    const nowUTC = new Date().toISOString(); // UTC
+    const nowLocal = new Date().toLocaleString("sv-SE", { 
+      timeZone: "Asia/Bangkok",
+      year: 'numeric', month: '2-digit', day: '2-digit',
+      hour: '2-digit', minute: '2-digit', second: '2-digit',
+      hour12: false 
+    }).replace(' ', 'T') + "+07:00";
+
     if (row.used === true && row.usedBy && row.usedBy === devShort) {
-      return res.status(200).json({ ok:true, plan:"adfree", adfree:true, used:true, usedBy:row.usedBy, usedAt:row.usedAt, app });
+      return res.status(200).json({ 
+        ok:true, 
+        plan:"adfree", 
+        adfree:true, 
+        used:true, 
+        usedBy:row.usedBy, 
+        usedAt:row.usedAt,
+        usedAtLocal: row.usedAtLocal || nowLocal,
+        tz: "Asia/Bangkok",
+        app 
+      });
     }
     if (row.used === true && row.usedBy && row.usedBy !== devShort) {
       return res.status(409).json({ ok:false, error:"Code already used" });
@@ -35,7 +54,9 @@ export default async function handler(req, res) {
 
     row.used   = true;
     row.usedBy = devShort;
-    row.usedAt = new Date().toISOString();
+    row.usedAt = nowUTC; // Giữ UTC cho tương thích
+    row.usedAtLocal = nowLocal; // Thêm local time
+    row.tz = "Asia/Bangkok"; // Thêm timezone
 
     const newStr = JSON.stringify(list, null, 2);
     const b64 = Buffer.from(newStr, "utf8").toString("base64");
@@ -46,7 +67,17 @@ export default async function handler(req, res) {
       body: JSON.stringify({ message:`verify-ads ${code} by ${devShort}`, content:b64, branch:GITHUB_BRANCH, sha:meta.sha })
     }).then(r => { if(!r.ok) return r.text().then(t=>{throw new Error("GITHUB_PUT "+r.status+" "+t)}); });
 
-    return res.status(200).json({ ok:true, plan:"adfree", adfree:true, used:true, usedBy:row.usedBy, usedAt:row.usedAt, app });
+    return res.status(200).json({ 
+      ok:true, 
+      plan:"adfree", 
+      adfree:true, 
+      used:true, 
+      usedBy:row.usedBy, 
+      usedAt:row.usedAt,
+      usedAtLocal: row.usedAtLocal,
+      tz: row.tz,
+      app 
+    });
   } catch (e) {
     return res.status(500).json({ ok:false, error: e.message || "Internal error" });
   }
