@@ -6,44 +6,52 @@ export default async function handler(req, res) {
 
   const GH_REPO   = process.env.GH_REPO   || "quantv25/keytruyenhinh";
   const GH_BRANCH = process.env.GH_BRANCH || "main";
-  const GH_TOKEN  = process.env.GH_TOKEN; // PAT có quyền repo (contents:write)
-  const GH_PATH   = "vip_data/codes.json"; // <— VIP ghi ở đây
+  const GH_TOKEN  = process.env.GH_TOKEN;
+  const GH_PATH   = "vip_data/codes.json";
 
   try {
-    const meta = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}?ref=${GH_BRANCH}`, {
-      headers: { Authorization: `Bearer ${GH_TOKEN}`, "User-Agent": "verify-vip" }
-    }).then(r => r.json());
+    // tải file
+    const meta = await fetch(
+      `https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}?ref=${GH_BRANCH}`,
+      { headers: { Authorization: `Bearer ${GH_TOKEN}`, "User-Agent": "verify-vip" } }
+    ).then(r => { if(!r.ok) throw new Error("GH_GET "+r.status); return r.json(); });
 
-    const obj = JSON.parse(Buffer.from(meta.content, "base64").toString("utf8"));
-    const entry = obj?.codes?.[code];
-    if (!entry) return res.status(404).json({ ok:false, error:"Code not found" });
+    const raw = Buffer.from(meta.content, "base64").toString("utf8");
+    let list = [];
+    try { list = JSON.parse(raw); } catch { return res.status(500).json({ ok:false, error:"Invalid JSON file" }); }
+    if (!Array.isArray(list)) return res.status(500).json({ ok:false, error:"codes.json must be an array" });
 
-    if (entry.usedBy && entry.usedBy !== device) {
+    const i = list.findIndex(x => String(x.code).toLowerCase() === String(code).toLowerCase());
+    if (i < 0) return res.status(404).json({ ok:false, error:"Code not found" });
+
+    const devShort = String(device).slice(0,16); // usedBy dạng ngắn như anh yêu cầu
+    const row = list[i];
+
+    // idempotent: nếu đã dùng bởi cùng thiết bị -> OK
+    if (row.used === true && row.usedBy && row.usedBy === devShort) {
+      return res.status(200).json({ ok:true, plan:"vip", adfree:true, used:true, usedBy:row.usedBy, usedAt:row.usedAt, app });
+    }
+    // nếu đã dùng bởi thiết bị khác -> 409
+    if (row.used === true && row.usedBy && row.usedBy !== devShort) {
       return res.status(409).json({ ok:false, error:"Code already used" });
     }
 
-    entry.usedBy = device;
-    entry.usedAt = new Date().toISOString();
+    // cập nhật trạng thái
+    row.used   = true;
+    row.usedBy = devShort;
+    row.usedAt = new Date().toISOString();
+    // exported/exportedAt giữ nguyên
 
-    const newStr = JSON.stringify(obj, null, 2);
+    const newStr = JSON.stringify(list, null, 2);
     const b64 = Buffer.from(newStr, "utf8").toString("base64");
 
     await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}`, {
       method: "PUT",
-      headers: {
-        Authorization: `Bearer ${GH_TOKEN}`,
-        "User-Agent": "verify-vip",
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        message: `verify-vip ${code} by ${device}`,
-        content: b64,
-        branch: GH_BRANCH,
-        sha: meta.sha
-      })
-    }).then(r => r.json());
+      headers: { Authorization: `Bearer ${GH_TOKEN}`, "User-Agent": "verify-vip", "Content-Type": "application/json" },
+      body: JSON.stringify({ message:`verify-vip ${code} by ${devShort}`, content:b64, branch:GH_BRANCH, sha:meta.sha })
+    }).then(r => { if(!r.ok) return r.text().then(t=>{throw new Error("GH_PUT "+r.status+" "+t)}); });
 
-    return res.status(200).json({ ok:true, plan:"vip", adfree:true, usedBy: entry.usedBy, usedAt: entry.usedAt, app });
+    return res.status(200).json({ ok:true, plan:"vip", adfree:true, used:true, usedBy:row.usedBy, usedAt:row.usedAt, app });
   } catch (e) {
     return res.status(500).json({ ok:false, error: e.message || "Internal error" });
   }
