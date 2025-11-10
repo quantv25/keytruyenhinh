@@ -1,43 +1,48 @@
-import { withCors, readJson, periodKey } from './_lib/util.js';
+import { withCors, readJson, periodKey, nowIso } from './_lib/util.js';
 import { hllAdd, sAdd, sIsMember } from './_lib/upstash.js';
 import { readCodes, writeCodes } from './_lib/gh.js';
 
-// --- Xử lý các action ---
+// HÀM MỚI: Quyết định key Upstash dựa trên SERVER_MODE
+function getAdfreeSetKey() {
+  const serverMode = (process.env.SERVER_MODE || "ADS").toUpperCase();
+  return (serverMode === "VIP") ? "adfree:devices:vip" : "adfree:devices:ads";
+}
 
-// POST /api/public?action=ping
 async function handlePing(req, res) {
+// ... (Giữ nguyên hàm này) ...
   const b = await readJson(req);
   const device = (b.device || b.deviceId || b.android_id || "").toString().trim();
-  const app = (b.app || "default").toString().trim(); // Dùng app ID từ request
+  const app = (b.app || "default").toString().trim();
   if (!device) return res.status(400).json({ ok:false, error:"device_required" });
-
   const now = new Date();
   const day = periodKey(now, "day");
   const mon = periodKey(now, "month");
   const yr  = periodKey(now, "year");
-
-  // Ghi vào các key HLL theo app
   await Promise.all([
     hllAdd(`installs:day:${app}:${day}`, device),
     hllAdd(`installs:month:${app}:${mon}`, device),
     hllAdd(`installs:year:${app}:${yr}`, device),
-    hllAdd(`installs:devices:${app}`, device) // Key tổng theo app
+    hllAdd(`installs:devices:${app}`, device)
   ]).catch(()=>{});
-
   res.json({ ok:true, device, app, day, month:mon, year:yr });
 }
 
-// GET /api/public?action=check&device=...
 async function handleCheck(req, res) {
   const device = (req.query.device || "").toString().trim();
   if (!device) return res.status(400).json({ ok:false, error:"device_required" });
+
+  // SỬA: Check cả 2 key
+  const keyAds = "adfree:devices:ads";
+  const keyVip = "adfree:devices:vip";
   
-  // Lưu ý: key này đang là key chung, không phân biệt app
-  const yes = await sIsMember("adfree:devices", device);
-  res.json({ ok:true, adfree: !!yes });
+  const [isAds, isVip] = await Promise.all([
+      sIsMember(keyAds, device),
+      sIsMember(keyVip, device)
+  ]);
+  
+  res.json({ ok:true, adfree: !!(isAds || isVip) }); // Trả về true nếu 1 trong 2 là true
 }
 
-// POST /api/public?action=verify-code
 async function handleVerify(req, res) {
   const b = await readJson(req);
   const code = (b.code || "").toString().trim();
@@ -45,49 +50,47 @@ async function handleVerify(req, res) {
   if (!code) return res.status(400).json({ ok:false, error:"code_required" });
   if (!deviceId) return res.status(400).json({ ok:false, error:"device_required" });
 
-  // 1. Kiểm tra xem device đã active chưa
-  if (await sIsMember("adfree:devices", deviceId)) {
-    return res.json({ ok:true, adfree:true, note:"device_whitelisted" });
+  // SỬA: Lấy key Upstash riêng (ADS hoặc VIP)
+  const upstashSetKey = getAdfreeSetKey();
+
+  if (await sIsMember(upstashSetKey, deviceId)) {
+    // Sửa: Thêm "type" để app Admin biết (nếu cần)
+    return res.json({ ok:true, adfree:true, type: process.env.SERVER_MODE || "ADS", note:"device_whitelisted" });
   }
 
-  // 2. Đọc file code
   const { sha, list } = await readCodes();
   const idx = list.findIndex(x => x.code?.toLowerCase() === code.toLowerCase());
   if (idx < 0) return res.status(400).json({ ok:false, error:"invalid_code" });
 
-  // 3. Xử lý code
   const it = list[idx];
   if (!it.usedAt) {
-    // Code mới, kích hoạt
-    it.usedAt = periodKey(new Date(), "day"); // Chỉ lưu ngày, không cần time
+    it.usedAt = nowIso(); // Dùng ISO String (V2)
     it.usedBy = deviceId;
     it.used = true;
     list[idx] = it;
     
-    // Ghi lại file codes.json và thêm device vào Upstash
     await Promise.all([
       writeCodes(list, sha, `verify ${it.code} by ${deviceId}`),
-      sAdd("adfree:devices", deviceId)
+      // SỬA: Ghi vào key riêng (ADS hoặc VIP)
+      sAdd(upstashSetKey, deviceId)
     ]);
-    
-    return res.json({ ok:true, adfree:true, linked:true });
+        
+    return res.json({ ok:true, adfree:true, type: process.env.SERVER_MODE || "ADS", linked:true });
+
   } else {
-    // Code đã dùng
     if ((it.usedBy || "").toString() === deviceId) {
-      // Đã dùng bởi chính device này -> OK, thêm lại vào Upstash (phòng trường hợp mất)
-      await sAdd("adfree:devices", deviceId);
-      return res.json({ ok:true, adfree:true, note:"already_linked" });
+      // SỬA: Ghi vào key riêng (ADS hoặc VIP)
+      await sAdd(upstashSetKey, deviceId);
+      return res.json({ ok:true, adfree:true, type: process.env.SERVER_MODE || "ADS", note:"already_linked" });
     } else {
-      // Đã dùng bởi device khác
       return res.status(400).json({ ok:false, error:"invalid_device", usedBy: it.usedBy });
     }
   }
 }
 
-// --- Bộ định tuyến (Router) ---
 export default withCors(async function handler(req, res) {
+// ... (Giữ nguyên phần export) ...
   const action = (req.query.action || "ping").toString();
-
   try {
     if (req.method === 'POST') {
       switch (action) {
