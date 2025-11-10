@@ -18,16 +18,18 @@
   {
     "code": "d285232",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-11-09T09:49:25.502Z",
+    "usedBy": "TEST_SHA256",
     "usedAt": "2025-11-10T08:45:51.687Z",
-    "usedBy": "TEST_SHA256"
+    "exported": true,
+    "exportedAt": "2025-11-09T09:49:25.502Z"
   },
   {
     "code": "z875380",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-09T15:26:11.434Z"
+    "exportedAt": "2025-11-09T15:26:11.434Z",
+    "usedAt": "2025-11-10T10:17:57.305Z",
+    "usedBy": "1785d08288da3efac7976443ed162c51957dac7e4784f121f86520f6c8b3c654"
   },
   {
     "code": "w286737",
