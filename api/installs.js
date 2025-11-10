@@ -1,24 +1,26 @@
 import { withCors } from './_lib/util.js';
-// IMPORT THEM sCard
-import { hllCount, sCard } from './_lib/upstash.js';
+import { hllCount, sCard } from './_lib/upstash.js'; // Đã import sCard
 import { getCalendarKeys, getYearlyKeys } from './_lib/calendar.js';
 
 async function handleCount(req, res) {
+// ... (Giữ nguyên hàm này) ...
   const app = (req.query.app || "default").toString();
   const key = `installs:devices:${app}`;
   const count = await hllCount(key).then(x => Number(x) || 0);
   res.json({ ok: true, data: { count } });
 }
 
-// TAO HAM MOI
 async function handleCountAdfree(req, res) {
-  // Key nay (adfree:devices) duoc set boi api/public.js (handleVerify)
-  const key = "adfree:devices";
-  const count = await sCard(key).then(x => Number(x) || 0);
+  // SỬA: Đọc key dựa trên SERVER_MODE của chính server
+  const serverMode = (process.env.SERVER_MODE || "ADS").toUpperCase();
+  const upstashSetKey = (serverMode === "VIP") ? "adfree:devices:vip" : "adfree:devices:ads";
+  
+  const count = await sCard(upstashSetKey).then(x => Number(x) || 0);
   res.json({ ok: true, data: { count } });
 }
 
 async function handleDaily(req, res) {
+// ... (Giữ nguyên hàm này) ...
   const app = (req.query.app || "default").toString();
   const year = parseInt(req.query.year, 10) || new Date().getFullYear();
   const month = parseInt(req.query.month, 10) || (new Date().getMonth() + 1);
@@ -31,6 +33,7 @@ async function handleDaily(req, res) {
 }
 
 async function handleMonthly(req, res) {
+// ... (Giữ nguyên hàm này) ...
   const app = (req.query.app || "default").toString();
   const year = parseInt(req.query.year, 10) || new Date().getFullYear();
   const { keys, labels } = getCalendarKeys(year, null, 'month', app);
@@ -41,6 +44,7 @@ async function handleMonthly(req, res) {
 }
 
 async function handleYearly(req, res) {
+// ... (Giữ nguyên hàm này) ...
   const app = (req.query.app || "default").toString();
   const toYear = parseInt(req.query.to, 10) || new Date().getFullYear();
   const fromYear = parseInt(req.query.from, 10) || (toYear - 5);
@@ -51,6 +55,7 @@ async function handleYearly(req, res) {
 }
 
 export default withCors(async function handler(req, res) {
+// ... (Giữ nguyên phần export, case 'count-adfree' đã đúng) ...
   if (req.method !== 'GET') {
     return res.status(405).json({ ok: false, error: "method_not_allowed" });
   }
@@ -60,7 +65,6 @@ export default withCors(async function handler(req, res) {
       case 'count':
         await handleCount(req, res);
         break;
-      // THEM CASE MOI
       case 'count-adfree':
         await handleCountAdfree(req, res);
         break;
