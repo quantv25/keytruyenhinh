@@ -1,16 +1,1 @@
-[
-  {
-    "code": "b757952",
-    "used": true,
-    "exported": true,
-    "exportedAt": "2025-11-09T09:58:51.791Z",
-    "usedAt": "2025-11-10T08:27:00.131Z",
-    "usedBy": "26840cc6f79bfb6a"
-  },
-  {
-    "code": "p430599",
-    "used": false,
-    "exported": true,
-    "exportedAt": "2025-11-10T03:26:17.774Z"
-  }
-]
+[]
