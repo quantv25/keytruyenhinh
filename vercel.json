@@ -1,0 +1,6 @@
+{
+  "routes": [
+    { "src": "^/api/public$", "methods": ["POST"], "dest": "/api/verify-code" },
+    { "src": "^/api/public$", "methods": ["GET"],  "dest": "/api/verify-code" }
+  ]
+}
