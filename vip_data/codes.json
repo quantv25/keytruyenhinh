@@ -1,8 +1,15 @@
 [
   {
     "code": "s239275",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-10T13:20:32.840Z"
+    "exportedAt": "2025-11-10T13:20:32.840Z",
+    "usedBy": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "usedByShort": "0123456789abcdef",
+    "usedAt": "2025-11-12T04:06:19.816Z",
+    "usedAtLocal": "2025-11-12T11:06:19+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "a1b2c3d4e5f67890"
   }
 ]
