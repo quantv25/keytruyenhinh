@@ -35,9 +35,16 @@
   },
   {
     "code": "j472115",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-12T04:15:38.952Z"
+    "exportedAt": "2025-11-12T04:15:38.952Z",
+    "usedBy": "c7e54fdedfd421a989d29bc0319320d1e047decc72baa2e2afb01d15b1b7b1bb",
+    "usedByShort": "c7e54fdedfd421a9",
+    "usedAt": "2025-11-13T06:39:54.466Z",
+    "usedAtLocal": "2025-11-13T13:39:54+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "7d3b3607d6f7766e"
   },
   {
     "code": "s391445",
