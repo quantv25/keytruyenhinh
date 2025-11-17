@@ -2,11 +2,15 @@
   {
     "code": "d849657",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-11-10T13:22:59.595Z",
     "usedBy": "26840cc6f79bfb6a",
     "usedAt": "2025-11-11T06:10:38.708Z",
-    "usedAtLocal": "2025-11-11T13:10:38+07:00",
-    "tz": "Asia/Bangkok"
+    "exported": true,
+    "exportedAt": "2025-11-10T13:22:59.595Z"
+  },
+  {
+    "code": "a236048",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-11-17T16:43:43.345Z"
   }
 ]
