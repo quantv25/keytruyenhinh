@@ -2,66 +2,47 @@
   {
     "code": "y570268",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-11-19T04:47:43.878Z",
     "usedBy": "9eed03ba4ca8cf5a870e87973abc3fa897e3bf0058d809a13939171fd434edfe",
-    "usedByShort": "9eed03ba4ca8cf5a",
     "usedAt": "2025-11-19T04:48:01.418Z",
-    "usedAtLocal": "2025-11-19T11:48:01+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "38154eac9630cc21"
+    "exported": true,
+    "exportedAt": "2025-11-19T04:47:43.878Z"
   },
   {
     "code": "j648770",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-11-19T04:47:43.878Z",
     "usedBy": "3d390277e77c97a18e0f1016578ded9ed5b9e6fabcb846a70aeacde0c9e9695e",
-    "usedByShort": "3d390277e77c97a1",
     "usedAt": "2025-11-19T04:56:24.922Z",
-    "usedAtLocal": "2025-11-19T11:56:24+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "d80908b52a0519b1"
+    "exported": true,
+    "exportedAt": "2025-11-19T04:47:43.878Z"
   },
   {
     "code": "z266841",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-11-19T04:47:43.878Z",
     "usedBy": "da5cc8dfca16e2a40cd4f25f84af1602daf6ac66009f478c09f5fc858892fd4d",
-    "usedByShort": "da5cc8dfca16e2a4",
     "usedAt": "2025-11-19T09:15:58.372Z",
-    "usedAtLocal": "2025-11-19T16:15:58+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "4da1b3777c59af08"
+    "exported": true,
+    "exportedAt": "2025-11-19T04:47:43.878Z"
   },
   {
     "code": "g744630",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-11-19T04:47:43.878Z",
     "usedBy": "95ab4317e756e55a5063fba8dcd8e2271c8333f2804015a07de1d36f5fef6be0",
-    "usedByShort": "95ab4317e756e55a",
     "usedAt": "2025-11-19T09:22:43.163Z",
-    "usedAtLocal": "2025-11-19T16:22:43+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "6961da32fc9bb410"
+    "exported": true,
+    "exportedAt": "2025-11-19T04:47:43.878Z"
   },
   {
     "code": "q429111",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-11-19T04:47:43.878Z",
     "usedBy": "c8a35d00254d04b9ad4d1f03d9a2fcaadefe3450256b2afd0adf614ce53b1b12",
-    "usedByShort": "c8a35d00254d04b9",
     "usedAt": "2025-11-19T09:36:07.491Z",
-    "usedAtLocal": "2025-11-19T16:36:07+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "2380b0f697a3f94f"
+    "exported": true,
+    "exportedAt": "2025-11-19T04:47:43.878Z"
+  },
+  {
+    "code": "x902950",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-11-19T10:05:56.346Z"
   }
 ]
