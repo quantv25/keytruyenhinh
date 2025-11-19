@@ -172,9 +172,16 @@
   },
   {
     "code": "s532884",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-19T12:42:49.653Z"
+    "exportedAt": "2025-11-19T12:42:49.653Z",
+    "usedBy": "2a7e4d36b4a41205c57c34c9625967248a7c0159733aa359bc912bb4d3747e72",
+    "usedByShort": "2a7e4d36b4a41205",
+    "usedAt": "2025-11-19T13:43:31.877Z",
+    "usedAtLocal": "2025-11-19T20:43:31+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "cf41e58eb927b850"
   },
   {
     "code": "k914821",
