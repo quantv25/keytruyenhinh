@@ -57,8 +57,15 @@
   },
   {
     "code": "j689229",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-19T11:14:23.003Z"
+    "exportedAt": "2025-11-19T11:14:23.003Z",
+    "usedBy": "9bee3dc7e2fdbc60dcfb70512e1020f7e0becc0d263f3b6aa35bd2442d818048",
+    "usedByShort": "9bee3dc7e2fdbc60",
+    "usedAt": "2025-11-19T11:14:44.593Z",
+    "usedAtLocal": "2025-11-19T18:14:44+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "94c553b34c810297"
   }
 ]
