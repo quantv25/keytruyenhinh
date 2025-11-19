@@ -42,14 +42,15 @@
   {
     "code": "x902950",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-11-19T10:05:56.346Z",
     "usedBy": "26012310b69f29b2047d614c81a3cc458c52fd0509d204db0e64a9ea9e280482",
-    "usedByShort": "26012310b69f29b2",
     "usedAt": "2025-11-19T10:06:26.833Z",
-    "usedAtLocal": "2025-11-19T17:06:26+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "e70844b7a4dfe540"
+    "exported": true,
+    "exportedAt": "2025-11-19T10:05:56.346Z"
+  },
+  {
+    "code": "m443030",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-11-19T10:26:30.730Z"
   }
 ]
