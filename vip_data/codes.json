@@ -66,14 +66,15 @@
   {
     "code": "e105995",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-11-19T11:56:04.214Z",
     "usedBy": "a42b049f6b29e915fc6dbc7ebc34ecb9133e4c462a9d666bde1e72e0deadab81",
-    "usedByShort": "a42b049f6b29e915",
     "usedAt": "2025-11-19T11:58:33.889Z",
-    "usedAtLocal": "2025-11-19T18:58:33+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "561cb6cc87573980"
+    "exported": true,
+    "exportedAt": "2025-11-19T11:56:04.214Z"
+  },
+  {
+    "code": "c622774",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-11-19T12:04:49.066Z"
   }
 ]
