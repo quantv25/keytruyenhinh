@@ -27,9 +27,16 @@
   },
   {
     "code": "z266841",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-19T04:47:43.878Z"
+    "exportedAt": "2025-11-19T04:47:43.878Z",
+    "usedBy": "da5cc8dfca16e2a40cd4f25f84af1602daf6ac66009f478c09f5fc858892fd4d",
+    "usedByShort": "da5cc8dfca16e2a4",
+    "usedAt": "2025-11-19T09:15:58.372Z",
+    "usedAtLocal": "2025-11-19T16:15:58+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "4da1b3777c59af08"
   },
   {
     "code": "g744630",
