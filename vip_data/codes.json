@@ -73,8 +73,15 @@
   },
   {
     "code": "c622774",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-19T12:04:49.066Z"
+    "exportedAt": "2025-11-19T12:04:49.066Z",
+    "usedBy": "f3fe8c87c176acea90d5644936e624ff79385f5ee21dc4bcdff9e984441697a6",
+    "usedByShort": "f3fe8c87c176acea",
+    "usedAt": "2025-11-19T12:05:02.835Z",
+    "usedAtLocal": "2025-11-19T19:05:02+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "4f8a324f0c122e0f"
   }
 ]
