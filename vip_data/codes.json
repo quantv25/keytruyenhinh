@@ -1,9 +1,16 @@
 [
   {
     "code": "y570268",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-19T04:47:43.878Z"
+    "exportedAt": "2025-11-19T04:47:43.878Z",
+    "usedBy": "9eed03ba4ca8cf5a870e87973abc3fa897e3bf0058d809a13939171fd434edfe",
+    "usedByShort": "9eed03ba4ca8cf5a",
+    "usedAt": "2025-11-19T04:48:01.418Z",
+    "usedAtLocal": "2025-11-19T11:48:01+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "38154eac9630cc21"
   },
   {
     "code": "j648770",
