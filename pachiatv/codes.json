@@ -1,13 +1,5 @@
 [
   {
-    "code": "d849657",
-    "used": true,
-    "usedBy": "26840cc6f79bfb6a",
-    "usedAt": "2025-11-11T06:10:38.708Z",
-    "exported": true,
-    "exportedAt": "2025-11-10T13:22:59.595Z"
-  },
-  {
     "code": "a236048",
     "used": false,
     "exported": true,
