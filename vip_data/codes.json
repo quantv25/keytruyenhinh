@@ -49,8 +49,15 @@
   },
   {
     "code": "m443030",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-19T10:26:30.730Z"
+    "exportedAt": "2025-11-19T10:26:30.730Z",
+    "usedBy": "76af282557ebcd78e2f172e4046a823073d4bb75e82e9d758ea1d4c1ec5a9bf3",
+    "usedByShort": "76af282557ebcd78",
+    "usedAt": "2025-11-19T10:26:46.266Z",
+    "usedAtLocal": "2025-11-19T17:26:46+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "7ddc920eed782fd0"
   }
 ]
