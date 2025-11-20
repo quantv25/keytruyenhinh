@@ -169,8 +169,15 @@
   },
   {
     "code": "e470822",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-20T09:18:36.481Z"
+    "exportedAt": "2025-11-20T09:18:36.481Z",
+    "usedBy": "73c64362160997e5e8b2d9eff1a59a2e1e5f96ab22da0a57531e8515f28b6c08",
+    "usedByShort": "73c64362160997e5",
+    "usedAt": "2025-11-20T09:20:22.372Z",
+    "usedAtLocal": "2025-11-20T16:20:22+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "9c5897c7216eaacb"
   }
 ]
