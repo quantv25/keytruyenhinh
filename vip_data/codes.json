@@ -177,8 +177,15 @@
   },
   {
     "code": "t442554",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-20T09:47:39.692Z"
+    "exportedAt": "2025-11-20T09:47:39.692Z",
+    "usedBy": "37365ea657209db61c3b777392ebe7ccbca16e208d09421f0bf0a7837d8ea4e2",
+    "usedByShort": "37365ea657209db6",
+    "usedAt": "2025-11-20T11:39:56.043Z",
+    "usedAtLocal": "2025-11-20T18:39:56+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "26840cc6f79bfb6a"
   }
 ]
