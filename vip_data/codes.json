@@ -298,14 +298,15 @@
   {
     "code": "p032700",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-11-21T13:17:09.030Z",
     "usedBy": "dd098f388f7fa3050c313f966036a572e2ee7a5568de7c5a5ad18e05b332737d",
-    "usedByShort": "dd098f388f7fa305",
     "usedAt": "2025-11-21T13:17:52.152Z",
-    "usedAtLocal": "2025-11-21T20:17:52+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "3de9ca3bb219d412"
+    "exported": true,
+    "exportedAt": "2025-11-21T13:17:09.030Z"
+  },
+  {
+    "code": "g254676",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-11-21T13:26:08.333Z"
   }
 ]
