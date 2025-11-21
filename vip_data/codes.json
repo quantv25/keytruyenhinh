@@ -198,9 +198,16 @@
   },
   {
     "code": "c014806",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-21T01:49:56.800Z"
+    "exportedAt": "2025-11-21T01:49:56.800Z",
+    "usedBy": "397d0a92ac2cd8e66fce0c97dd681b7ffa0427b9dfac2da7c0da26e57da6d293",
+    "usedByShort": "397d0a92ac2cd8e6",
+    "usedAt": "2025-11-21T09:09:25.363Z",
+    "usedAtLocal": "2025-11-21T16:09:25+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "dd83484bfc2874a5"
   },
   {
     "code": "j892916",
