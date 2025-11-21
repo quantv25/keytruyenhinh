@@ -290,14 +290,15 @@
   {
     "code": "n179619",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-11-21T13:09:42.013Z",
     "usedBy": "c7e54fdedfd421a989d29bc0319320d1e047decc72baa2e2afb01d15b1b7b1bb",
-    "usedByShort": "c7e54fdedfd421a9",
     "usedAt": "2025-11-21T13:10:15.191Z",
-    "usedAtLocal": "2025-11-21T20:10:15+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "7d3b3607d6f7766e"
+    "exported": true,
+    "exportedAt": "2025-11-21T13:09:42.013Z"
+  },
+  {
+    "code": "p032700",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-11-21T13:17:09.030Z"
   }
 ]
