@@ -238,9 +238,16 @@
   },
   {
     "code": "q117841",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-21T10:46:22.203Z"
+    "exportedAt": "2025-11-21T10:46:22.203Z",
+    "usedBy": "f5a51e644c43b1fead7da7e5ae4909d4e7763de2111a20ee4a5204f0b6280ff5",
+    "usedByShort": "f5a51e644c43b1fe",
+    "usedAt": "2025-11-21T11:00:06.740Z",
+    "usedAtLocal": "2025-11-21T18:00:06+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "cd48ff61d721a3b4"
   },
   {
     "code": "t940641",
