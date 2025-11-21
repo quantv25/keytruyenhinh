@@ -237,8 +237,15 @@
   },
   {
     "code": "z791090",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-21T01:49:56.800Z"
+    "exportedAt": "2025-11-21T01:49:56.800Z",
+    "usedBy": "629376d79c0f4d04997b111063f9a6ebfab9541799dc7bca409de50097315714",
+    "usedByShort": "629376d79c0f4d04",
+    "usedAt": "2025-11-21T10:33:43.714Z",
+    "usedAtLocal": "2025-11-21T17:33:43+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "0e9680de74e12346"
   }
 ]
