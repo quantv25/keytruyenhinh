@@ -322,14 +322,15 @@
   {
     "code": "w810317",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-11-22T05:50:49.561Z",
     "usedBy": "6df28b980891069b4a743a8982bd6c5f0ced7f725688377d3d2cf060d10db39f",
-    "usedByShort": "6df28b980891069b",
     "usedAt": "2025-11-22T05:51:22.082Z",
-    "usedAtLocal": "2025-11-22T12:51:22+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "510a5c7aff583e51"
+    "exported": true,
+    "exportedAt": "2025-11-22T05:50:49.561Z"
+  },
+  {
+    "code": "n725667",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-11-22T08:11:14.704Z"
   }
 ]
