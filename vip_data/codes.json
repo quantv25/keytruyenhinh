@@ -338,14 +338,15 @@
   {
     "code": "h464650",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-11-22T15:15:57.882Z",
     "usedBy": "c6c7c34acef90673af1874392549c52c750f485f8198ac710e3541e40abb588f",
-    "usedByShort": "c6c7c34acef90673",
     "usedAt": "2025-11-22T16:32:09.451Z",
-    "usedAtLocal": "2025-11-22T23:32:09+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "dced0b3376aec511"
+    "exported": true,
+    "exportedAt": "2025-11-22T15:15:57.882Z"
+  },
+  {
+    "code": "x897814",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-11-22T19:30:24.329Z"
   }
 ]
