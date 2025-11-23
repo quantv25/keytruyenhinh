@@ -9,8 +9,12 @@
   },
   {
     "code": "r107454",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-23T00:59:36.989Z"
+    "exportedAt": "2025-11-23T00:59:36.989Z",
+    "usedBy": "686b7d4b355f149c",
+    "usedAt": "2025-11-23T00:59:50.026Z",
+    "usedAtLocal": "2025-11-23T07:59:50+07:00",
+    "tz": "Asia/Bangkok"
   }
 ]
