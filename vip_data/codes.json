@@ -361,8 +361,15 @@
   },
   {
     "code": "x478140",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-23T08:55:40.667Z"
+    "exportedAt": "2025-11-23T08:55:40.667Z",
+    "usedBy": "d5c97330fba9be3ffc8c21a0ace6389db873d1acb55476fe86a99ad35be997c9",
+    "usedByShort": "d5c97330fba9be3f",
+    "usedAt": "2025-11-23T08:56:42.458Z",
+    "usedAtLocal": "2025-11-23T15:56:42+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "58f0336e76e43189"
   }
 ]
