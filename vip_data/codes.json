@@ -354,14 +354,15 @@
   {
     "code": "m499047",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-11-23T01:00:20.243Z",
     "usedBy": "686b7d4b355f149c5524abc53f2994988598f16cec31dd7a3a2f89dd5b99d34e",
-    "usedByShort": "686b7d4b355f149c",
     "usedAt": "2025-11-23T01:00:31.184Z",
-    "usedAtLocal": "2025-11-23T08:00:31+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "044d2c95bb324143"
+    "exported": true,
+    "exportedAt": "2025-11-23T01:00:20.243Z"
+  },
+  {
+    "code": "x478140",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-11-23T08:55:40.667Z"
   }
 ]
