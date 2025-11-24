@@ -18,11 +18,15 @@
   {
     "code": "w747678",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-11-23T15:34:43.345Z",
     "usedBy": "aa6f4ac7c70fa900",
     "usedAt": "2025-11-23T15:34:51.141Z",
-    "usedAtLocal": "2025-11-23T22:34:51+07:00",
-    "tz": "Asia/Bangkok"
+    "exported": true,
+    "exportedAt": "2025-11-23T15:34:43.345Z"
+  },
+  {
+    "code": "w730800",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-11-24T05:53:54.906Z"
   }
 ]
