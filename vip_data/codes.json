@@ -425,8 +425,15 @@
   },
   {
     "code": "d324488",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-24T12:07:59.446Z"
+    "exportedAt": "2025-11-24T12:07:59.446Z",
+    "usedBy": "dfff470cff2bea755b1581bad759167209aa4415fcb3f503fae097f37eddb54f",
+    "usedByShort": "dfff470cff2bea75",
+    "usedAt": "2025-11-24T12:08:08.119Z",
+    "usedAtLocal": "2025-11-24T19:08:08+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "1c1a6027368e63b5"
   }
 ]
