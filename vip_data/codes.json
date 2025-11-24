@@ -280,9 +280,16 @@
   },
   {
     "code": "w105473",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-21T10:46:22.203Z"
+    "exportedAt": "2025-11-21T10:46:22.203Z",
+    "usedBy": "9831612c49682f4201cd33a13bf2cd0986647bc3bd39520b88e077178bd14ba2",
+    "usedByShort": "9831612c49682f42",
+    "usedAt": "2025-11-24T02:13:09.347Z",
+    "usedAtLocal": "2025-11-24T09:13:09+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "049a932e69a3c591"
   },
   {
     "code": "x726691",
