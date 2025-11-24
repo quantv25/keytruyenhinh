@@ -449,8 +449,15 @@
   },
   {
     "code": "b276807",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-24T23:23:34.991Z"
+    "exportedAt": "2025-11-24T23:23:34.991Z",
+    "usedBy": "7e66f9919915715c97a2057e3d90127f3cc629dbfc75f1af45ae93bdd44824ef",
+    "usedByShort": "7e66f9919915715c",
+    "usedAt": "2025-11-24T23:24:31.835Z",
+    "usedAtLocal": "2025-11-25T06:24:31+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "5507fdaedae44b63"
   }
 ]
