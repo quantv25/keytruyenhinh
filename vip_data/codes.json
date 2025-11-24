@@ -397,8 +397,15 @@
   },
   {
     "code": "z015370",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-24T09:55:44.280Z"
+    "exportedAt": "2025-11-24T09:55:44.280Z",
+    "usedBy": "9333e77b982b52b3345b2ee07157ec37c1d39f6773e3ee3f3d2ae2911dda3201",
+    "usedByShort": "9333e77b982b52b3",
+    "usedAt": "2025-11-24T10:01:50.276Z",
+    "usedAtLocal": "2025-11-24T17:01:50+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "6a0985a120a3e7ca"
   }
 ]
