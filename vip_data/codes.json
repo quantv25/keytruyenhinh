@@ -417,8 +417,15 @@
   },
   {
     "code": "u922179",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-24T12:05:31.048Z"
+    "exportedAt": "2025-11-24T12:05:31.048Z",
+    "usedBy": "83c392a07583adab9b25178d6a6aa40d39152446fe96c49c51bd7d15cb5dc168",
+    "usedByShort": "83c392a07583adab",
+    "usedAt": "2025-11-24T12:05:39.164Z",
+    "usedAtLocal": "2025-11-24T19:05:39+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "9288b7ff67f9b14c"
   }
 ]
