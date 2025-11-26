@@ -11,6 +11,12 @@
       "methods": ["POST"],
       "has": [{ "type": "query", "key": "action", "value": "verify-ads" }],
       "dest": "/api/verify-ads"
+    },
+    {
+      "src": "^/api/public$",
+      "methods": ["POST"],
+      "has": [{ "type": "query", "key": "action", "value": "delete-code" }],
+      "dest": "/api/delete-code"
     }
   ]
 }
