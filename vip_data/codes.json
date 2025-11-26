@@ -652,9 +652,16 @@
   },
   {
     "code": "e207010",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-25T02:41:07.892Z"
+    "exportedAt": "2025-11-25T02:41:07.892Z",
+    "usedBy": "18e253405a05daf4afbe247278cff40a111136167787b6f730e1ede421ed61b9",
+    "usedByShort": "18e253405a05daf4",
+    "usedAt": "2025-11-26T09:27:42.474Z",
+    "usedAtLocal": "2025-11-26T16:27:42+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "bc927127a6fbf9cd"
   },
   {
     "code": "g164377",
