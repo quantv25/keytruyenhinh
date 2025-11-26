@@ -83,7 +83,7 @@ async function handleReport(req, res) {
   res.json({ ok:true, data:{ series } });
 }
 
-// GET /api/admin?action=list-all-codes (CHỨC NĂNG MỚI)
+// GET /api/admin?action=list-all-codes
 async function handleListAllCodes(req, res) {
   const { list } = await readCodes();
   
@@ -95,6 +95,42 @@ async function handleListAllCodes(req, res) {
   });
 
   res.json({ ok: true, data: { codes: list } });
+}
+
+// POST /api/admin?action=delete-code (CHỨC NĂNG MỚI)
+async function handleDeleteCode(req, res) {
+  const body = await readJson(req);
+  const code = String(body.code || "").trim();
+
+  if (!code) {
+    return res.status(400).json({ ok: false, error: "MISSING_CODE" });
+  }
+
+  const { sha, list } = await readCodes();
+  
+  // Tìm code cần xóa
+  const index = list.findIndex(x => x.code?.toLowerCase() === code.toLowerCase());
+  if (index < 0) {
+    return res.status(404).json({ ok: false, error: "CODE_NOT_FOUND" });
+  }
+
+  const deletedCode = list[index];
+  
+  // Xóa code khỏi danh sách
+  list.splice(index, 1);
+
+  await writeCodes(list, sha, `[V2] Delete code ${code} (was used by: ${deletedCode.usedBy || "unused"})`);
+
+  res.json({
+    ok: true,
+    message: `Đã xóa code ${code}`,
+    deleted: {
+      code: deletedCode.code,
+      wasUsed: deletedCode.used || false,
+      usedBy: deletedCode.usedBy || null,
+      usedAt: deletedCode.usedAt || null
+    }
+  });
 }
 
 // --- Bộ định tuyến (Router) ---
@@ -112,6 +148,9 @@ export default withCors(async function handler(req, res) {
         case 'generate-csv':
           await handleGenerateCsv(req, res);
           break;
+        case 'delete-code': // THÊM MỚI
+          await handleDeleteCode(req, res);
+          break;
         default:
           res.status(400).json({ ok: false, error: "invalid_action_for_post" });
       }
@@ -120,7 +159,6 @@ export default withCors(async function handler(req, res) {
         case 'report':
           await handleReport(req, res);
           break;
-        // THÊM MỚI:
         case 'list-all-codes':
           await handleListAllCodes(req, res);
           break;
