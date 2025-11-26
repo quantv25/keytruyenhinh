@@ -22,15 +22,5 @@
     "usedAt": "2025-11-23T15:34:51.141Z",
     "exported": true,
     "exportedAt": "2025-11-23T15:34:43.345Z"
-  },
-  {
-    "code": "w730800",
-    "used": true,
-    "exported": true,
-    "exportedAt": "2025-11-24T05:53:54.906Z",
-    "usedBy": "d2e7c4e3f67e02bd",
-    "usedAt": "2025-11-24T05:59:30.587Z",
-    "usedAtLocal": "2025-11-24T12:59:30+07:00",
-    "tz": "Asia/Bangkok"
   }
 ]
