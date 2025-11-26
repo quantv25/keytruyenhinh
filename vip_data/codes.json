@@ -561,9 +561,16 @@
   },
   {
     "code": "k506230",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-25T02:41:07.892Z"
+    "exportedAt": "2025-11-25T02:41:07.892Z",
+    "usedBy": "2733172652d709dc75dc2ec99389f646c491ae84fe1c63c60bdee8c82e2a6d83",
+    "usedByShort": "2733172652d709dc",
+    "usedAt": "2025-11-26T04:52:07.864Z",
+    "usedAtLocal": "2025-11-26T11:52:07+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "1cf026d9343d593e"
   },
   {
     "code": "k665008",
