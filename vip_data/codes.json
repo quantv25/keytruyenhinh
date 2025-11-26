@@ -600,9 +600,16 @@
   },
   {
     "code": "z594615",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-25T02:41:07.892Z"
+    "exportedAt": "2025-11-25T02:41:07.892Z",
+    "usedBy": "a80bde3ef8d8bfb927ef463216023a0aed397c136eeafd1ae031b2ed031986fc",
+    "usedByShort": "a80bde3ef8d8bfb9",
+    "usedAt": "2025-11-26T08:03:22.455Z",
+    "usedAtLocal": "2025-11-26T15:03:22+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "827f243db035fa91"
   },
   {
     "code": "q676398",
