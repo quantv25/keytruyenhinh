@@ -1168,9 +1168,16 @@
   },
   {
     "code": "p395928",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "fbe377fb5bac1fc30aee6ab1072140777c07ab2fa5fe5f9f34e1e4d37ba6e02b",
+    "usedByShort": "fbe377fb5bac1fc3",
+    "usedAt": "2025-11-27T10:44:57.756Z",
+    "usedAtLocal": "2025-11-27T17:44:57+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "dab60d6930d29cfa"
   },
   {
     "code": "g736657",
