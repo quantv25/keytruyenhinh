@@ -1149,9 +1149,16 @@
   },
   {
     "code": "c299019",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "3eab3836e5a6812d04cefe1f249d3d4b2cfe718a89b54387705ee45b33f55b4c",
+    "usedByShort": "3eab3836e5a6812d",
+    "usedAt": "2025-11-27T10:29:42.949Z",
+    "usedAtLocal": "2025-11-27T17:29:42+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "faeff23ac87cc5fe"
   },
   {
     "code": "y971043",
