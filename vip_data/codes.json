@@ -1214,9 +1214,16 @@
   },
   {
     "code": "t115506",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "ee1b2b4ef7b7ab720e7f2bc236745ce59c41ee4523d859b9fc91adeacded6f79",
+    "usedByShort": "ee1b2b4ef7b7ab72",
+    "usedAt": "2025-11-27T11:23:53.949Z",
+    "usedAtLocal": "2025-11-27T18:23:53+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "584eebc2a56e3725"
   },
   {
     "code": "w024889",
