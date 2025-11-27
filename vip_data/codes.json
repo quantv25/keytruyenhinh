@@ -1162,9 +1162,16 @@
   },
   {
     "code": "y971043",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "1c676e17db122ef318e5c8c0ad8c4090285ecf1a25bcd8a414dcddf57929db64",
+    "usedByShort": "1c676e17db122ef3",
+    "usedAt": "2025-11-27T10:56:13.682Z",
+    "usedAtLocal": "2025-11-27T17:56:13+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "baf874e268270108"
   },
   {
     "code": "p395928",
