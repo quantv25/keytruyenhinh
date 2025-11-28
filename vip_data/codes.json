@@ -1530,9 +1530,16 @@
   },
   {
     "code": "b087505",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "08ce86ac241e5fd02703f18bf52099c590e81868d67415ca7790796612d38f75",
+    "usedByShort": "08ce86ac241e5fd0",
+    "usedAt": "2025-11-28T11:42:24.624Z",
+    "usedAtLocal": "2025-11-28T18:42:24+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "43ac59648806a6a5"
   },
   {
     "code": "g299862",
