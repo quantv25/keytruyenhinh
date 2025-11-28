@@ -1374,9 +1374,16 @@
   },
   {
     "code": "d002721",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "996351514bc47301497ae702a05609ca00f90d36999d5a88e6954c0e6a469cb4",
+    "usedByShort": "996351514bc47301",
+    "usedAt": "2025-11-28T10:00:35.308Z",
+    "usedAtLocal": "2025-11-28T17:00:35+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "1e65c9d58dbef7d6"
   },
   {
     "code": "t621184",
