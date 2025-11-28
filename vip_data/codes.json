@@ -1361,9 +1361,16 @@
   },
   {
     "code": "u293286",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "256844c693fe9d72946a23a51129fac961a2aa1485fa714396ccd78e0cd2459b",
+    "usedByShort": "256844c693fe9d72",
+    "usedAt": "2025-11-28T09:51:20.711Z",
+    "usedAtLocal": "2025-11-28T16:51:20+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "8aaaa39ef8a91c52"
   },
   {
     "code": "d002721",
