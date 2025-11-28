@@ -1413,9 +1413,16 @@
   },
   {
     "code": "k959654",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "dd9d74b5e57b31f8081663794cc8f0ada68b385448da7e7274ba4da0ca845472",
+    "usedByShort": "dd9d74b5e57b31f8",
+    "usedAt": "2025-11-28T10:31:42.604Z",
+    "usedAtLocal": "2025-11-28T17:31:42+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "a44547e4cfdc4785"
   },
   {
     "code": "r605798",
