@@ -1238,9 +1238,16 @@
   },
   {
     "code": "y057546",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "0d02f5398b5f016d5486552d80df691a945f7abb3aece38e93ec6f18f4ff2919",
+    "usedByShort": "0d02f5398b5f016d",
+    "usedAt": "2025-11-28T08:44:28.182Z",
+    "usedAtLocal": "2025-11-28T15:44:28+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "b198d55732172238"
   },
   {
     "code": "k571552",
