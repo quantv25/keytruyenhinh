@@ -1452,9 +1452,16 @@
   },
   {
     "code": "q996992",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "e34164111e97319d921e29577e2952329d7094cfc8bdbcee1d774f8611721156",
+    "usedByShort": "e34164111e97319d",
+    "usedAt": "2025-11-28T11:03:15.359Z",
+    "usedAtLocal": "2025-11-28T18:03:15+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "41e4fa1812feb77b"
   },
   {
     "code": "t065261",
