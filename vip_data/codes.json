@@ -1284,9 +1284,16 @@
   },
   {
     "code": "h511342",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "4da596ead36b28e9387b7960a4b2a8595cf5d77be348e2373a2ec966ae359351",
+    "usedByShort": "4da596ead36b28e9",
+    "usedAt": "2025-11-28T09:24:23.192Z",
+    "usedAtLocal": "2025-11-28T16:24:23+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "e17b2290d1a57efe"
   },
   {
     "code": "e569576",
