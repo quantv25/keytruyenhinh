@@ -1595,9 +1595,16 @@
   },
   {
     "code": "r032991",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "71c061314c5e530e2b2cebec89958a5d0ae93031441f5606056e837c46b26172",
+    "usedByShort": "71c061314c5e530e",
+    "usedAt": "2025-11-28T12:18:55.474Z",
+    "usedAtLocal": "2025-11-28T19:18:55+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "5329a10b8c55ff70"
   },
   {
     "code": "q457330",
