@@ -925,9 +925,16 @@
   },
   {
     "code": "z689278",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-25T02:41:07.892Z"
+    "exportedAt": "2025-11-25T02:41:07.892Z",
+    "usedBy": "e387401886fbd0057aa17cf4e1fd73c003a727f5248e9655d41867a60ec80f28",
+    "usedByShort": "e387401886fbd005",
+    "usedAt": "2025-11-29T03:03:01.569Z",
+    "usedAtLocal": "2025-11-29T10:03:01+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "c9f3052ea2dbc98c"
   },
   {
     "code": "u941941",
