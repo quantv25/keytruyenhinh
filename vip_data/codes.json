@@ -1654,9 +1654,16 @@
   },
   {
     "code": "k431107",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "0caa6b9ea80349f0aff5d88725e9f4e660867308bd511642f0d86bac0724ff5a",
+    "usedByShort": "0caa6b9ea80349f0",
+    "usedAt": "2025-11-29T01:06:20.073Z",
+    "usedAtLocal": "2025-11-29T08:06:20+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "ba0c45a1f5de2b2b"
   },
   {
     "code": "h957221",
