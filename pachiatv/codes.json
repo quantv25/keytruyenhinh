@@ -25,8 +25,12 @@
   },
   {
     "code": "f701818",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-30T14:19:39.822Z"
+    "exportedAt": "2025-11-30T14:19:39.822Z",
+    "usedBy": "d2e7c4e3f67e02bd",
+    "usedAt": "2025-11-30T14:29:51.716Z",
+    "usedAtLocal": "2025-11-30T21:29:51+07:00",
+    "tz": "Asia/Bangkok"
   }
 ]
