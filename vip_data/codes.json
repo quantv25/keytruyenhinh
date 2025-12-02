@@ -1954,9 +1954,16 @@
   },
   {
     "code": "w959659",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-29T10:12:40.651Z"
+    "exportedAt": "2025-11-29T10:12:40.651Z",
+    "usedBy": "98a5a07b1025f9310caaf80f495908ae117fbea1b117feb3e276a11248098166",
+    "usedByShort": "98a5a07b1025f931",
+    "usedAt": "2025-12-02T10:07:50.076Z",
+    "usedAtLocal": "2025-12-02T17:07:50+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "2ec0faf90640ae99"
   },
   {
     "code": "q503837",
