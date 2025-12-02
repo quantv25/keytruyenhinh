@@ -1889,9 +1889,16 @@
   },
   {
     "code": "e314293",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-29T10:12:40.651Z"
+    "exportedAt": "2025-11-29T10:12:40.651Z",
+    "usedBy": "c0ecaff6ef3479f5b15f7ed9ece83acd87803f0f3099778952a0b5b4f360a51b",
+    "usedByShort": "c0ecaff6ef3479f5",
+    "usedAt": "2025-12-02T08:40:08.699Z",
+    "usedAtLocal": "2025-12-02T15:40:08+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "26184d6fc8cef14a"
   },
   {
     "code": "r666343",
