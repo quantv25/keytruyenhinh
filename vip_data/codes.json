@@ -1928,9 +1928,16 @@
   },
   {
     "code": "a563063",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-29T10:12:40.651Z"
+    "exportedAt": "2025-11-29T10:12:40.651Z",
+    "usedBy": "5e0f8bab97cad8ce2f10b87cf3c6190476d6a7643aa25ff3ff2977ab1900520a",
+    "usedByShort": "5e0f8bab97cad8ce",
+    "usedAt": "2025-12-02T09:45:45.555Z",
+    "usedAtLocal": "2025-12-02T16:45:45+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "d225a82f5ef83174"
   },
   {
     "code": "g678330",
