@@ -2527,8 +2527,15 @@
   },
   {
     "code": "b626803",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-29T10:12:40.651Z"
+    "exportedAt": "2025-11-29T10:12:40.651Z",
+    "usedBy": "7559adc12f61f5cbfb553145152b09e201f764306f876d898384d25550ea1dcc",
+    "usedByShort": "7559adc12f61f5cb",
+    "usedAt": "2025-12-03T02:57:03.750Z",
+    "usedAtLocal": "2025-12-03T09:57:03+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "d8b8fe4ebb7e04e8"
   }
 ]
