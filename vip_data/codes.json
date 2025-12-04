@@ -2078,9 +2078,16 @@
   },
   {
     "code": "x696203",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-29T10:12:40.651Z"
+    "exportedAt": "2025-11-29T10:12:40.651Z",
+    "usedBy": "591eb31d460032519b5747987a2cbc017d5ce5e3705a1bfc92cb645c72c36220",
+    "usedByShort": "591eb31d46003251",
+    "usedAt": "2025-12-04T09:54:29.468Z",
+    "usedAtLocal": "2025-12-04T16:54:29+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "8acb4aca04e2e739"
   },
   {
     "code": "q400527",
