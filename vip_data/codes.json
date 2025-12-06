@@ -2143,9 +2143,16 @@
   },
   {
     "code": "s813318",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-29T10:12:40.651Z"
+    "exportedAt": "2025-11-29T10:12:40.651Z",
+    "usedBy": "34c01ccd6491a05e674ce423f7bfb63a9ea9a80d1a6877ddb7159c617487fd9e",
+    "usedByShort": "34c01ccd6491a05e",
+    "usedAt": "2025-12-06T09:50:44.021Z",
+    "usedAtLocal": "2025-12-06T16:50:44+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "8421e5a7d7257523"
   },
   {
     "code": "n706704",
