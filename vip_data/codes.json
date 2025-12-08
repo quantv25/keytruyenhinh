@@ -2548,9 +2548,16 @@
   },
   {
     "code": "z505392",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-08T14:20:28.430Z"
+    "exportedAt": "2025-12-08T14:20:28.430Z",
+    "usedBy": "6fe0338dd10a5ab766114eefb7cd9ca226b0e028045b5c49ee672f59bceb5fc1",
+    "usedByShort": "6fe0338dd10a5ab7",
+    "usedAt": "2025-12-08T14:41:43.570Z",
+    "usedAtLocal": "2025-12-08T21:41:43+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "559e634c9f7e882b"
   },
   {
     "code": "v910805",
