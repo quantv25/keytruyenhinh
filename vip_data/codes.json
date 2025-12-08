@@ -1103,9 +1103,16 @@
   },
   {
     "code": "g920149",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-25T02:41:07.892Z"
+    "exportedAt": "2025-11-25T02:41:07.892Z",
+    "usedBy": "86051a1b0dad618427bdd9fe81840a6d94e17123cbb1db0bb3c516bf7c146507",
+    "usedByShort": "86051a1b0dad6184",
+    "usedAt": "2025-12-08T08:45:56.170Z",
+    "usedAtLocal": "2025-12-08T15:45:56+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "c28807f47f732ec3"
   },
   {
     "code": "n815580",
