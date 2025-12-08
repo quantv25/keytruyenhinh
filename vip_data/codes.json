@@ -1014,9 +1014,16 @@
   },
   {
     "code": "x379414",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-25T02:41:07.892Z"
+    "exportedAt": "2025-11-25T02:41:07.892Z",
+    "usedBy": "b2b4f23b798b36040a0b4d69df7b0f85f62111873f21f4cca5580fefab454070",
+    "usedByShort": "b2b4f23b798b3604",
+    "usedAt": "2025-12-08T07:20:07.689Z",
+    "usedAtLocal": "2025-12-08T14:20:07+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "2adabc7fe158af42"
   },
   {
     "code": "w772103",
