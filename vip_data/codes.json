@@ -3067,8 +3067,15 @@
   },
   {
     "code": "f481579",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-09T05:02:46.815Z"
+    "exportedAt": "2025-12-09T05:02:46.815Z",
+    "usedBy": "957ee6eec4f6f91dde7a23802127d78a543f47966857541989daa3e3306294ee",
+    "usedByShort": "957ee6eec4f6f91d",
+    "usedAt": "2025-12-09T05:18:55.066Z",
+    "usedAtLocal": "2025-12-09T12:18:55+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "1b0eb2e8e577a9c5"
   }
 ]
