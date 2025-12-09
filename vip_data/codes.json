@@ -3039,9 +3039,16 @@
   },
   {
     "code": "n392373",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-09T05:02:46.815Z"
+    "exportedAt": "2025-12-09T05:02:46.815Z",
+    "usedBy": "0b4fab2499c98b979e7126a624549dbb72010b6dfec9c857984414d69646353a",
+    "usedByShort": "0b4fab2499c98b97",
+    "usedAt": "2025-12-09T13:13:32.945Z",
+    "usedAtLocal": "2025-12-09T20:13:32+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "fb8efc0607290736"
   },
   {
     "code": "h220602",
