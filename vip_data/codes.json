@@ -3045,9 +3045,16 @@
   },
   {
     "code": "h220602",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-09T05:02:46.815Z"
+    "exportedAt": "2025-12-09T05:02:46.815Z",
+    "usedBy": "9583b51b3871573dab7cfbb11339b4043bdcfe1682aa6faaa08b2d5863dbee97",
+    "usedByShort": "9583b51b3871573d",
+    "usedAt": "2025-12-09T13:13:09.206Z",
+    "usedAtLocal": "2025-12-09T20:13:09+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "7ff067dd5f661501"
   },
   {
     "code": "a437157",
