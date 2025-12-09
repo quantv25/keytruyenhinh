@@ -3176,9 +3176,16 @@
   },
   {
     "code": "p870307",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-09T07:26:31.166Z"
+    "exportedAt": "2025-12-09T07:26:31.166Z",
+    "usedBy": "818158b9b5117cdb1fd3e74b338fbf61fe2bdb4d180d1ef64f1a08bf63fec320",
+    "usedByShort": "818158b9b5117cdb",
+    "usedAt": "2025-12-09T07:27:12.058Z",
+    "usedAtLocal": "2025-12-09T14:27:12+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "59f8f6fa8c44677b"
   },
   {
     "code": "s115850",
