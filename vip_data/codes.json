@@ -3209,9 +3209,16 @@
   },
   {
     "code": "x829242",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-09T07:26:31.166Z"
+    "exportedAt": "2025-12-09T07:26:31.166Z",
+    "usedBy": "ddd7414873817b04f07224425e637f1f137b3b9b850505a7c7879164a07dbf1e",
+    "usedByShort": "ddd7414873817b04",
+    "usedAt": "2025-12-09T07:41:34.945Z",
+    "usedAtLocal": "2025-12-09T14:41:34+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "e8be07cbc79331b1"
   },
   {
     "code": "s182805",
