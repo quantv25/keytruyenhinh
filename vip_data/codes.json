@@ -2157,9 +2157,16 @@
   },
   {
     "code": "p477097",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-29T10:12:40.651Z"
+    "exportedAt": "2025-11-29T10:12:40.651Z",
+    "usedBy": "d0f2bed79dcebb98fec3d67e4575fe09f256684ba6822a29c370a5e313b9fe1c",
+    "usedByShort": "d0f2bed79dcebb98",
+    "usedAt": "2025-12-10T08:05:02.330Z",
+    "usedAtLocal": "2025-12-10T15:05:02+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "5f1cc4214055fabe"
   },
   {
     "code": "x657051",
