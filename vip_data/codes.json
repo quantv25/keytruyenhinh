@@ -2248,9 +2248,16 @@
   },
   {
     "code": "s088597",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-29T10:12:40.651Z"
+    "exportedAt": "2025-11-29T10:12:40.651Z",
+    "usedBy": "34fc5ba34a40701dc41025032e1a912a319f453645a5928562a1d30418355695",
+    "usedByShort": "34fc5ba34a40701d",
+    "usedAt": "2025-12-10T10:04:35.433Z",
+    "usedAtLocal": "2025-12-10T17:04:35+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "7c06ec6c30e11046"
   },
   {
     "code": "w132362",
