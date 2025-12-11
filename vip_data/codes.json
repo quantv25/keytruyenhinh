@@ -1154,9 +1154,16 @@
   },
   {
     "code": "z430641",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-25T02:41:07.892Z"
+    "exportedAt": "2025-11-25T02:41:07.892Z",
+    "usedBy": "52989fe0666a4d25e15ce7ae6dbf28a7f83b19f83db1d26a9e62908f7c41aea1",
+    "usedByShort": "52989fe0666a4d25",
+    "usedAt": "2025-12-11T15:17:21.234Z",
+    "usedAtLocal": "2025-12-11T22:17:21+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "67709e48121f2685"
   },
   {
     "code": "k336000",
