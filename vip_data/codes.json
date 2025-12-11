@@ -1167,9 +1167,16 @@
   },
   {
     "code": "k336000",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-25T02:41:07.892Z"
+    "exportedAt": "2025-11-25T02:41:07.892Z",
+    "usedBy": "a39f7c7b2b3e687c8913a2252c979704e758a6358ba68c2e2174c90a88f15304",
+    "usedByShort": "a39f7c7b2b3e687c",
+    "usedAt": "2025-12-11T15:36:17.071Z",
+    "usedAtLocal": "2025-12-11T22:36:17+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "e08c3f3c20e7bdb7"
   },
   {
     "code": "u056745",
