@@ -1193,9 +1193,16 @@
   },
   {
     "code": "q196012",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-25T02:41:07.892Z"
+    "exportedAt": "2025-11-25T02:41:07.892Z",
+    "usedBy": "6c47772842a04f92f3e1e3879ba8b734e5eef7475c68ee5c203a7b435e84a098",
+    "usedByShort": "6c47772842a04f92",
+    "usedAt": "2025-12-11T17:24:28.303Z",
+    "usedAtLocal": "2025-12-12T00:24:28+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "4807ea01a6644cea"
   },
   {
     "code": "h883256",
