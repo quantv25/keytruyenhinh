@@ -1180,9 +1180,16 @@
   },
   {
     "code": "u056745",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-25T02:41:07.892Z"
+    "exportedAt": "2025-11-25T02:41:07.892Z",
+    "usedBy": "723690e269ceb8d0e3fcb2bcf0ae398a51ece7aac30b7efe88ccfd96bc0e57ec",
+    "usedByShort": "723690e269ceb8d0",
+    "usedAt": "2025-12-11T17:12:19.905Z",
+    "usedAtLocal": "2025-12-12T00:12:19+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "0b42eb320bc0c6f8"
   },
   {
     "code": "q196012",
