@@ -1225,9 +1225,16 @@
   },
   {
     "code": "u782949",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-25T02:41:07.892Z"
+    "exportedAt": "2025-11-25T02:41:07.892Z",
+    "usedBy": "93bce53a609fead21fad9a73b3553f5646b86d785e836ff1480ddd37ec0aa045",
+    "usedByShort": "93bce53a609fead2",
+    "usedAt": "2025-12-12T00:48:19.564Z",
+    "usedAtLocal": "2025-12-12T07:48:19+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "7ec221dfb05de69f"
   },
   {
     "code": "y237249",
