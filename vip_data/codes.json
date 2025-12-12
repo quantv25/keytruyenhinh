@@ -1277,9 +1277,16 @@
   },
   {
     "code": "k243100",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-25T02:41:07.892Z"
+    "exportedAt": "2025-11-25T02:41:07.892Z",
+    "usedBy": "004a5a40c44184d542e04c9181707ed1e346efeef16be2c8f92c131b2f68c92d",
+    "usedByShort": "004a5a40c44184d5",
+    "usedAt": "2025-12-12T01:18:14.506Z",
+    "usedAtLocal": "2025-12-12T08:18:14+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "4dc6ce88125ee039"
   },
   {
     "code": "b437087",
