@@ -1303,9 +1303,16 @@
   },
   {
     "code": "g432320",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-25T02:41:07.892Z"
+    "exportedAt": "2025-11-25T02:41:07.892Z",
+    "usedBy": "8dda5074797ff6b51a0e7731024153272f8eb840156446f7bf7a7f0ced4f68d7",
+    "usedByShort": "8dda5074797ff6b5",
+    "usedAt": "2025-12-12T01:36:10.461Z",
+    "usedAtLocal": "2025-12-12T08:36:10+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "33a503572d130941"
   },
   {
     "code": "x088063",
