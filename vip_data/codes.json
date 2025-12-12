@@ -1743,9 +1743,16 @@
   },
   {
     "code": "m527242",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "9e270c301ff37c545ebaf452147e99cbf7906c7c56c07966571c07a2425fede0",
+    "usedByShort": "9e270c301ff37c54",
+    "usedAt": "2025-12-12T02:04:51.276Z",
+    "usedAtLocal": "2025-12-12T09:04:51+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "41ee0df96996dfd6"
   },
   {
     "code": "v221265",
