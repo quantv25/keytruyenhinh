@@ -4153,9 +4153,16 @@
   },
   {
     "code": "k119932",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-12T05:48:40.580Z"
+    "exportedAt": "2025-12-12T05:48:40.580Z",
+    "usedBy": "0c132f12b7b2626a400bb8601586cddbba44e15ee5647dc9087aaa1070a59284",
+    "usedByShort": "0c132f12b7b2626a",
+    "usedAt": "2025-12-12T06:46:44.861Z",
+    "usedAtLocal": "2025-12-12T13:46:44+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "f361d972bc62394e"
   },
   {
     "code": "e725985",
