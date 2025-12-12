@@ -4140,9 +4140,16 @@
   },
   {
     "code": "u315279",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-12T05:48:40.580Z"
+    "exportedAt": "2025-12-12T05:48:40.580Z",
+    "usedBy": "113dee469b5cd79c358c28cc30c128b58176587778943c9c7a6a7e1dfdd78746",
+    "usedByShort": "113dee469b5cd79c",
+    "usedAt": "2025-12-12T06:44:37.285Z",
+    "usedAtLocal": "2025-12-12T13:44:37+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "a3506b14c398ff5e"
   },
   {
     "code": "k119932",
