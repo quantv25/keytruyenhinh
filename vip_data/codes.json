@@ -3479,9 +3479,16 @@
   },
   {
     "code": "t285942",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-11T09:12:45.836Z"
+    "exportedAt": "2025-12-11T09:12:45.836Z",
+    "usedBy": "a15f41104ecf11f5442a14af504082f10ced9e6d1cd5f21e1722ce388ca74533",
+    "usedByShort": "a15f41104ecf11f5",
+    "usedAt": "2025-12-13T03:03:55.837Z",
+    "usedAtLocal": "2025-12-13T10:03:55+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "d0bd691796edfd83"
   },
   {
     "code": "q926127",
