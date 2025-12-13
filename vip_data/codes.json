@@ -4254,9 +4254,16 @@
   },
   {
     "code": "s093138",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-13T01:55:26.526Z"
+    "exportedAt": "2025-12-13T01:55:26.526Z",
+    "usedBy": "eeaab2a344ce7daa6e503cbf41464c1bff4155749b7da995be7204e26c53b16e",
+    "usedByShort": "eeaab2a344ce7daa",
+    "usedAt": "2025-12-13T02:30:15.050Z",
+    "usedAtLocal": "2025-12-13T09:30:15+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "3d278934db9495a5"
   },
   {
     "code": "w087156",
