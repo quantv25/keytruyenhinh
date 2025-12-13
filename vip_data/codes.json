@@ -4445,9 +4445,16 @@
   },
   {
     "code": "s543206",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-13T01:55:26.526Z"
+    "exportedAt": "2025-12-13T01:55:26.526Z",
+    "usedBy": "7fe8b505596a71f2ff07076091f9bac4bcb8c9c1d41486fe36c84f1aa3cc0c12",
+    "usedByShort": "7fe8b505596a71f2",
+    "usedAt": "2025-12-13T04:13:44.291Z",
+    "usedAtLocal": "2025-12-13T11:13:44+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "bd3be914a669f133"
   },
   {
     "code": "g210116",
