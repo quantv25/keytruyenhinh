@@ -1710,9 +1710,16 @@
   },
   {
     "code": "y482503",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "7e54036542a0884b69f06267db5d6ec6d9393bcc5244cd602cc0aeaeaa58a049",
+    "usedByShort": "7e54036542a0884b",
+    "usedAt": "2025-12-15T06:01:30.656Z",
+    "usedAtLocal": "2025-12-15T13:01:30+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "441a20bc2a294af3"
   },
   {
     "code": "y896694",
