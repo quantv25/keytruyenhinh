@@ -4459,9 +4459,16 @@
   },
   {
     "code": "n602536",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-15T08:12:24.630Z"
+    "exportedAt": "2025-12-15T08:12:24.630Z",
+    "usedBy": "8979ad3912d48dda24cdeaf37a8d60cb738ea551c56f9d1d339ae78cea241dcf",
+    "usedByShort": "8979ad3912d48dda",
+    "usedAt": "2025-12-15T08:14:19.180Z",
+    "usedAtLocal": "2025-12-15T15:14:19+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "ed52f3d685358e1c"
   },
   {
     "code": "p148522",
