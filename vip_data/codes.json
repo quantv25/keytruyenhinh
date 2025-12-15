@@ -3004,9 +3004,16 @@
   },
   {
     "code": "b226233",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-09T05:02:46.815Z"
+    "exportedAt": "2025-12-09T05:02:46.815Z",
+    "usedBy": "78531a762bc65ca8504c02db1d5a327e0c8b477fb614ebc2de28ce8bc153bfdf",
+    "usedByShort": "78531a762bc65ca8",
+    "usedAt": "2025-12-15T02:02:02.020Z",
+    "usedAtLocal": "2025-12-15T09:02:02+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "0c9f06939bdbbc37"
   },
   {
     "code": "u883285",
