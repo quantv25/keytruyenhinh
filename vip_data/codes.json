@@ -4442,41 +4442,26 @@
   {
     "code": "q165213",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-12-13T01:55:26.526Z",
     "usedBy": "86f719358c4c002ecbe48b89bbdb256b49804b7a9a8c5319f70ae329d28e6477",
-    "usedByShort": "86f719358c4c002e",
     "usedAt": "2025-12-15T10:25:59.331Z",
-    "usedAtLocal": "2025-12-15T17:25:59+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "d62aab5a9ecf3249"
+    "exported": true,
+    "exportedAt": "2025-12-13T01:55:26.526Z"
   },
   {
     "code": "z738564",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-12-13T01:55:26.526Z",
     "usedBy": "d4a946e8de2cd24891b0823161ea704aac9740b5a8188fa7e188c89f93504356",
-    "usedByShort": "d4a946e8de2cd248",
     "usedAt": "2025-12-15T10:14:09.370Z",
-    "usedAtLocal": "2025-12-15T17:14:09+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "c66d576a0f053895"
+    "exported": true,
+    "exportedAt": "2025-12-13T01:55:26.526Z"
   },
   {
     "code": "r290679",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-12-13T01:55:26.526Z",
     "usedBy": "105460a1fcb5518c9c0a688e1d36407afe3ee9cd6c5cc1ff2582a577e1a023f5",
-    "usedByShort": "105460a1fcb5518c",
     "usedAt": "2025-12-15T10:11:45.762Z",
-    "usedAtLocal": "2025-12-15T17:11:45+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "56e71afa371d4da2"
+    "exported": true,
+    "exportedAt": "2025-12-13T01:55:26.526Z"
   },
   {
     "code": "n602536",
@@ -4609,66 +4594,161 @@
   {
     "code": "y527519",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-12-15T08:12:24.630Z",
     "usedBy": "31653400f5b811643f2055a6d64bc765e0a2156284209887a3be01a62df75f46",
-    "usedByShort": "31653400f5b81164",
     "usedAt": "2025-12-15T10:01:17.953Z",
-    "usedAtLocal": "2025-12-15T17:01:17+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "d5ec77a32f6ddd0e"
+    "exported": true,
+    "exportedAt": "2025-12-15T08:12:24.630Z"
   },
   {
     "code": "w848140",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-12-15T08:12:24.630Z",
     "usedBy": "51e6f6125a32f7658ba2bf3cb0f944b4eb1e6414959b7e63fde6365055ddc8a8",
-    "usedByShort": "51e6f6125a32f765",
     "usedAt": "2025-12-15T10:05:43.914Z",
-    "usedAtLocal": "2025-12-15T17:05:43+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "c686f4a44afd039e"
+    "exported": true,
+    "exportedAt": "2025-12-15T08:12:24.630Z"
   },
   {
     "code": "q532351",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-12-15T08:12:24.630Z",
     "usedBy": "38ef168d7e99dabb001614bb500151ff826460bdc4800d25bd6bf6f881967307",
-    "usedByShort": "38ef168d7e99dabb",
     "usedAt": "2025-12-15T10:04:53.201Z",
-    "usedAtLocal": "2025-12-15T17:04:53+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "09a4b465623e64d1"
+    "exported": true,
+    "exportedAt": "2025-12-15T08:12:24.630Z"
   },
   {
     "code": "b384934",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-12-15T08:12:24.630Z",
     "usedBy": "799d0294303801eed51969861e37b57ce015aed118df2184292aa0e74ac45aba",
-    "usedByShort": "799d0294303801ee",
     "usedAt": "2025-12-15T10:08:18.070Z",
-    "usedAtLocal": "2025-12-15T17:08:18+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "6535d9c50917f701"
+    "exported": true,
+    "exportedAt": "2025-12-15T08:12:24.630Z"
   },
   {
     "code": "p629502",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-12-15T10:01:09.669Z",
     "usedBy": "dd3e967ddb3c638730b4fbc325ed5ae331d583311e2d8b96b39286ad3ae7c815",
-    "usedByShort": "dd3e967ddb3c6387",
     "usedAt": "2025-12-15T10:14:33.836Z",
-    "usedAtLocal": "2025-12-15T17:14:33+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "a850242036a49144"
+    "exported": true,
+    "exportedAt": "2025-12-15T10:01:09.669Z"
+  },
+  {
+    "code": "r447145",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-12-16T01:44:26.325Z"
+  },
+  {
+    "code": "v045974",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-12-16T01:44:26.325Z"
+  },
+  {
+    "code": "g650809",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-12-16T01:44:26.325Z"
+  },
+  {
+    "code": "n133562",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-12-16T01:44:26.325Z"
+  },
+  {
+    "code": "d268410",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-12-16T01:44:26.325Z"
+  },
+  {
+    "code": "v352127",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-12-16T01:44:26.325Z"
+  },
+  {
+    "code": "z758169",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-12-16T01:44:26.325Z"
+  },
+  {
+    "code": "c694149",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-12-16T01:44:26.325Z"
+  },
+  {
+    "code": "r186872",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-12-16T01:44:26.325Z"
+  },
+  {
+    "code": "a155805",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-12-16T01:44:26.325Z"
+  },
+  {
+    "code": "u724249",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-12-16T01:44:26.325Z"
+  },
+  {
+    "code": "w281357",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-12-16T01:44:26.325Z"
+  },
+  {
+    "code": "k903480",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-12-16T01:44:26.325Z"
+  },
+  {
+    "code": "y626723",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-12-16T01:44:26.325Z"
+  },
+  {
+    "code": "r524678",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-12-16T01:44:26.325Z"
+  },
+  {
+    "code": "b298634",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-12-16T01:44:26.325Z"
+  },
+  {
+    "code": "e481720",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-12-16T01:44:26.325Z"
+  },
+  {
+    "code": "g192063",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-12-16T01:44:26.325Z"
+  },
+  {
+    "code": "q386715",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-12-16T01:44:26.325Z"
+  },
+  {
+    "code": "h965799",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2025-12-16T01:44:26.325Z"
   }
 ]
