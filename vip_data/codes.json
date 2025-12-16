@@ -4793,9 +4793,16 @@
   },
   {
     "code": "n053207",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-16T04:10:52.473Z"
+    "exportedAt": "2025-12-16T04:10:52.473Z",
+    "usedBy": "19cb09413ab330400f7e7ebd78f1322888ba5ab426643c4ffb09a1dfa8ba5665",
+    "usedByShort": "19cb09413ab33040",
+    "usedAt": "2025-12-16T04:11:24.543Z",
+    "usedAtLocal": "2025-12-16T11:11:24+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "7442ebae860b3469"
   },
   {
     "code": "f396070",
