@@ -2810,9 +2810,16 @@
   },
   {
     "code": "t344429",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-09T05:02:46.815Z"
+    "exportedAt": "2025-12-09T05:02:46.815Z",
+    "usedBy": "faed281cf7a6f672e6ff1cae2463001e2a2cacfceea6c0b7ae351f1d2578ecd4",
+    "usedByShort": "faed281cf7a6f672",
+    "usedAt": "2025-12-17T05:23:07.699Z",
+    "usedAtLocal": "2025-12-17T12:23:07+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "b9667a7a59bc8c2d"
   },
   {
     "code": "q178731",
