@@ -5082,9 +5082,16 @@
   },
   {
     "code": "g591012",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-17T06:33:07.300Z"
+    "exportedAt": "2025-12-17T06:33:07.300Z",
+    "usedBy": "46b7094614eaa7c162eb4d59710df16084da3cdcade7d1121a50cc38eea68924",
+    "usedByShort": "46b7094614eaa7c1",
+    "usedAt": "2025-12-18T08:19:11.279Z",
+    "usedAtLocal": "2025-12-18T15:19:11+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "89ea7b0bba8d6c18"
   },
   {
     "code": "y987066",
