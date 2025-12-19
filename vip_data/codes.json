@@ -2905,9 +2905,16 @@
   },
   {
     "code": "b952890",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-09T05:02:46.815Z"
+    "exportedAt": "2025-12-09T05:02:46.815Z",
+    "usedBy": "beca3d6982fc0ad055755b2210b20254e20d664adaeed752d3326fec5bea5563",
+    "usedByShort": "beca3d6982fc0ad0",
+    "usedAt": "2025-12-19T01:55:35.677Z",
+    "usedAtLocal": "2025-12-19T08:55:35+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "18a885ce0cdb150b"
   },
   {
     "code": "h409201",
