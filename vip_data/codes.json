@@ -5414,9 +5414,16 @@
   },
   {
     "code": "d515070",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-19T02:12:42.724Z"
+    "exportedAt": "2025-12-19T02:12:42.724Z",
+    "usedBy": "0e024603e017745288506bd9c17a09d4bbe6fab961615a35cdd5756ff7df2631",
+    "usedByShort": "0e024603e0177452",
+    "usedAt": "2025-12-19T09:24:29.593Z",
+    "usedAtLocal": "2025-12-19T16:24:29+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "9014d8adc100cd7e"
   },
   {
     "code": "x302396",
