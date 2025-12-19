@@ -5408,9 +5408,16 @@
   },
   {
     "code": "g077270",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-19T02:12:42.724Z"
+    "exportedAt": "2025-12-19T02:12:42.724Z",
+    "usedBy": "c485482274959c9fcf9970a2ada57ca6e4fdea88d02611188678f0c539e50202",
+    "usedByShort": "c485482274959c9f",
+    "usedAt": "2025-12-19T09:31:37.325Z",
+    "usedAtLocal": "2025-12-19T16:31:37+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "6687e637e2f50515"
   },
   {
     "code": "d515070",
