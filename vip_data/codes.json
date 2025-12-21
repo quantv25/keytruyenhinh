@@ -1797,9 +1797,16 @@
   },
   {
     "code": "j082966",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "e182c5bd64d9cc70205caabcea3ba6ce346abe01b102629712b23b9b228b01a1",
+    "usedByShort": "e182c5bd64d9cc70",
+    "usedAt": "2025-12-21T09:03:10.993Z",
+    "usedAtLocal": "2025-12-21T16:03:10+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "883b4c87d56f9e89"
   },
   {
     "code": "j025326",
