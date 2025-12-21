@@ -2987,9 +2987,16 @@
   },
   {
     "code": "w242069",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-09T05:02:46.815Z"
+    "exportedAt": "2025-12-09T05:02:46.815Z",
+    "usedBy": "8177eea866e0002a79ab4527bda491b30aa6aa5e93dd1fd2fd87cfc4c39d225c",
+    "usedByShort": "8177eea866e0002a",
+    "usedAt": "2025-12-21T06:53:14.069Z",
+    "usedAtLocal": "2025-12-21T13:53:14+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "89ece5e452784cf3"
   },
   {
     "code": "q620137",
