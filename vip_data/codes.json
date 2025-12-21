@@ -1810,9 +1810,16 @@
   },
   {
     "code": "j025326",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "afc7f57280048684fdcf7b305e4c22a64ba85bbff38d7134a613dc8a9eed9f23",
+    "usedByShort": "afc7f57280048684",
+    "usedAt": "2025-12-21T09:17:42.680Z",
+    "usedAtLocal": "2025-12-21T16:17:42+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "40b2f6a1e2e23ff4"
   },
   {
     "code": "t270201",
