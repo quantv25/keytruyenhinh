@@ -2987,9 +2987,16 @@
   },
   {
     "code": "a572150",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-09T05:02:46.815Z"
+    "exportedAt": "2025-12-09T05:02:46.815Z",
+    "usedBy": "95d4b72e293776de86159089c098709427db5e307ef2288f3f69f565383c064f",
+    "usedByShort": "95d4b72e293776de",
+    "usedAt": "2025-12-22T04:00:08.927Z",
+    "usedAtLocal": "2025-12-22T11:00:08+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "58a1edfd692efcf3"
   },
   {
     "code": "t591353",
