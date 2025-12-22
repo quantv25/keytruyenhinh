@@ -5576,8 +5576,15 @@
   },
   {
     "code": "j382114",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-19T09:36:07.302Z"
+    "exportedAt": "2025-12-19T09:36:07.302Z",
+    "usedBy": "382077b80debda09e582eb05f2be1cafbe16b143a362bc86689289d9812d0cf4",
+    "usedByShort": "382077b80debda09",
+    "usedAt": "2025-12-22T03:44:31.038Z",
+    "usedAtLocal": "2025-12-22T10:44:31+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "214ac05b8b2b0b4a"
   }
 ]
