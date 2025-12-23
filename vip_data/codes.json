@@ -5702,9 +5702,16 @@
   },
   {
     "code": "g677298",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-22T03:52:19.897Z"
+    "exportedAt": "2025-12-22T03:52:19.897Z",
+    "usedBy": "60c032df9d5b65c08ae7279bbb45b426afeaa2c89b4f20e00e001e3a491c38cd",
+    "usedByShort": "60c032df9d5b65c0",
+    "usedAt": "2025-12-23T02:06:13.279Z",
+    "usedAtLocal": "2025-12-23T09:06:13+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "fbc473e556ee8741"
   },
   {
     "code": "h741258",
