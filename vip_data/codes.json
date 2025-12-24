@@ -1801,9 +1801,16 @@
   },
   {
     "code": "p480668",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "86f719358c4c002ecbe48b89bbdb256b49804b7a9a8c5319f70ae329d28e6477",
+    "usedByShort": "86f719358c4c002e",
+    "usedAt": "2025-12-24T03:59:47.090Z",
+    "usedAtLocal": "2025-12-24T10:59:47+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "d62aab5a9ecf3249"
   },
   {
     "code": "r728951",
