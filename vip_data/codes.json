@@ -5729,8 +5729,15 @@
   },
   {
     "code": "p236284",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-23T03:05:56.446Z"
+    "exportedAt": "2025-12-23T03:05:56.446Z",
+    "usedBy": "fbfe5c8b587fd7607f6279e626d6d4fb32e616e7c0b579d66e71f582df9ae307",
+    "usedByShort": "fbfe5c8b587fd760",
+    "usedAt": "2025-12-26T03:29:06.220Z",
+    "usedAtLocal": "2025-12-26T10:29:06+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "ea5f6d5909a010f1"
   }
 ]
