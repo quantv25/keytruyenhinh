@@ -3802,9 +3802,16 @@
   },
   {
     "code": "j053980",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-11T09:12:45.836Z"
+    "exportedAt": "2025-12-11T09:12:45.836Z",
+    "usedBy": "39946a2cac4366281eb22ac82b27f68d292cf8b88d90672feb8979d4dcf885ea",
+    "usedByShort": "39946a2cac436628",
+    "usedAt": "2025-12-26T09:01:53.120Z",
+    "usedAtLocal": "2025-12-26T16:01:53+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "ee020058fe1f2c84"
   },
   {
     "code": "n029254",
