@@ -1840,9 +1840,16 @@
   },
   {
     "code": "z247179",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "2bc930380148c21043cb3ddb5b53277af667835a7c26c46c7262e7fbf60f21b1",
+    "usedByShort": "2bc930380148c210",
+    "usedAt": "2025-12-26T11:29:56.831Z",
+    "usedAtLocal": "2025-12-26T18:29:56+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "0634d9ba60486fac"
   },
   {
     "code": "a388190",
