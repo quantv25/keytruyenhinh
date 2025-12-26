@@ -3867,9 +3867,16 @@
   },
   {
     "code": "g589820",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-11T09:12:45.836Z"
+    "exportedAt": "2025-12-11T09:12:45.836Z",
+    "usedBy": "b1956cd7012a0754bec887fd0dad7a2b24a67c21e968136d4a0f8aff6159859a",
+    "usedByShort": "b1956cd7012a0754",
+    "usedAt": "2025-12-26T09:58:22.935Z",
+    "usedAtLocal": "2025-12-26T16:58:22+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "9a65270cbd58591d"
   },
   {
     "code": "k971707",
