@@ -4010,9 +4010,16 @@
   },
   {
     "code": "p505712",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-11T09:12:45.836Z"
+    "exportedAt": "2025-12-11T09:12:45.836Z",
+    "usedBy": "0430c14149d07c42343e3bf620d2320eb0c2a014ab9957410ab958a2aa0eaa8b",
+    "usedByShort": "0430c14149d07c42",
+    "usedAt": "2025-12-27T02:06:41.174Z",
+    "usedAtLocal": "2025-12-27T09:06:41+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "82d283cec7213698"
   },
   {
     "code": "x814273",
