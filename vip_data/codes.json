@@ -4364,9 +4364,16 @@
   },
   {
     "code": "n345802",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-11T09:12:45.836Z"
+    "exportedAt": "2025-12-11T09:12:45.836Z",
+    "usedBy": "9bc155fa1b767d717b57b804ce5d573fd18a19455d54e1167380f9323fbb02d3",
+    "usedByShort": "9bc155fa1b767d71",
+    "usedAt": "2025-12-28T08:32:26.145Z",
+    "usedAtLocal": "2025-12-28T15:32:26+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "4b6b1947e1074918"
   },
   {
     "code": "t912394",
