@@ -4338,9 +4338,16 @@
   },
   {
     "code": "y498820",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-11T09:12:45.836Z"
+    "exportedAt": "2025-12-11T09:12:45.836Z",
+    "usedBy": "e216068c4a6abad8dfd0afcf3cbd4bc9d82eea12f46eb985ef9af3f615dfaccb",
+    "usedByShort": "e216068c4a6abad8",
+    "usedAt": "2025-12-28T08:13:34.385Z",
+    "usedAtLocal": "2025-12-28T15:13:34+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "53d105565260498a"
   },
   {
     "code": "d198311",
