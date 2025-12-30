@@ -5862,9 +5862,16 @@
   },
   {
     "code": "p477989",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-30T08:30:35.955Z"
+    "exportedAt": "2025-12-30T08:30:35.955Z",
+    "usedBy": "da91202c2ecc58fb316069ac8974308f56b2155f8e7a6d4c4f901791f9e016ba",
+    "usedByShort": "da91202c2ecc58fb",
+    "usedAt": "2025-12-30T09:50:33.069Z",
+    "usedAtLocal": "2025-12-30T16:50:33+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "044086b58655134e"
   },
   {
     "code": "a578678",
