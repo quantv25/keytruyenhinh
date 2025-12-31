@@ -6396,9 +6396,16 @@
   },
   {
     "code": "z673921",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-31T04:00:55.800Z"
+    "exportedAt": "2025-12-31T04:00:55.800Z",
+    "usedBy": "09ee87cf4ba1ca32a0a069c099eca6a728d0b951a8c2a5121a256c703f632f7b",
+    "usedByShort": "09ee87cf4ba1ca32",
+    "usedAt": "2025-12-31T07:19:59.941Z",
+    "usedAtLocal": "2025-12-31T14:19:59+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "b13097e200ab2276"
   },
   {
     "code": "d952843",
