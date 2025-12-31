@@ -6236,9 +6236,16 @@
   },
   {
     "code": "b942178",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-31T04:00:55.800Z"
+    "exportedAt": "2025-12-31T04:00:55.800Z",
+    "usedBy": "d101babc74b626ccf8acfdeda3b0dbfd92becfe8fab831957c5085618a69d257",
+    "usedByShort": "d101babc74b626cc",
+    "usedAt": "2025-12-31T04:41:38.456Z",
+    "usedAtLocal": "2025-12-31T11:41:38+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "c53ddb4957167fdc"
   },
   {
     "code": "w025146",
