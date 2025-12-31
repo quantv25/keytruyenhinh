@@ -1919,9 +1919,16 @@
   },
   {
     "code": "g231383",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "18f56f2b713aba580e57c1567e8533af79620416dccf3eb88ecefc33cd088fd0",
+    "usedByShort": "18f56f2b713aba58",
+    "usedAt": "2025-12-31T11:33:54.171Z",
+    "usedAtLocal": "2025-12-31T18:33:54+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "6258818311ed3841"
   },
   {
     "code": "c890716",
