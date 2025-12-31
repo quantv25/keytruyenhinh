@@ -1854,9 +1854,16 @@
   },
   {
     "code": "v947230",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "7e45293bce49915bb5510a969f5cc0c60a9d54b06a30593c82858ad878ac8cfa",
+    "usedByShort": "7e45293bce49915b",
+    "usedAt": "2025-12-31T11:00:30.447Z",
+    "usedAtLocal": "2025-12-31T18:00:30+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "e0cf0441155604b1"
   },
   {
     "code": "v858575",
