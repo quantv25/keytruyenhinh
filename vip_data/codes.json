@@ -6390,9 +6390,16 @@
   },
   {
     "code": "f001345",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-31T04:00:55.800Z"
+    "exportedAt": "2025-12-31T04:00:55.800Z",
+    "usedBy": "4bf93cfab01955060efbd9b6106e41d9aaaa012bc5b51c58723124e4e92bfb48",
+    "usedByShort": "4bf93cfab0195506",
+    "usedAt": "2025-12-31T07:30:43.521Z",
+    "usedAtLocal": "2025-12-31T14:30:43+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "efb31f075fd4b4be"
   },
   {
     "code": "z673921",
