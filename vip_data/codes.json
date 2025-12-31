@@ -6378,9 +6378,16 @@
   },
   {
     "code": "x593211",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-31T04:00:55.800Z"
+    "exportedAt": "2025-12-31T04:00:55.800Z",
+    "usedBy": "58bcd54d8dc9e3406a03ce22d37791c31d5fb83b3e484f77e24b5487bf11ea3a",
+    "usedByShort": "58bcd54d8dc9e340",
+    "usedAt": "2025-12-31T07:57:26.112Z",
+    "usedAtLocal": "2025-12-31T14:57:26+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "0d53ba38be0aca01"
   },
   {
     "code": "g532985",
