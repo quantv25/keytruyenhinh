@@ -1906,9 +1906,16 @@
   },
   {
     "code": "z396904",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "2573f57806a28294d99e1d820bd3637d5f8d498bbd5b4b02210dc153724d3050",
+    "usedByShort": "2573f57806a28294",
+    "usedAt": "2025-12-31T11:15:47.468Z",
+    "usedAtLocal": "2025-12-31T18:15:47+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "84c78c6b218545a0"
   },
   {
     "code": "g231383",
