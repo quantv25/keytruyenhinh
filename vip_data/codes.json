@@ -6443,9 +6443,16 @@
   },
   {
     "code": "x670746",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-31T04:00:55.800Z"
+    "exportedAt": "2025-12-31T04:00:55.800Z",
+    "usedBy": "c1fa39fd7eb35412c537070820dcf9564620865fcb08df2c4fcd68193eae6614",
+    "usedByShort": "c1fa39fd7eb35412",
+    "usedAt": "2026-01-02T08:15:27.864Z",
+    "usedAtLocal": "2026-01-02T15:15:27+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "e10e9fccc154b253"
   },
   {
     "code": "z727804",
