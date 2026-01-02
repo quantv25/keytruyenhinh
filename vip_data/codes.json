@@ -4005,9 +4005,16 @@
   },
   {
     "code": "k824138",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-11T09:12:45.836Z"
+    "exportedAt": "2025-12-11T09:12:45.836Z",
+    "usedBy": "9346bcaaafc8451a1d390278d3e04fe60bc7fcc83a6c0162241d75f5b6dc6dd8",
+    "usedByShort": "9346bcaaafc8451a",
+    "usedAt": "2026-01-02T10:58:11.129Z",
+    "usedAtLocal": "2026-01-02T17:58:11+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "3d7f361e9ad9603d"
   },
   {
     "code": "p245539",
