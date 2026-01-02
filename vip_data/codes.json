@@ -6469,9 +6469,16 @@
   },
   {
     "code": "n981074",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-31T04:00:55.800Z"
+    "exportedAt": "2025-12-31T04:00:55.800Z",
+    "usedBy": "af30ef5606c9206bcd8859c3c0a4674dcaf3ee919b348b8768ce15520c28b0b7",
+    "usedByShort": "af30ef5606c9206b",
+    "usedAt": "2026-01-02T08:40:45.958Z",
+    "usedAtLocal": "2026-01-02T15:40:45+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "0202032a7b70ec52"
   },
   {
     "code": "k627843",
