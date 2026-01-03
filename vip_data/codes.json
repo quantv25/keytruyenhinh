@@ -3069,9 +3069,16 @@
   },
   {
     "code": "b236842",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-09T05:02:46.815Z"
+    "exportedAt": "2025-12-09T05:02:46.815Z",
+    "usedBy": "7b0d8872bd4d62e18694726193757225644947caa5644378da7358b47e7bf236",
+    "usedByShort": "7b0d8872bd4d62e1",
+    "usedAt": "2026-01-03T12:04:27.160Z",
+    "usedAtLocal": "2026-01-03T19:04:27+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "df4649c478df4b1a"
   },
   {
     "code": "u302825",
