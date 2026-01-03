@@ -6856,8 +6856,15 @@
   },
   {
     "code": "j717226",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-02T08:55:22.503Z"
+    "exportedAt": "2026-01-02T08:55:22.503Z",
+    "usedBy": "21fe24f152a56f385c2a37333de153c3cf63b1539d6a213d5382781f4b47fb91",
+    "usedByShort": "21fe24f152a56f38",
+    "usedAt": "2026-01-03T01:49:20.709Z",
+    "usedAtLocal": "2026-01-03T08:49:20+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "3a80b7c6057795aa"
   }
 ]
