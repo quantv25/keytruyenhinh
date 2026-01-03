@@ -6790,9 +6790,16 @@
   },
   {
     "code": "s299198",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-02T08:55:22.503Z"
+    "exportedAt": "2026-01-02T08:55:22.503Z",
+    "usedBy": "c9826959431a802095c8ef863182ecd109845462156927aad36d79a7bfa10f87",
+    "usedByShort": "c9826959431a8020",
+    "usedAt": "2026-01-03T02:54:08.964Z",
+    "usedAtLocal": "2026-01-03T09:54:08+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "edffa2b249b8e20b"
   },
   {
     "code": "k005145",
