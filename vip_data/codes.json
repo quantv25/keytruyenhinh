@@ -4051,9 +4051,16 @@
   },
   {
     "code": "u327726",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-11T09:12:45.836Z"
+    "exportedAt": "2025-12-11T09:12:45.836Z",
+    "usedBy": "626bab7c26f33f01ecc189cb34ee1c124dbd75a94b8fbbe6d836026b9748445c",
+    "usedByShort": "626bab7c26f33f01",
+    "usedAt": "2026-01-04T07:48:37.655Z",
+    "usedAtLocal": "2026-01-04T14:48:37+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "bb0287df74f2638e"
   },
   {
     "code": "r773313",
