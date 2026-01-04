@@ -1918,9 +1918,16 @@
   },
   {
     "code": "w620666",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "a871e337aefc66abaeaaa83157adc34a3a1e6884a18836594782dfd1696be447",
+    "usedByShort": "a871e337aefc66ab",
+    "usedAt": "2026-01-04T05:39:47.829Z",
+    "usedAtLocal": "2026-01-04T12:39:47+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "6d63bf51b8af93f3"
   },
   {
     "code": "j444725",
