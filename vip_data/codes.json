@@ -4207,9 +4207,16 @@
   },
   {
     "code": "p669193",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-11T09:12:45.836Z"
+    "exportedAt": "2025-12-11T09:12:45.836Z",
+    "usedBy": "e7994ed69c8f386be1689f4bf3701c12590b29220de9552838230ade1e36b820",
+    "usedByShort": "e7994ed69c8f386b",
+    "usedAt": "2026-01-04T09:55:53.959Z",
+    "usedAtLocal": "2026-01-04T16:55:53+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "d353565b29dc9198"
   },
   {
     "code": "c044842",
