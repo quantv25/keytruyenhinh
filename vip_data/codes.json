@@ -4157,9 +4157,16 @@
   },
   {
     "code": "x540483",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-11T09:12:45.836Z"
+    "exportedAt": "2025-12-11T09:12:45.836Z",
+    "usedBy": "607fafd114161f7a857a990fb0c0f60de7e92b7182f82d1d88011e7a77bf44f0",
+    "usedByShort": "607fafd114161f7a",
+    "usedAt": "2026-01-05T09:54:17.177Z",
+    "usedAtLocal": "2026-01-05T16:54:17+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "590949f419d75859"
   },
   {
     "code": "s509077",
