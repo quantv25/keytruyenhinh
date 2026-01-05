@@ -6999,8 +6999,15 @@
   },
   {
     "code": "j136145",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-05T04:27:27.766Z"
+    "exportedAt": "2026-01-05T04:27:27.766Z",
+    "usedBy": "233e18e3bfb57667cb994bda4ac2797e190b037f2eaed16a264b587822433af9",
+    "usedByShort": "233e18e3bfb57667",
+    "usedAt": "2026-01-05T04:27:46.656Z",
+    "usedAtLocal": "2026-01-05T11:27:46+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "f27e6198d5b9f6bc"
   }
 ]
