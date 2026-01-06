@@ -2060,9 +2060,16 @@
   },
   {
     "code": "a840310",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "6cfb9fc80d417fac06ad126fbc85ff499019a785225c6e72d13445fac331ddbb",
+    "usedByShort": "6cfb9fc80d417fac",
+    "usedAt": "2026-01-06T08:27:56.654Z",
+    "usedAtLocal": "2026-01-06T15:27:56+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "38fab1e2cfa90b4c"
   },
   {
     "code": "f372018",
