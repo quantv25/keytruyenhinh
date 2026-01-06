@@ -2556,9 +2556,16 @@
   },
   {
     "code": "z987593",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-29T10:12:40.651Z"
+    "exportedAt": "2025-11-29T10:12:40.651Z",
+    "usedBy": "542f6341502365b8f4cbcf3d10df0410d877e3019066dcd342e2fa447de4f315",
+    "usedByShort": "542f6341502365b8",
+    "usedAt": "2026-01-06T07:51:08.817Z",
+    "usedAtLocal": "2026-01-06T14:51:08+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "92ab2808c10cfa72"
   },
   {
     "code": "j989747",
