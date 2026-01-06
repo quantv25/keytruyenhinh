@@ -2530,9 +2530,16 @@
   },
   {
     "code": "t054058",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-29T10:12:40.651Z"
+    "exportedAt": "2025-11-29T10:12:40.651Z",
+    "usedBy": "d0d365274311fad75827a3b695bc11a7deada559e748f9041753dc74448c5404",
+    "usedByShort": "d0d365274311fad7",
+    "usedAt": "2026-01-06T08:50:30.426Z",
+    "usedAtLocal": "2026-01-06T15:50:30+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "848d5781a5ba561b"
   },
   {
     "code": "n540870",
