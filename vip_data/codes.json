@@ -7096,8 +7096,15 @@
   },
   {
     "code": "r260378",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-06T12:47:01.346Z"
+    "exportedAt": "2026-01-06T12:47:01.346Z",
+    "usedBy": "ff1b0db0bef656c0b016f63e346081edc0c47829eab21d601fed3944df1aa983",
+    "usedByShort": "ff1b0db0bef656c0",
+    "usedAt": "2026-01-06T12:53:25.501Z",
+    "usedAtLocal": "2026-01-06T19:53:25+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "c1942861b14bc133"
   }
 ]
