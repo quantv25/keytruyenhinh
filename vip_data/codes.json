@@ -1969,9 +1969,16 @@
   },
   {
     "code": "x646768",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "0578b0340b24511cff55185a23ac6c3e7ede62914574236d5683ab67111b67d6",
+    "usedByShort": "0578b0340b24511c",
+    "usedAt": "2026-01-06T07:30:12.480Z",
+    "usedAtLocal": "2026-01-06T14:30:12+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "de53748d7bbdbc30"
   },
   {
     "code": "p276416",
