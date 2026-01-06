@@ -1943,9 +1943,16 @@
   },
   {
     "code": "z561977",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z"
+    "exportedAt": "2025-11-27T04:21:55.869Z",
+    "usedBy": "c52f3c3ca0ae7d0af75f01b646d5877e45fc3550a45c0c230919a27711178425",
+    "usedByShort": "c52f3c3ca0ae7d0a",
+    "usedAt": "2026-01-06T07:18:00.790Z",
+    "usedAtLocal": "2026-01-06T14:18:00+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "be93ac53196fe679"
   },
   {
     "code": "c263115",
