@@ -7795,9 +7795,16 @@
   },
   {
     "code": "j969774",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-07T04:01:21.108Z"
+    "exportedAt": "2026-01-07T04:01:21.108Z",
+    "usedBy": "21cd89aa37d42af7300fafa341653d12dbac9f66160a90645360a133bcc210ad",
+    "usedByShort": "21cd89aa37d42af7",
+    "usedAt": "2026-01-07T08:57:44.648Z",
+    "usedAtLocal": "2026-01-07T15:57:44+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "03a3725a12637740"
   },
   {
     "code": "z501150",
