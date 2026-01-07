@@ -7417,9 +7417,16 @@
   },
   {
     "code": "q840027",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-07T01:38:37.529Z"
+    "exportedAt": "2026-01-07T01:38:37.529Z",
+    "usedBy": "2e12c94b1d8a13d9311fcc1581b9ba591edad09c94c5eda977db4354b319149d",
+    "usedByShort": "2e12c94b1d8a13d9",
+    "usedAt": "2026-01-07T08:16:00.432Z",
+    "usedAtLocal": "2026-01-07T15:16:00+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "bfc25a6b0e9a791b"
   },
   {
     "code": "g964419",
