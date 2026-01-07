@@ -2765,9 +2765,16 @@
   },
   {
     "code": "r340552",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-29T10:12:40.651Z"
+    "exportedAt": "2025-11-29T10:12:40.651Z",
+    "usedBy": "beef4159277c729012306f2d1dccdb3ff7307ee2015a5f77dcf0277362db0688",
+    "usedByShort": "beef4159277c7290",
+    "usedAt": "2026-01-07T03:10:39.897Z",
+    "usedAtLocal": "2026-01-07T10:10:39+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "4c9e3453c47dc5fe"
   },
   {
     "code": "w072560",
