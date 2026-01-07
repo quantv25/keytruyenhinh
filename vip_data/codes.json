@@ -2645,9 +2645,16 @@
   },
   {
     "code": "v270093",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-29T10:12:40.651Z"
+    "exportedAt": "2025-11-29T10:12:40.651Z",
+    "usedBy": "46954a37b223a693301e62cc185ba1ff0133d7c9fd5eaff35b5c192d303e45cd",
+    "usedByShort": "46954a37b223a693",
+    "usedAt": "2026-01-07T02:15:02.251Z",
+    "usedAtLocal": "2026-01-07T09:15:02+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "32f44fab395a7487"
   },
   {
     "code": "u885109",
