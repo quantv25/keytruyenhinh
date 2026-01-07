@@ -2796,9 +2796,16 @@
   },
   {
     "code": "w072560",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-29T10:12:40.651Z"
+    "exportedAt": "2025-11-29T10:12:40.651Z",
+    "usedBy": "cace5d581aded84d93e7a1257b3386c7903553ce4cc50ba468cc4d3a5e50c0c6",
+    "usedByShort": "cace5d581aded84d",
+    "usedAt": "2026-01-07T07:23:38.355Z",
+    "usedAtLocal": "2026-01-07T14:23:38+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "a9c003e6f5199aaa"
   },
   {
     "code": "j482972",
