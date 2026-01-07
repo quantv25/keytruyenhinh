@@ -7398,9 +7398,16 @@
   },
   {
     "code": "j306298",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-07T01:38:37.529Z"
+    "exportedAt": "2026-01-07T01:38:37.529Z",
+    "usedBy": "aebc97fc92bdb989f64608346db7497583428c3431a23dbef63fbd239b36a9e2",
+    "usedByShort": "aebc97fc92bdb989",
+    "usedAt": "2026-01-07T08:21:55.647Z",
+    "usedAtLocal": "2026-01-07T15:21:55+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "0d3b213de12ba945"
   },
   {
     "code": "r040942",
