@@ -1938,15 +1938,10 @@
   {
     "code": "a571851",
     "used": true,
-    "exported": true,
-    "exportedAt": "2025-11-27T04:21:55.869Z",
     "usedBy": "5601286c6df3e0bbec9ac0fe2e63681b20e00d960bb0a93d339c3e8f89813db6",
-    "usedByShort": "5601286c6df3e0bb",
     "usedAt": "2026-01-07T01:38:18.762Z",
-    "usedAtLocal": "2026-01-07T08:38:18+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "d741f6d536685e2e"
+    "exported": true,
+    "exportedAt": "2025-11-27T04:21:55.869Z"
   },
   {
     "code": "z561977",
@@ -7091,27 +7086,317 @@
   {
     "code": "x391112",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-01-06T12:47:01.346Z",
     "usedBy": "baa4ba4c33d8c799a5b9894386cbefa25424e519108cbd2f74dee68b76196261",
-    "usedByShort": "baa4ba4c33d8c799",
     "usedAt": "2026-01-06T12:47:30.145Z",
-    "usedAtLocal": "2026-01-06T19:47:30+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "0cbd68345f2da32e"
+    "exported": true,
+    "exportedAt": "2026-01-06T12:47:01.346Z"
   },
   {
     "code": "r260378",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-01-06T12:47:01.346Z",
     "usedBy": "ff1b0db0bef656c0b016f63e346081edc0c47829eab21d601fed3944df1aa983",
-    "usedByShort": "ff1b0db0bef656c0",
     "usedAt": "2026-01-06T12:53:25.501Z",
-    "usedAtLocal": "2026-01-06T19:53:25+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "c1942861b14bc133"
+    "exported": true,
+    "exportedAt": "2026-01-06T12:47:01.346Z"
+  },
+  {
+    "code": "b095568",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "v933663",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "c596540",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "s657470",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "f085007",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "m810292",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "t473756",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "s944484",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "m400129",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "p212724",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "g355464",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "f858862",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "k944248",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "h536895",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "r702217",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "m640051",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "f461810",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "p982921",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "z077591",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "y760431",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "y966026",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "g383982",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "j306298",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "r040942",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "q840027",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "g964419",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "v492236",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "t525589",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "t236072",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "w183363",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "z436502",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "v662416",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "v017888",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "p984318",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "u155915",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "j644380",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "c104720",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "c378610",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "x949375",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "r716389",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "e845302",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "f421285",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "b681721",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "g746311",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "s812039",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "r005686",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "c628323",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "w169726",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "k206641",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
+  },
+  {
+    "code": "a175100",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-07T01:38:37.529Z"
   }
 ]
