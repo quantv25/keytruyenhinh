@@ -7501,9 +7501,16 @@
   },
   {
     "code": "k206641",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-07T01:38:37.529Z"
+    "exportedAt": "2026-01-07T01:38:37.529Z",
+    "usedBy": "69a7fa1285120da9f913f21aee2d827951728262e47fd15701795a6429d8323e",
+    "usedByShort": "69a7fa1285120da9",
+    "usedAt": "2026-01-07T03:22:27.529Z",
+    "usedAtLocal": "2026-01-07T10:22:27+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "bc85788d76457c0c"
   },
   {
     "code": "a175100",
