@@ -2747,9 +2747,16 @@
   },
   {
     "code": "g101682",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-29T10:12:40.651Z"
+    "exportedAt": "2025-11-29T10:12:40.651Z",
+    "usedBy": "7345f8bf47a32cdcfbed28637bee2e8dcff0b544d676d9b2673f92a448d30493",
+    "usedByShort": "7345f8bf47a32cdc",
+    "usedAt": "2026-01-07T07:01:08.121Z",
+    "usedAtLocal": "2026-01-07T14:01:08+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "57b961943eecdba5"
   },
   {
     "code": "r340552",
