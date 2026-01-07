@@ -2668,9 +2668,16 @@
   },
   {
     "code": "n373802",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-29T10:12:40.651Z"
+    "exportedAt": "2025-11-29T10:12:40.651Z",
+    "usedBy": "c63d27bb99a945d4da7520552bd13f3ccc950a4c075ff33e63dabacc182629af",
+    "usedByShort": "c63d27bb99a945d4",
+    "usedAt": "2026-01-07T06:49:56.792Z",
+    "usedAtLocal": "2026-01-07T13:49:56+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "e5b3660b78990858"
   },
   {
     "code": "y724368",
