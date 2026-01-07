@@ -2614,9 +2614,16 @@
   },
   {
     "code": "j148475",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-11-29T10:12:40.651Z"
+    "exportedAt": "2025-11-29T10:12:40.651Z",
+    "usedBy": "93506e2a19ba28b0a825611cc2205e5d32ef7bac9de4502a5926580492949e87",
+    "usedByShort": "93506e2a19ba28b0",
+    "usedAt": "2026-01-07T02:25:11.794Z",
+    "usedAtLocal": "2026-01-07T09:25:11+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "029b8a4dac82eb9c"
   },
   {
     "code": "g174799",
