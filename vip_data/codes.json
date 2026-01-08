@@ -7872,9 +7872,16 @@
   },
   {
     "code": "k593191",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-07T04:01:21.108Z"
+    "exportedAt": "2026-01-07T04:01:21.108Z",
+    "usedBy": "b2ef971542d7feed09c06d734a8dad6582ffa77aca3aa8ef1238d1f68c6b81c3",
+    "usedByShort": "b2ef971542d7feed",
+    "usedAt": "2026-01-08T01:51:40.972Z",
+    "usedAtLocal": "2026-01-08T08:51:40+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "663e2c1162919839"
   },
   {
     "code": "z935790",
