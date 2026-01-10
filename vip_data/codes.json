@@ -9173,9 +9173,16 @@
   },
   {
     "code": "m140373",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-09T02:29:46.925Z"
+    "exportedAt": "2026-01-09T02:29:46.925Z",
+    "usedBy": "4da00c12c05049efc8e6c8dd22ee7ca0b2a87c05c7e828b51f0af32dbdf3b562",
+    "usedByShort": "4da00c12c05049ef",
+    "usedAt": "2026-01-10T08:34:24.461Z",
+    "usedAtLocal": "2026-01-10T15:34:24+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "d1bc1058332e2b5d"
   },
   {
     "code": "u491563",
