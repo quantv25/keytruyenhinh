@@ -9322,14 +9322,15 @@
   {
     "code": "x103210",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-01-09T15:14:38.510Z",
     "usedBy": "acd2cb70319d8b49320071fb2c424b63bfe7b194ecdc721233f410ccdcbe066d",
-    "usedByShort": "acd2cb70319d8b49",
     "usedAt": "2026-01-09T15:14:48.969Z",
-    "usedAtLocal": "2026-01-09T22:14:48+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "898eaeb437174a43"
+    "exported": true,
+    "exportedAt": "2026-01-09T15:14:38.510Z"
+  },
+  {
+    "code": "c798950",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-01-10T00:43:32.037Z"
   }
 ]
