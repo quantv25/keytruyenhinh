@@ -9123,9 +9123,16 @@
   },
   {
     "code": "u024816",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-09T02:29:46.925Z"
+    "exportedAt": "2026-01-09T02:29:46.925Z",
+    "usedBy": "28fb9a9761d394b487b36c4ff28a91517d7bc46b16ffb66420864bc5529923d3",
+    "usedByShort": "28fb9a9761d394b4",
+    "usedAt": "2026-01-10T09:29:15.999Z",
+    "usedAtLocal": "2026-01-10T16:29:15+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "5d4c7e7f35cf53a5"
   },
   {
     "code": "k233491",
