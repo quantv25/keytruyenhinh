@@ -9329,8 +9329,15 @@
   },
   {
     "code": "c798950",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-10T00:43:32.037Z"
+    "exportedAt": "2026-01-10T00:43:32.037Z",
+    "usedBy": "ba9657e1d9adc8b056d15e219f3ee79180cc2564adeaaacd199bf1ee6d4bbdfc",
+    "usedByShort": "ba9657e1d9adc8b0",
+    "usedAt": "2026-01-10T02:37:51.341Z",
+    "usedAtLocal": "2026-01-10T09:37:51+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "a32a5d56437befbf"
   }
 ]
