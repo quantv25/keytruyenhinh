@@ -9471,8 +9471,15 @@
   },
   {
     "code": "s038536",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-12T10:52:05.399Z"
+    "exportedAt": "2026-01-12T10:52:05.399Z",
+    "usedBy": "bfa1135938da1d98db8b788677d933f09b853d641c84ea5eab5437d65e15a76f",
+    "usedByShort": "bfa1135938da1d98",
+    "usedAt": "2026-01-12T10:52:22.645Z",
+    "usedAtLocal": "2026-01-12T17:52:22+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "c4de0738a06048e4"
   }
 ]
