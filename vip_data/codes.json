@@ -9482,9 +9482,16 @@
   },
   {
     "code": "r426432",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-11T08:48:52.095Z"
+    "exportedAt": "2026-01-11T08:48:52.095Z",
+    "usedBy": "271b8e7ff17b85ce771bb3e66fab12df8d6389ef1b972dc43001da6e9085eb83",
+    "usedByShort": "271b8e7ff17b85ce",
+    "usedAt": "2026-01-13T08:19:52.493Z",
+    "usedAtLocal": "2026-01-13T15:19:52+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "25d46f18a979d2a0"
   },
   {
     "code": "c218086",
