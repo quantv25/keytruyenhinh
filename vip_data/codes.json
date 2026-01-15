@@ -4388,9 +4388,16 @@
   },
   {
     "code": "y618540",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-11T09:12:45.836Z"
+    "exportedAt": "2025-12-11T09:12:45.836Z",
+    "usedBy": "378b49a8360a7d5dabb1ecc5039a63e20925a7aa232640eb16e7530214806354",
+    "usedByShort": "378b49a8360a7d5d",
+    "usedAt": "2026-01-15T09:39:19.778Z",
+    "usedAtLocal": "2026-01-15T16:39:19+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "e07b1b96d7c2c257"
   },
   {
     "code": "t364192",
