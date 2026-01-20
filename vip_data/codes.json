@@ -7129,9 +7129,16 @@
   },
   {
     "code": "p284121",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-03T03:18:53.800Z"
+    "exportedAt": "2026-01-03T03:18:53.800Z",
+    "usedBy": "9ebe0c8a55098e8fa6298377c25b4dde3639c8e48588eb8c01d72d932d3fd36a",
+    "usedByShort": "9ebe0c8a55098e8f",
+    "usedAt": "2026-01-20T03:26:13.050Z",
+    "usedAtLocal": "2026-01-20T10:26:13+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "f810ba6cf35a3dae"
   },
   {
     "code": "j000619",
