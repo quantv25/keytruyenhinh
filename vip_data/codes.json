@@ -10205,8 +10205,15 @@
   },
   {
     "code": "j485991",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-20T15:57:22.406Z"
+    "exportedAt": "2026-01-20T15:57:22.406Z",
+    "usedBy": "6dd024922d0837632bd06f4df4033ecc520f8f0a843c5015e1d4f2dd4fc589cc",
+    "usedByShort": "6dd024922d083763",
+    "usedAt": "2026-01-20T15:59:23.020Z",
+    "usedAtLocal": "2026-01-20T22:59:23+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "7750b8b821da275b"
   }
 ]
