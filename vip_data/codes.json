@@ -10215,8 +10215,15 @@
   },
   {
     "code": "s022305",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-22T10:56:23.864Z"
+    "exportedAt": "2026-01-22T10:56:23.864Z",
+    "usedBy": "32e3cca7456780b6e632e05b17e08ebe0fd57d595400bf710ee59e0e70b3fd6a",
+    "usedByShort": "32e3cca7456780b6",
+    "usedAt": "2026-01-22T10:57:21.716Z",
+    "usedAtLocal": "2026-01-22T17:57:21+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "bd104c11e57f1c0a"
   }
 ]
