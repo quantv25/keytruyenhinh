@@ -9656,9 +9656,16 @@
   },
   {
     "code": "x505232",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-20T04:24:03.353Z"
+    "exportedAt": "2026-01-20T04:24:03.353Z",
+    "usedBy": "12130d2ec138fb6db22c2609c416988ff9427c2ae8ab5e916dc25e841a0d05f1",
+    "usedByShort": "12130d2ec138fb6d",
+    "usedAt": "2026-01-23T07:14:14.052Z",
+    "usedAtLocal": "2026-01-23T14:14:14+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "69f19fffd9ab56d6"
   },
   {
     "code": "r239597",
