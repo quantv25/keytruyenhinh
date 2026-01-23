@@ -10053,9 +10053,16 @@
   },
   {
     "code": "s124248",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-20T04:24:03.353Z"
+    "exportedAt": "2026-01-20T04:24:03.353Z",
+    "usedBy": "67f8380cf30e190622bc8668986f010da0a7ba877b63eeffb7ef6a81e3673584",
+    "usedByShort": "67f8380cf30e1906",
+    "usedAt": "2026-01-23T12:19:09.515Z",
+    "usedAtLocal": "2026-01-23T19:19:09+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "7acb5235eb61c4b6"
   },
   {
     "code": "v923722",
