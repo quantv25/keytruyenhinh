@@ -9845,9 +9845,16 @@
   },
   {
     "code": "v506835",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-20T04:24:03.353Z"
+    "exportedAt": "2026-01-20T04:24:03.353Z",
+    "usedBy": "e0407a738ec14cefc57d9730372a5b673b5cb5643e51044c429b179533007f5a",
+    "usedByShort": "e0407a738ec14cef",
+    "usedAt": "2026-01-23T08:53:38.609Z",
+    "usedAtLocal": "2026-01-23T15:53:38+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "6eee2d58f23bcc95"
   },
   {
     "code": "z915984",
