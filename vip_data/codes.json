@@ -9612,9 +9612,16 @@
   },
   {
     "code": "u285821",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-20T04:24:03.353Z"
+    "exportedAt": "2026-01-20T04:24:03.353Z",
+    "usedBy": "d6b87ccdd17148122ec367cc55f2ae851ff38f79e2576fcb94fa0364240bff8c",
+    "usedByShort": "d6b87ccdd1714812",
+    "usedAt": "2026-01-23T02:42:14.650Z",
+    "usedAtLocal": "2026-01-23T09:42:14+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "d9fe879d5b05db17"
   },
   {
     "code": "a324825",
