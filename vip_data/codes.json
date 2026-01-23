@@ -9682,9 +9682,16 @@
   },
   {
     "code": "k298092",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-20T04:24:03.353Z"
+    "exportedAt": "2026-01-20T04:24:03.353Z",
+    "usedBy": "151f84b945d51e418fc035547372deee755962398ab609b8cf81212e16f0980d",
+    "usedByShort": "151f84b945d51e41",
+    "usedAt": "2026-01-23T07:33:33.331Z",
+    "usedAtLocal": "2026-01-23T14:33:33+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "9d85058369b32255"
   },
   {
     "code": "y603517",
