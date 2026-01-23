@@ -9676,9 +9676,16 @@
   },
   {
     "code": "r239597",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-20T04:24:03.353Z"
+    "exportedAt": "2026-01-20T04:24:03.353Z",
+    "usedBy": "f7834bae93038607b0723f2d48a07ec343b8387645038b21ae9ecc2fb19507ee",
+    "usedByShort": "f7834bae93038607",
+    "usedAt": "2026-01-23T07:39:17.299Z",
+    "usedAtLocal": "2026-01-23T14:39:17+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "573f2a31d80b8072"
   },
   {
     "code": "k298092",
