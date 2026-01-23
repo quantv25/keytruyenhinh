@@ -9715,9 +9715,16 @@
   },
   {
     "code": "n427088",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-20T04:24:03.353Z"
+    "exportedAt": "2026-01-20T04:24:03.353Z",
+    "usedBy": "92398b4bfdd73f4b8e5edae34afd70aa9f38f9cba8aa1b6c35e31b553ade6624",
+    "usedByShort": "92398b4bfdd73f4b",
+    "usedAt": "2026-01-23T07:53:03.900Z",
+    "usedAtLocal": "2026-01-23T14:53:03+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "bd48e0aeb4c6f194"
   },
   {
     "code": "j752785",
