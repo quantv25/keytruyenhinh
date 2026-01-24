@@ -10247,9 +10247,16 @@
   },
   {
     "code": "k529395",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-20T04:24:03.353Z"
+    "exportedAt": "2026-01-20T04:24:03.353Z",
+    "usedBy": "add3b053f892cad0b9e0fc0cc301643df260da269c827fbcf7e2d467d9fd83a2",
+    "usedByShort": "add3b053f892cad0",
+    "usedAt": "2026-01-24T09:25:18.236Z",
+    "usedAtLocal": "2026-01-24T16:25:18+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "14015f941f5db8f3"
   },
   {
     "code": "h082386",
