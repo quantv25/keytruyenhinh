@@ -10241,9 +10241,16 @@
   },
   {
     "code": "g806065",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-20T04:24:03.353Z"
+    "exportedAt": "2026-01-20T04:24:03.353Z",
+    "usedBy": "66f47959f14709ac7910485d215a412c5cd013811ccc2f008f8fe360796a5248",
+    "usedByShort": "66f47959f14709ac",
+    "usedAt": "2026-01-24T10:26:44.988Z",
+    "usedAtLocal": "2026-01-24T17:26:44+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "6290037bb7a9923b"
   },
   {
     "code": "k529395",
