@@ -10983,8 +10983,15 @@
   },
   {
     "code": "x502989",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-25T10:51:36.759Z"
+    "exportedAt": "2026-01-25T10:51:36.759Z",
+    "usedBy": "62b7ff97ffb8a795532db4c6359330490aafe73fe80a6e11580bddc72fa70223",
+    "usedByShort": "62b7ff97ffb8a795",
+    "usedAt": "2026-01-25T10:52:02.054Z",
+    "usedAtLocal": "2026-01-25T17:52:02+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "9cc6a0ebba810b50"
   }
 ]
