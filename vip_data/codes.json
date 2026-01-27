@@ -11029,8 +11029,15 @@
   },
   {
     "code": "b960509",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-27T10:15:02.615Z"
+    "exportedAt": "2026-01-27T10:15:02.615Z",
+    "usedBy": "6bb316e6c18340b12556bec965023ac07ccdb0bd07f87f3427ef8b7fe76fd613",
+    "usedByShort": "6bb316e6c18340b1",
+    "usedAt": "2026-01-27T10:15:33.656Z",
+    "usedAtLocal": "2026-01-27T17:15:33+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "01ae856cfedbd558"
   }
 ]
