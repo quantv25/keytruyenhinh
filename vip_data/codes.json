@@ -10167,9 +10167,16 @@
   },
   {
     "code": "u680205",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-20T04:24:03.353Z"
+    "exportedAt": "2026-01-20T04:24:03.353Z",
+    "usedBy": "78c4d476c0686ace467468062e3fdced6dc3909da43511de736fe9fa2c603b90",
+    "usedByShort": "78c4d476c0686ace",
+    "usedAt": "2026-01-27T00:54:43.898Z",
+    "usedAtLocal": "2026-01-27T07:54:43+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "73bc31ba1c30db8a"
   },
   {
     "code": "f891902",
