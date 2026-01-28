@@ -10340,9 +10340,16 @@
   },
   {
     "code": "k201543",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-20T04:24:03.353Z"
+    "exportedAt": "2026-01-20T04:24:03.353Z",
+    "usedBy": "2c808f65c2802fc8ade3a62ecbb6e607fe1955c304716358b536f9a7382b1e7c",
+    "usedByShort": "2c808f65c2802fc8",
+    "usedAt": "2026-01-28T03:29:42.912Z",
+    "usedAtLocal": "2026-01-28T10:29:42+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "f8f27e0b2ec800f9"
   },
   {
     "code": "j062820",
