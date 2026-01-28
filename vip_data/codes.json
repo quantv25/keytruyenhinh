@@ -10334,9 +10334,16 @@
   },
   {
     "code": "u175310",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-20T04:24:03.353Z"
+    "exportedAt": "2026-01-20T04:24:03.353Z",
+    "usedBy": "10eeed4d653bcdf60c5952d874e0b44ef6ba89cf9f63f8bfd9e3139e1fcecdba",
+    "usedByShort": "10eeed4d653bcdf6",
+    "usedAt": "2026-01-28T03:31:12.846Z",
+    "usedAtLocal": "2026-01-28T10:31:12+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "acdd48b7a42ca207"
   },
   {
     "code": "k201543",
