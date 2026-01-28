@@ -10392,9 +10392,16 @@
   },
   {
     "code": "y223536",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-20T04:24:03.353Z"
+    "exportedAt": "2026-01-20T04:24:03.353Z",
+    "usedBy": "34f06b11639cd62129af63358ea26bc401fd4733fb1a5fc2ed6ec1b0468369e9",
+    "usedByShort": "34f06b11639cd621",
+    "usedAt": "2026-01-28T04:03:09.820Z",
+    "usedAtLocal": "2026-01-28T11:03:09+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "e4fdec9195bce112"
   },
   {
     "code": "b222978",
