@@ -11053,8 +11053,15 @@
   },
   {
     "code": "p596210",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-28T03:04:39.657Z"
+    "exportedAt": "2026-01-28T03:04:39.657Z",
+    "usedBy": "5cb46ceb28b71b2df6cd0bf231c2a717541920906873bb228b344c4f51eb44ca",
+    "usedByShort": "5cb46ceb28b71b2d",
+    "usedAt": "2026-01-28T03:04:55.383Z",
+    "usedAtLocal": "2026-01-28T10:04:55+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "c27db23ad82a9224"
   }
 ]
