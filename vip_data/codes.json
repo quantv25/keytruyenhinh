@@ -10243,9 +10243,16 @@
   },
   {
     "code": "r492018",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-20T04:24:03.353Z"
+    "exportedAt": "2026-01-20T04:24:03.353Z",
+    "usedBy": "cba5ef9fdd783652621c8d0f5299a69d451fb3c3e8a8039f451f40152ce66be2",
+    "usedByShort": "cba5ef9fdd783652",
+    "usedAt": "2026-01-28T03:15:05.064Z",
+    "usedAtLocal": "2026-01-28T10:15:05+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "a423cb0b63b27850"
   },
   {
     "code": "w875288",
