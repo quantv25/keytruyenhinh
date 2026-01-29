@@ -11565,9 +11565,16 @@
   },
   {
     "code": "g520442",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-28T06:36:52.994Z"
+    "exportedAt": "2026-01-28T06:36:52.994Z",
+    "usedBy": "40ee920a342a201f3069ea7021977f10598469ba4dd3ca6ee476213bb52d5bed",
+    "usedByShort": "40ee920a342a201f",
+    "usedAt": "2026-01-29T07:28:55.281Z",
+    "usedAtLocal": "2026-01-29T14:28:55+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "9421a6afd0f6d740"
   },
   {
     "code": "r207324",
