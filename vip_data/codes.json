@@ -11513,9 +11513,16 @@
   },
   {
     "code": "k904140",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-28T06:36:52.994Z"
+    "exportedAt": "2026-01-28T06:36:52.994Z",
+    "usedBy": "b3496eb7699514bafd9f26b830e8f640a5e10409ed25b1a1259343f2b3631bcf",
+    "usedByShort": "b3496eb7699514ba",
+    "usedAt": "2026-01-29T07:07:50.111Z",
+    "usedAtLocal": "2026-01-29T14:07:50+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "a828c47ed739c9ca"
   },
   {
     "code": "d733332",
