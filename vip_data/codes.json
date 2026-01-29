@@ -12437,8 +12437,15 @@
   },
   {
     "code": "a732976",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-29T11:41:22.001Z"
+    "exportedAt": "2026-01-29T11:41:22.001Z",
+    "usedBy": "a6743722e6e26c841e43bd26f0cc48b34bc0a634688e23ae3dcc18e31d9e42d0",
+    "usedByShort": "a6743722e6e26c84",
+    "usedAt": "2026-01-29T11:43:34.299Z",
+    "usedAtLocal": "2026-01-29T18:43:34+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "f64088914a749e5d"
   }
 ]
