@@ -11227,9 +11227,16 @@
   },
   {
     "code": "s253434",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-28T06:36:52.994Z"
+    "exportedAt": "2026-01-28T06:36:52.994Z",
+    "usedBy": "f39e92ff753f7692ce5bc7a70fb8b17943ae72fc5bffe559be8c3be29114abb7",
+    "usedByShort": "f39e92ff753f7692",
+    "usedAt": "2026-01-29T03:33:12.011Z",
+    "usedAtLocal": "2026-01-29T10:33:12+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "615c3597ca1d91fa"
   },
   {
     "code": "h539034",
