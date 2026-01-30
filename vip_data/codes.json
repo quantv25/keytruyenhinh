@@ -12479,9 +12479,16 @@
   },
   {
     "code": "w081768",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-28T06:36:52.994Z"
+    "exportedAt": "2026-01-28T06:36:52.994Z",
+    "usedBy": "8ea001ce07192fc21fd56cd6ecb2df98f1e8c3d34ef5a8a6b4282738f962f9d8",
+    "usedByShort": "8ea001ce07192fc2",
+    "usedAt": "2026-01-30T03:42:09.293Z",
+    "usedAtLocal": "2026-01-30T10:42:09+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "2c33cb86a0a480d6"
   },
   {
     "code": "m758603",
