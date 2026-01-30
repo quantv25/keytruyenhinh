@@ -12205,9 +12205,16 @@
   },
   {
     "code": "p138563",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-28T06:36:52.994Z"
+    "exportedAt": "2026-01-28T06:36:52.994Z",
+    "usedBy": "5af332954c7a744953ffbc57a78862ea05c3d5580bdd8cab1c6e12962154e26e",
+    "usedByShort": "5af332954c7a7449",
+    "usedAt": "2026-01-30T07:59:18.052Z",
+    "usedAtLocal": "2026-01-30T14:59:18+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "77cd035cc22644c1"
   },
   {
     "code": "s668376",
