@@ -12289,9 +12289,16 @@
   },
   {
     "code": "u040707",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-28T06:36:52.994Z"
+    "exportedAt": "2026-01-28T06:36:52.994Z",
+    "usedBy": "1e2ed552136252d848972b79e375d5f3e04d1d6b0934e49b82b5b2f682a3d301",
+    "usedByShort": "1e2ed552136252d8",
+    "usedAt": "2026-01-30T08:25:16.981Z",
+    "usedAtLocal": "2026-01-30T15:25:16+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "5a3e53e6125ae0a8"
   },
   {
     "code": "n319959",
