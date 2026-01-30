@@ -12356,9 +12356,16 @@
   },
   {
     "code": "r068799",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-28T06:36:52.994Z"
+    "exportedAt": "2026-01-28T06:36:52.994Z",
+    "usedBy": "d6f62990e48a5acfba9be87d373e95771abd1669120fbae7cd9fa9e9b7b117f7",
+    "usedByShort": "d6f62990e48a5acf",
+    "usedAt": "2026-01-30T09:52:28.267Z",
+    "usedAtLocal": "2026-01-30T16:52:28+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "566d906be750cabc"
   },
   {
     "code": "a878919",
