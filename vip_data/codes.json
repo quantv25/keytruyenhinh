@@ -12667,9 +12667,16 @@
   },
   {
     "code": "n379477",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-28T06:36:52.994Z"
+    "exportedAt": "2026-01-28T06:36:52.994Z",
+    "usedBy": "73ed9e07c5aed633ef9688850ebe517fb869d7944664245fb02f8d4034807441",
+    "usedByShort": "73ed9e07c5aed633",
+    "usedAt": "2026-01-30T07:18:28.749Z",
+    "usedAtLocal": "2026-01-30T14:18:28+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "6cdae9ad317c3cc8"
   },
   {
     "code": "r158649",
