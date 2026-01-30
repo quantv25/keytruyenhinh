@@ -12553,8 +12553,15 @@
   },
   {
     "code": "c225786",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-30T07:34:07.430Z"
+    "exportedAt": "2026-01-30T07:34:07.430Z",
+    "usedBy": "fb12f6aa5c79543acf1ea1c1416f27ff4c936e32f3c517a567ba3d09689fb545",
+    "usedByShort": "fb12f6aa5c79543a",
+    "usedAt": "2026-01-30T08:01:23.200Z",
+    "usedAtLocal": "2026-01-30T15:01:23+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "f47409f127251abb"
   }
 ]
