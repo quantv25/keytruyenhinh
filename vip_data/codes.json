@@ -10567,9 +10567,16 @@
   },
   {
     "code": "g002622",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-23T09:17:32.323Z"
+    "exportedAt": "2026-01-23T09:17:32.323Z",
+    "usedBy": "b31e262573bf9123027eb2c871f6af2daafa9d0caaa00990850a29e001b38920",
+    "usedByShort": "b31e262573bf9123",
+    "usedAt": "2026-01-30T08:59:21.581Z",
+    "usedAtLocal": "2026-01-30T15:59:21+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "5768fb5764dc82bf"
   },
   {
     "code": "d788208",
