@@ -12158,9 +12158,16 @@
   },
   {
     "code": "s100317",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-28T06:36:52.994Z"
+    "exportedAt": "2026-01-28T06:36:52.994Z",
+    "usedBy": "9d4eac5ed768f3eaee1620ab79a31c129e2ea0e1673b38fb3f216745ec5e213d",
+    "usedByShort": "9d4eac5ed768f3ea",
+    "usedAt": "2026-01-31T08:22:36.329Z",
+    "usedAtLocal": "2026-01-31T15:22:36+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "51c87e8981d3ff4b"
   },
   {
     "code": "m528068",
