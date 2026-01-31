@@ -11978,9 +11978,16 @@
   },
   {
     "code": "s670066",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-28T06:36:52.994Z"
+    "exportedAt": "2026-01-28T06:36:52.994Z",
+    "usedBy": "81a0e981169227145c288ceb33648b09aeacaa32269eaad75d73daac1def5e08",
+    "usedByShort": "81a0e98116922714",
+    "usedAt": "2026-01-31T03:37:39.027Z",
+    "usedAtLocal": "2026-01-31T10:37:39+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "6719396597cb92d3"
   },
   {
     "code": "g902713",
