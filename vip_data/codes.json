@@ -12748,14 +12748,15 @@
   {
     "code": "z544152",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-02-03T00:19:46.208Z",
     "usedBy": "41543b59cb67a5010f81b62edffbd936584d5b98b0088034a75b6444aaea63ac",
-    "usedByShort": "41543b59cb67a501",
     "usedAt": "2026-02-03T00:20:17.800Z",
-    "usedAtLocal": "2026-02-03T07:20:17+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "20e44441fe542376"
+    "exported": true,
+    "exportedAt": "2026-02-03T00:19:46.208Z"
+  },
+  {
+    "code": "s454240",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-02-03T01:03:20.617Z"
   }
 ]
