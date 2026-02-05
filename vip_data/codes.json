@@ -10840,9 +10840,16 @@
   },
   {
     "code": "g101484",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-23T09:17:32.323Z"
+    "exportedAt": "2026-01-23T09:17:32.323Z",
+    "usedBy": "072a3caac85899e1633ff3e35b682651f22aca099913ae37cb3efaf4c7236576",
+    "usedByShort": "072a3caac85899e1",
+    "usedAt": "2026-02-05T02:40:06.642Z",
+    "usedAtLocal": "2026-02-05T09:40:06+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "19bb9124330eb244"
   },
   {
     "code": "v062205",
