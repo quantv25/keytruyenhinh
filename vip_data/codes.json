@@ -13646,14 +13646,15 @@
   {
     "code": "n925710",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-02-06T07:23:54.851Z",
     "usedBy": "4fd64a860935de6fdf5999ede7c901db3414fe523c9a21df2293213e4beea0d2",
-    "usedByShort": "4fd64a860935de6f",
     "usedAt": "2026-02-06T07:24:00.402Z",
-    "usedAtLocal": "2026-02-06T14:24:00+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "4858724c11ad4ab8"
+    "exported": true,
+    "exportedAt": "2026-02-06T07:23:54.851Z"
+  },
+  {
+    "code": "g032839",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-02-06T07:43:11.513Z"
   }
 ]
