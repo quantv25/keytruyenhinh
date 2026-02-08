@@ -14448,14 +14448,15 @@
   {
     "code": "m019913",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-02-07T12:38:52.543Z",
     "usedBy": "4da276723f0ae18ebbcd171dee8de7ef57bab439a33f163efd1800f5be211352",
-    "usedByShort": "4da276723f0ae18e",
     "usedAt": "2026-02-07T13:14:47.009Z",
-    "usedAtLocal": "2026-02-07T20:14:47+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "87ffa30084eaeba9"
+    "exported": true,
+    "exportedAt": "2026-02-07T12:38:52.543Z"
+  },
+  {
+    "code": "d754643",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-02-08T02:53:29.477Z"
   }
 ]
