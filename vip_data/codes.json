@@ -14634,14 +14634,15 @@
   {
     "code": "j006454",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-02-11T12:41:24.917Z",
     "usedBy": "7b849a481a051ba12dbe744c989f204ef49429e04e5ed6f7c69a72c21e3badd0",
-    "usedByShort": "7b849a481a051ba1",
     "usedAt": "2026-02-11T12:41:56.591Z",
-    "usedAtLocal": "2026-02-11T19:41:56+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "7d1b555f586c2085"
+    "exported": true,
+    "exportedAt": "2026-02-11T12:41:24.917Z"
+  },
+  {
+    "code": "z280189",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-02-11T13:12:08.576Z"
   }
 ]
