@@ -14736,14 +14736,15 @@
   {
     "code": "c472998",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-02-14T09:38:18.807Z",
     "usedBy": "c5c8ef501e7c6b4fce694606742d144c927b11b4118bef7fda88927f5583307a",
-    "usedByShort": "c5c8ef501e7c6b4f",
     "usedAt": "2026-02-14T09:38:41.251Z",
-    "usedAtLocal": "2026-02-14T16:38:41+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "086e27cdc3554115"
+    "exported": true,
+    "exportedAt": "2026-02-14T09:38:18.807Z"
+  },
+  {
+    "code": "t631157",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-02-14T10:57:25.883Z"
   }
 ]
