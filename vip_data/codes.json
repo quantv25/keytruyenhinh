@@ -14712,14 +14712,15 @@
   {
     "code": "g010008",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-02-13T08:48:31.482Z",
     "usedBy": "5796cf20c1571a5deb62dcbcb8fc6785748b3a53be8921fb58d44bf41adb3d5e",
-    "usedByShort": "5796cf20c1571a5d",
     "usedAt": "2026-02-13T08:50:59.118Z",
-    "usedAtLocal": "2026-02-13T15:50:59+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "69b33561f783ab55"
+    "exported": true,
+    "exportedAt": "2026-02-13T08:48:31.482Z"
+  },
+  {
+    "code": "s827546",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-02-14T02:46:19.836Z"
   }
 ]
