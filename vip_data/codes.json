@@ -14767,8 +14767,15 @@
   },
   {
     "code": "a234813",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-02-23T04:32:39.770Z"
+    "exportedAt": "2026-02-23T04:32:39.770Z",
+    "usedBy": "6e338f9d66eb09e0b2aae58487df1844ce43ddd3cfb022e3475825543a5fd159",
+    "usedByShort": "6e338f9d66eb09e0",
+    "usedAt": "2026-02-23T04:33:38.531Z",
+    "usedAtLocal": "2026-02-23T11:33:38+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "9e63e7b9f3ab85d2"
   }
 ]
