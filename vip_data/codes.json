@@ -14798,14 +14798,15 @@
   {
     "code": "m471770",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-02-26T08:20:38.614Z",
     "usedBy": "9cd795cbe994aa813d1719430f86b4c81ba4a006c0d879192adc801deec4c4ed",
-    "usedByShort": "9cd795cbe994aa81",
     "usedAt": "2026-02-26T08:21:08.235Z",
-    "usedAtLocal": "2026-02-26T15:21:08+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "02a738b9af869491"
+    "exported": true,
+    "exportedAt": "2026-02-26T08:20:38.614Z"
+  },
+  {
+    "code": "e122458",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-02-26T11:21:00.473Z"
   }
 ]
