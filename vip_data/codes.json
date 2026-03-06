@@ -15400,9 +15400,16 @@
   },
   {
     "code": "t543012",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-02-28T08:36:25.228Z"
+    "exportedAt": "2026-02-28T08:36:25.228Z",
+    "usedBy": "8f97e4d02589b42b5bbe07a6b9bf2b5392f98505cf16a9d1b5b5c91d1995526a",
+    "usedByShort": "8f97e4d02589b42b",
+    "usedAt": "2026-03-06T02:03:47.025Z",
+    "usedAtLocal": "2026-03-06T09:03:47+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "54b0a3b2e3b72b6b"
   },
   {
     "code": "w569658",
