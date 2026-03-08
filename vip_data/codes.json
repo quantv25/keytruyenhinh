@@ -16256,14 +16256,15 @@
   {
     "code": "j815582",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-07T13:01:04.422Z",
     "usedBy": "83301193a1b434d24b96c6d66acf1ff46174b9a03eadf63e0da3c3680f4fd847",
-    "usedByShort": "83301193a1b434d2",
     "usedAt": "2026-03-07T13:03:11.268Z",
-    "usedAtLocal": "2026-03-07T20:03:11+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "a595be63631c97b6"
+    "exported": true,
+    "exportedAt": "2026-03-07T13:01:04.422Z"
+  },
+  {
+    "code": "x739262",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-03-08T04:28:11.274Z"
   }
 ]
