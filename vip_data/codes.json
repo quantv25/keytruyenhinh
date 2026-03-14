@@ -16307,8 +16307,15 @@
   },
   {
     "code": "r313972",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-03-14T03:26:35.981Z"
+    "exportedAt": "2026-03-14T03:26:35.981Z",
+    "usedBy": "ab87adc629649adcbfa3deb478031634c4ec6f9655905f40c4713fc7783aff00",
+    "usedByShort": "ab87adc629649adc",
+    "usedAt": "2026-03-14T03:26:56.184Z",
+    "usedAtLocal": "2026-03-14T10:26:56+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "vn.quan.iptvmobile",
+    "deviceId": "9bb9ff1f47d04ecf"
   }
 ]
