@@ -16300,14 +16300,15 @@
   {
     "code": "z404567",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-13T11:25:46.645Z",
     "usedBy": "863ed23c8c113f2bff8f8766ae12ae9c31ae94fbf658a91f00200554c6314f87",
-    "usedByShort": "863ed23c8c113f2b",
     "usedAt": "2026-03-13T11:27:28.085Z",
-    "usedAtLocal": "2026-03-13T18:27:28+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "vn.quan.iptvmobile",
-    "deviceId": "0cee25d36eaf6ddd"
+    "exported": true,
+    "exportedAt": "2026-03-13T11:25:46.645Z"
+  },
+  {
+    "code": "r313972",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-03-14T03:26:35.981Z"
   }
 ]
