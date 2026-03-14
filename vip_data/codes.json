@@ -16038,15 +16038,10 @@
   {
     "code": "z188926",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-06T02:58:29.602Z",
     "usedBy": "afaaebb0c748d79e82b8d5828a86dc004d2598144c60f6fcea4c91aa98ce3b46",
-    "usedByShort": "afaaebb0c748d79e",
     "usedAt": "2026-03-14T10:01:40.090Z",
-    "usedAtLocal": "2026-03-14T17:01:40+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "3ddcbbf3beb82fbb"
+    "exported": true,
+    "exportedAt": "2026-03-06T02:58:29.602Z"
   },
   {
     "code": "n419633",
@@ -16149,15 +16144,10 @@
   {
     "code": "q699525",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-06T02:58:29.602Z",
     "usedBy": "2a7bfaab9127dc12de4c52beb1014b49d2b108ebdf1dc33f176b5a57c6c195ee",
-    "usedByShort": "2a7bfaab9127dc12",
     "usedAt": "2026-03-14T07:16:56.921Z",
-    "usedAtLocal": "2026-03-14T14:16:56+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "ebed173d4f919887"
+    "exported": true,
+    "exportedAt": "2026-03-06T02:58:29.602Z"
   },
   {
     "code": "q027953",
@@ -16322,14 +16312,15 @@
   {
     "code": "r313972",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-14T03:26:35.981Z",
     "usedBy": "ab87adc629649adcbfa3deb478031634c4ec6f9655905f40c4713fc7783aff00",
-    "usedByShort": "ab87adc629649adc",
     "usedAt": "2026-03-14T03:26:56.184Z",
-    "usedAtLocal": "2026-03-14T10:26:56+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "vn.quan.iptvmobile",
-    "deviceId": "9bb9ff1f47d04ecf"
+    "exported": true,
+    "exportedAt": "2026-03-14T03:26:35.981Z"
+  },
+  {
+    "code": "d113930",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-03-14T10:28:51.767Z"
   }
 ]
