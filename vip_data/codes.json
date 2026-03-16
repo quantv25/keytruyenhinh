@@ -16546,14 +16546,15 @@
   {
     "code": "q618727",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-16T11:26:02.289Z",
     "usedBy": "8932e0c58ecccf55dc86b231b8adc06c50ea5cb55dec49ef29382a2022faf512",
-    "usedByShort": "8932e0c58ecccf55",
     "usedAt": "2026-03-16T11:29:06.394Z",
-    "usedAtLocal": "2026-03-16T18:29:06+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "03e11c0c7b342a5c"
+    "exported": true,
+    "exportedAt": "2026-03-16T11:26:02.289Z"
+  },
+  {
+    "code": "w980044",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-03-16T11:31:54.570Z"
   }
 ]
