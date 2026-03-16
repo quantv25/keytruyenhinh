@@ -13843,9 +13843,16 @@
   },
   {
     "code": "g966469",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-02-07T02:36:33.237Z"
+    "exportedAt": "2026-02-07T02:36:33.237Z",
+    "usedBy": "71932d07635dac827284230ea1a012bbaa6859d12939dc6e1718eb1cd7d624a0",
+    "usedByShort": "71932d07635dac82",
+    "usedAt": "2026-03-16T06:54:32.671Z",
+    "usedAtLocal": "2026-03-16T13:54:32+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "vn.quan.iptvmobile",
+    "deviceId": "ea2b7b9662d56c6d"
   },
   {
     "code": "c282421",
