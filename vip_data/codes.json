@@ -16438,15 +16438,10 @@
   {
     "code": "q756942",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-16T10:34:49.428Z",
     "usedBy": "c08597d0fa1747dc1930550371f75e1deec7ea563d3ff8a28a6458a65e4ea75f",
-    "usedByShort": "c08597d0fa1747dc",
     "usedAt": "2026-03-16T11:15:10.059Z",
-    "usedAtLocal": "2026-03-16T18:15:10+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "632f6f42552cbaa5"
+    "exported": true,
+    "exportedAt": "2026-03-16T10:34:49.428Z"
   },
   {
     "code": "k358281",
@@ -16527,5 +16522,11 @@
     "used": false,
     "exported": true,
     "exportedAt": "2026-03-16T11:14:51.871Z"
+  },
+  {
+    "code": "s192505",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-03-16T11:15:15.678Z"
   }
 ]
