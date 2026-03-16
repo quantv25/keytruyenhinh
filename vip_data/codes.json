@@ -16396,15 +16396,10 @@
   {
     "code": "e942196",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-16T10:29:37.683Z",
     "usedBy": "435641346997197e20f5b4f12dd844567025dedf6b3069fd91c3b8663592b452",
-    "usedByShort": "435641346997197e",
     "usedAt": "2026-03-16T11:01:59.766Z",
-    "usedAtLocal": "2026-03-16T18:01:59+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "44651621b0e65ee0"
+    "exported": true,
+    "exportedAt": "2026-03-16T10:29:37.683Z"
   },
   {
     "code": "p347594",
@@ -16435,15 +16430,10 @@
   {
     "code": "g325066",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-16T10:34:40.823Z",
     "usedBy": "58efd9bcc208e08d69c52b0a75f03c2725d6758dbfae203a9f29611db341eec5",
-    "usedByShort": "58efd9bcc208e08d",
     "usedAt": "2026-03-16T10:59:37.410Z",
-    "usedAtLocal": "2026-03-16T17:59:37+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "39f11a1a127c1acc"
+    "exported": true,
+    "exportedAt": "2026-03-16T10:34:40.823Z"
   },
   {
     "code": "q756942",
@@ -16476,15 +16466,10 @@
   {
     "code": "w582419",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-16T10:38:28.993Z",
     "usedBy": "cf0dae5449502077c21cee4d80d324634eb87042ec28e11f80177ff41708a7a7",
-    "usedByShort": "cf0dae5449502077",
     "usedAt": "2026-03-16T11:08:50.479Z",
-    "usedAtLocal": "2026-03-16T18:08:50+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "ef00d932fc8558bf"
+    "exported": true,
+    "exportedAt": "2026-03-16T10:38:28.993Z"
   },
   {
     "code": "c779234",
@@ -16501,14 +16486,15 @@
   {
     "code": "f966455",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-16T10:47:38.616Z",
     "usedBy": "be183ee964db2275a50d32f38969c79c02f92d9d6a5f9694e9d69145a328af73",
-    "usedByShort": "be183ee964db2275",
     "usedAt": "2026-03-16T10:48:41.632Z",
-    "usedAtLocal": "2026-03-16T17:48:41+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "vn.quan.iptvmobile",
-    "deviceId": "7873ac44e0317929"
+    "exported": true,
+    "exportedAt": "2026-03-16T10:47:38.616Z"
+  },
+  {
+    "code": "r745980",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-03-16T11:12:50.082Z"
   }
 ]
