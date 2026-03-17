@@ -17888,14 +17888,15 @@
   {
     "code": "t031093",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-17T09:09:41.614Z",
     "usedBy": "36e7d9da8e0aa5725e8ddc5ff32458d3e6a3351fe89af6fc08d19756b6fc2a8b",
-    "usedByShort": "36e7d9da8e0aa572",
     "usedAt": "2026-03-17T09:10:45.814Z",
-    "usedAtLocal": "2026-03-17T16:10:45+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "vn.quan.iptvmobile",
-    "deviceId": "2a7b7189767aa3c7"
+    "exported": true,
+    "exportedAt": "2026-03-17T09:09:41.614Z"
+  },
+  {
+    "code": "d939782",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-03-17T09:25:41.495Z"
   }
 ]
