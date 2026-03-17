@@ -17880,14 +17880,15 @@
   {
     "code": "y313283",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-17T08:05:27.110Z",
     "usedBy": "c735892db28b3ddbfd3e15cf55f48c830cb5ee739c7801561e5b9c0d1646aae7",
-    "usedByShort": "c735892db28b3ddb",
     "usedAt": "2026-03-17T08:05:38.189Z",
-    "usedAtLocal": "2026-03-17T15:05:38+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "6777c63be53ac2c4"
+    "exported": true,
+    "exportedAt": "2026-03-17T08:05:27.110Z"
+  },
+  {
+    "code": "t031093",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-03-17T09:09:41.614Z"
   }
 ]
