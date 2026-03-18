@@ -17965,8 +17965,15 @@
   },
   {
     "code": "k380873",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-03-18T08:35:58.698Z"
+    "exportedAt": "2026-03-18T08:35:58.698Z",
+    "usedBy": "ec8eb512383cb3893a90ddd6967fb5938daf5c3562098cc0efa19095fa514916",
+    "usedByShort": "ec8eb512383cb389",
+    "usedAt": "2026-03-18T08:36:29.448Z",
+    "usedAtLocal": "2026-03-18T15:36:29+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "472e3993b651328a"
   }
 ]
