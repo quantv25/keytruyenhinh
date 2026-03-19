@@ -17232,9 +17232,16 @@
   },
   {
     "code": "g073738",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-03-17T02:40:25.127Z"
+    "exportedAt": "2026-03-17T02:40:25.127Z",
+    "usedBy": "167c1bd9c52ed7af525176d2edb5ec51971ad1e6365613655812487713ade900",
+    "usedByShort": "167c1bd9c52ed7af",
+    "usedAt": "2026-03-19T09:05:20.841Z",
+    "usedAtLocal": "2026-03-19T16:05:20+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "4b90d5d3ecb6e80c"
   },
   {
     "code": "a936250",
