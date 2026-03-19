@@ -18018,14 +18018,15 @@
   {
     "code": "z007075",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-19T02:57:11.059Z",
     "usedBy": "76bf0aeb22da384da685aae16850da75597350660a7638dc15f071aaab699d59",
-    "usedByShort": "76bf0aeb22da384d",
     "usedAt": "2026-03-19T02:57:23.912Z",
-    "usedAtLocal": "2026-03-19T09:57:23+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "730480421f79de47"
+    "exported": true,
+    "exportedAt": "2026-03-19T02:57:11.059Z"
+  },
+  {
+    "code": "s219933",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-03-19T02:57:53.292Z"
   }
 ]
