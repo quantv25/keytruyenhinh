@@ -18010,14 +18010,15 @@
   {
     "code": "x782016",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-19T02:34:26.245Z",
     "usedBy": "d795aa20a7d199c8ff53f9bbf7b7e8bd5a9bee6eb033122f0d1e9af6d5b590af",
-    "usedByShort": "d795aa20a7d199c8",
     "usedAt": "2026-03-19T02:34:45.759Z",
-    "usedAtLocal": "2026-03-19T09:34:45+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "17cee35f9ad92285"
+    "exported": true,
+    "exportedAt": "2026-03-19T02:34:26.245Z"
+  },
+  {
+    "code": "z007075",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-03-19T02:57:11.059Z"
   }
 ]
