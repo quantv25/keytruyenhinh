@@ -18406,14 +18406,15 @@
   {
     "code": "q761918",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-22T17:40:34.336Z",
     "usedBy": "fd6ba639f8ff773647c1f190719c8e8b46596e6885e2ad944b302e290ea6ec6a",
-    "usedByShort": "fd6ba639f8ff7736",
     "usedAt": "2026-03-22T17:40:52.059Z",
-    "usedAtLocal": "2026-03-23T00:40:52+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "0101ef969e1badf9"
+    "exported": true,
+    "exportedAt": "2026-03-22T17:40:34.336Z"
+  },
+  {
+    "code": "j290041",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-03-22T17:54:43.897Z"
   }
 ]
