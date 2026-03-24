@@ -16172,15 +16172,10 @@
   {
     "code": "s168947",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-06T02:58:29.602Z",
     "usedBy": "517ec848a43250b79836ed087ecb637c6ad08cdc4b8b7c13a3102478c0f65d0b",
-    "usedByShort": "517ec848a43250b7",
     "usedAt": "2026-03-24T04:04:01.380Z",
-    "usedAtLocal": "2026-03-24T11:04:01+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "68a4f4a9d07748c6"
+    "exported": true,
+    "exportedAt": "2026-03-06T02:58:29.602Z"
   },
   {
     "code": "a911223",
@@ -16197,28 +16192,18 @@
   {
     "code": "f776985",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-06T02:58:29.602Z",
     "usedBy": "ce75d0bea4aaf42e25a3fc4d5d1ff00bcd9f919b24e558d341ec551d15a1cf8c",
-    "usedByShort": "ce75d0bea4aaf42e",
     "usedAt": "2026-03-24T04:02:07.488Z",
-    "usedAtLocal": "2026-03-24T11:02:07+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "6b10b2b16bcef1ce"
+    "exported": true,
+    "exportedAt": "2026-03-06T02:58:29.602Z"
   },
   {
     "code": "e678208",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-06T02:58:29.602Z",
     "usedBy": "da5cc8dfca16e2a40cd4f25f84af1602daf6ac66009f478c09f5fc858892fd4d",
-    "usedByShort": "da5cc8dfca16e2a4",
     "usedAt": "2026-03-24T03:34:28.086Z",
-    "usedAtLocal": "2026-03-24T10:34:28+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "4da1b3777c59af08"
+    "exported": true,
+    "exportedAt": "2026-03-06T02:58:29.602Z"
   },
   {
     "code": "v469349",
@@ -18471,14 +18456,15 @@
   {
     "code": "j869003",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-23T11:39:52.925Z",
     "usedBy": "845c94a623a961d27eb00eb9ecd7e30b45d5df0ec5e879abd16edbaeda19d109",
-    "usedByShort": "845c94a623a961d2",
     "usedAt": "2026-03-23T11:40:52.260Z",
-    "usedAtLocal": "2026-03-23T18:40:52+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "60e0097798127672"
+    "exported": true,
+    "exportedAt": "2026-03-23T11:39:52.925Z"
+  },
+  {
+    "code": "q636630",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-03-24T11:15:28.936Z"
   }
 ]
