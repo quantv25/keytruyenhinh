@@ -18487,8 +18487,15 @@
   },
   {
     "code": "z390582",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-03-25T05:20:34.073Z"
+    "exportedAt": "2026-03-25T05:20:34.073Z",
+    "usedBy": "ad271e5493054a91fbe560c7d0f93bb8411e447f68603f350a2c6f22480cfd27",
+    "usedByShort": "ad271e5493054a91",
+    "usedAt": "2026-03-25T05:20:57.252Z",
+    "usedAtLocal": "2026-03-25T12:20:57+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "6921cdbac1d3a676"
   }
 ]
