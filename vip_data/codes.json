@@ -19355,8 +19355,15 @@
   },
   {
     "code": "g589043",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-03-26T03:34:17.103Z"
+    "exportedAt": "2026-03-26T03:34:17.103Z",
+    "usedBy": "b65671c8fadd2e840de61eb44ab5e408d5d0003253e2dcd6fa9dbe612636ebda",
+    "usedByShort": "b65671c8fadd2e84",
+    "usedAt": "2026-03-26T03:34:31.632Z",
+    "usedAtLocal": "2026-03-26T10:34:31+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "5269efe4f5f6367f"
   }
 ]
