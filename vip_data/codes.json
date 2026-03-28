@@ -19006,9 +19006,16 @@
   },
   {
     "code": "u747268",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-03-25T07:42:21.136Z"
+    "exportedAt": "2026-03-25T07:42:21.136Z",
+    "usedBy": "4b90681d30dfec025230d10132dc5c8531d9575617eff6e69139716700397f1b",
+    "usedByShort": "4b90681d30dfec02",
+    "usedAt": "2026-03-28T01:58:13.351Z",
+    "usedAtLocal": "2026-03-28T08:58:13+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "ec4d5e09d5f3fcc3"
   },
   {
     "code": "e360712",
