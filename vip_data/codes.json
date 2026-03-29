@@ -16372,15 +16372,10 @@
   {
     "code": "b010166",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-08T16:02:27.297Z",
     "usedBy": "84d89877f0d4041efb6bf91a16f0248f2fd573e6af05c19f96bedb9f882f7882",
-    "usedByShort": "84d89877f0d4041e",
     "usedAt": "2026-03-28T07:46:45.491Z",
-    "usedAtLocal": "2026-03-28T14:46:45+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "0123456789"
+    "exported": true,
+    "exportedAt": "2026-03-08T16:02:27.297Z"
   },
   {
     "code": "z404567",
@@ -18963,28 +18958,18 @@
   {
     "code": "y984613",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-25T07:42:21.136Z",
     "usedBy": "930c83fc0ec33c53d1f6797283b5974591ebcc31e4ffa3d63a43eb86102f4187",
-    "usedByShort": "930c83fc0ec33c53",
     "usedAt": "2026-03-28T23:55:21.495Z",
-    "usedAtLocal": "2026-03-29T06:55:21+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "6949a924997ec77b"
+    "exported": true,
+    "exportedAt": "2026-03-25T07:42:21.136Z"
   },
   {
     "code": "f758090",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-25T07:42:21.136Z",
     "usedBy": "6deed124715d51db0362cab6c78c41945211cd3dfb8c4c1963d63ea1949f77b6",
-    "usedByShort": "6deed124715d51db",
     "usedAt": "2026-03-29T00:51:15.420Z",
-    "usedAtLocal": "2026-03-29T07:51:15+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "9b3cdd2030204932"
+    "exported": true,
+    "exportedAt": "2026-03-25T07:42:21.136Z"
   },
   {
     "code": "z503288",
@@ -19001,15 +18986,10 @@
   {
     "code": "g954388",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-25T07:42:21.136Z",
     "usedBy": "f59a989ebc945996f1c1db421c6f132bdcb8e5d70c7376b3781232fc3a34bff2",
-    "usedByShort": "f59a989ebc945996",
     "usedAt": "2026-03-28T23:24:45.121Z",
-    "usedAtLocal": "2026-03-29T06:24:45+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "ee6350765af3ebf1"
+    "exported": true,
+    "exportedAt": "2026-03-25T07:42:21.136Z"
   },
   {
     "code": "g101880",
@@ -19570,5 +19550,11 @@
     "used": false,
     "exported": true,
     "exportedAt": "2026-03-28T04:19:26.318Z"
+  },
+  {
+    "code": "w191102",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-03-29T15:08:09.900Z"
   }
 ]
