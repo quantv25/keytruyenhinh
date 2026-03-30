@@ -19133,9 +19133,16 @@
   },
   {
     "code": "u022452",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-03-25T07:42:21.136Z"
+    "exportedAt": "2026-03-25T07:42:21.136Z",
+    "usedBy": "dcfbcad655af9667858083821aab08044e3c527467f6cfd5815e89f2aac98ae3",
+    "usedByShort": "dcfbcad655af9667",
+    "usedAt": "2026-03-30T07:23:38.286Z",
+    "usedAtLocal": "2026-03-30T14:23:38+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "adfba4ea8da691c0"
   },
   {
     "code": "a648450",
