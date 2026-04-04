@@ -20146,9 +20146,16 @@
   },
   {
     "code": "k366038",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-04-02T13:26:50.170Z"
+    "exportedAt": "2026-04-02T13:26:50.170Z",
+    "usedBy": "e80c86ac9ad8b1ecc7427a1673bbce584f4428b36554a9bb55259c9776e98377",
+    "usedByShort": "e80c86ac9ad8b1ec",
+    "usedAt": "2026-04-04T02:04:31.330Z",
+    "usedAtLocal": "2026-04-04T09:04:31+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "7db182cc90ab974b"
   },
   {
     "code": "t084788",
