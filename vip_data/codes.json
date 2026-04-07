@@ -20584,14 +20584,15 @@
   {
     "code": "e533909",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-04-07T02:51:01.196Z",
     "usedBy": "41543b59cb67a5010f81b62edffbd936584d5b98b0088034a75b6444aaea63ac",
-    "usedByShort": "41543b59cb67a501",
     "usedAt": "2026-04-07T02:51:30.054Z",
-    "usedAtLocal": "2026-04-07T09:51:30+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "20e44441fe542376"
+    "exported": true,
+    "exportedAt": "2026-04-07T02:51:01.196Z"
+  },
+  {
+    "code": "n974282",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-04-07T02:57:17.238Z"
   }
 ]
