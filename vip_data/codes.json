@@ -20265,9 +20265,16 @@
   },
   {
     "code": "t732027",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-04-02T13:26:50.170Z"
+    "exportedAt": "2026-04-02T13:26:50.170Z",
+    "usedBy": "8be803390fc2429fed677c6f4c03a3d87fe1904a4b5b7e4a2293687bde10270a",
+    "usedByShort": "8be803390fc2429f",
+    "usedAt": "2026-04-07T11:30:15.527Z",
+    "usedAtLocal": "2026-04-07T18:30:15+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "48a1180460e28570"
   },
   {
     "code": "u800440",
