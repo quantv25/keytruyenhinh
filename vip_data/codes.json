@@ -16604,15 +16604,10 @@
   {
     "code": "b447582",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-03-16T11:13:53.876Z",
     "usedBy": "823c0451c2688b31790a471198d026d5b7c7c82d575c00a85a74c0cf5bd31814",
-    "usedByShort": "823c0451c2688b31",
     "usedAt": "2026-04-09T03:25:42.516Z",
-    "usedAtLocal": "2026-04-09T10:25:42+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "a06378ca8f89b389"
+    "exported": true,
+    "exportedAt": "2026-03-16T11:13:53.876Z"
   },
   {
     "code": "b920425",
@@ -19931,15 +19926,10 @@
   {
     "code": "z035215",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-04-02T13:26:50.170Z",
     "usedBy": "26487dd4ccfef1136331084c4cf0e309755efd84f790931c6ececb8e6794fd4c",
-    "usedByShort": "26487dd4ccfef113",
     "usedAt": "2026-04-08T16:05:48.463Z",
-    "usedAtLocal": "2026-04-08T23:05:48+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "1afa25789edfeba1"
+    "exported": true,
+    "exportedAt": "2026-04-02T13:26:50.170Z"
   },
   {
     "code": "y882243",
@@ -20648,14 +20638,15 @@
   {
     "code": "e654618",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-04-08T02:58:11.451Z",
     "usedBy": "a57b880e3202a518cbe206d56654aaa8602586607446f286163e3b0732bc2f0c",
-    "usedByShort": "a57b880e3202a518",
     "usedAt": "2026-04-08T03:03:12.211Z",
-    "usedAtLocal": "2026-04-08T10:03:12+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "5ba3d63d3d803872"
+    "exported": true,
+    "exportedAt": "2026-04-08T02:58:11.451Z"
+  },
+  {
+    "code": "t265723",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-04-09T03:25:57.798Z"
   }
 ]
