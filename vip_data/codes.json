@@ -20682,14 +20682,15 @@
   {
     "code": "m517919",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-04-12T09:57:40.425Z",
     "usedBy": "aa34aaa01949185c5c0549a2c9c36d6ae8be3c472bba0a7afa5569f5eea227be",
-    "usedByShort": "aa34aaa01949185c",
     "usedAt": "2026-04-12T09:57:55.240Z",
-    "usedAtLocal": "2026-04-12T16:57:55+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "18d5e75ea99a3188"
+    "exported": true,
+    "exportedAt": "2026-04-12T09:57:40.425Z"
+  },
+  {
+    "code": "u770875",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-04-12T10:27:09.192Z"
   }
 ]
