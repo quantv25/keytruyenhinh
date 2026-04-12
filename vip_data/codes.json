@@ -20668,20 +20668,21 @@
   {
     "code": "q873174",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-04-11T13:55:53.886Z",
     "usedBy": "e7981e62fdb007cf094e227d1474d684a3b19bef1684587e249592ee74b901bd",
-    "usedByShort": "e7981e62fdb007cf",
     "usedAt": "2026-04-11T14:18:14.921Z",
-    "usedAtLocal": "2026-04-11T21:18:14+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "67aac4d1c223f9f9"
+    "exported": true,
+    "exportedAt": "2026-04-11T13:55:53.886Z"
   },
   {
     "code": "k166746",
     "used": false,
     "exported": true,
     "exportedAt": "2026-04-11T14:09:19.289Z"
+  },
+  {
+    "code": "m517919",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-04-12T09:57:40.425Z"
   }
 ]
