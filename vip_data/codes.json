@@ -20690,14 +20690,15 @@
   {
     "code": "u770875",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-04-12T10:27:09.192Z",
     "usedBy": "65475d5d5aaa69e72417660bfb71f831d12f7db695f48f97678152c5ed25f06f",
-    "usedByShort": "65475d5d5aaa69e7",
     "usedAt": "2026-04-12T10:27:33.865Z",
-    "usedAtLocal": "2026-04-12T17:27:33+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "e4f36cab5403410d"
+    "exported": true,
+    "exportedAt": "2026-04-12T10:27:09.192Z"
+  },
+  {
+    "code": "f547552",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-04-12T12:53:17.459Z"
   }
 ]
