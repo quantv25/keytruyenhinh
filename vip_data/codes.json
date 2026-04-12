@@ -20697,8 +20697,15 @@
   },
   {
     "code": "f547552",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-04-12T12:53:17.459Z"
+    "exportedAt": "2026-04-12T12:53:17.459Z",
+    "usedBy": "70d5f615d335a0eca98998b2ce23e553a6197b3238c2f215cdcbf898d388f138",
+    "usedByShort": "70d5f615d335a0ec",
+    "usedAt": "2026-04-12T12:53:39.043Z",
+    "usedAtLocal": "2026-04-12T19:53:39+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "vn.quan.iptvmobile",
+    "deviceId": "dbcb2314ffd46b56"
   }
 ]
