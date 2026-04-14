@@ -20278,9 +20278,16 @@
   },
   {
     "code": "y059986",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-04-02T13:26:50.170Z"
+    "exportedAt": "2026-04-02T13:26:50.170Z",
+    "usedBy": "9493bf73979cee9d8319ac525094aba7da89f8310954950eafcaccdaaf7dff4a",
+    "usedByShort": "9493bf73979cee9d",
+    "usedAt": "2026-04-14T11:08:57.605Z",
+    "usedAtLocal": "2026-04-14T18:08:57+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "a5f28d2e6d3116a8"
   },
   {
     "code": "c017123",
