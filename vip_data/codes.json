@@ -20226,9 +20226,16 @@
   },
   {
     "code": "t032669",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-04-02T13:26:50.170Z"
+    "exportedAt": "2026-04-02T13:26:50.170Z",
+    "usedBy": "1c8ab56631d80039d792bf674999ef0eb4d6b391c46b7f80a761da4143660327",
+    "usedByShort": "1c8ab56631d80039",
+    "usedAt": "2026-04-14T10:50:35.787Z",
+    "usedAtLocal": "2026-04-14T17:50:35+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "f244afffbdea8317"
   },
   {
     "code": "c971485",
