@@ -20793,8 +20793,15 @@
   },
   {
     "code": "b832639",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-04-15T05:09:43.240Z"
+    "exportedAt": "2026-04-15T05:09:43.240Z",
+    "usedBy": "2f0e08e42702806f5d61d8adc7b147af58b50d7f7b4cc7d6ab8206c1cf3fbbbe",
+    "usedByShort": "2f0e08e42702806f",
+    "usedAt": "2026-04-15T05:10:02.416Z",
+    "usedAtLocal": "2026-04-15T12:10:02+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "7664630bef00722d"
   }
 ]
