@@ -20255,9 +20255,16 @@
   },
   {
     "code": "u006892",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-04-02T13:26:50.170Z"
+    "exportedAt": "2026-04-02T13:26:50.170Z",
+    "usedBy": "0ada756a26e80faff25d0676d623ababeccdf51896fd814b8a3cceaa72996a82",
+    "usedByShort": "0ada756a26e80faf",
+    "usedAt": "2026-04-16T03:39:48.596Z",
+    "usedAtLocal": "2026-04-16T10:39:48+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "80fcc50a0bd3cf62"
   },
   {
     "code": "w465725",
