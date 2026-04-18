@@ -20836,14 +20836,15 @@
   {
     "code": "w430826",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-04-17T00:23:23.216Z",
     "usedBy": "81da5805e8f3006af98c04ccc25603bbc4a7ae43e8b8af5b6b067b8eea438395",
-    "usedByShort": "81da5805e8f3006a",
     "usedAt": "2026-04-17T00:26:25.625Z",
-    "usedAtLocal": "2026-04-17T07:26:25+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "397785a9192a2b4b"
+    "exported": true,
+    "exportedAt": "2026-04-17T00:23:23.216Z"
+  },
+  {
+    "code": "n040911",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-04-18T02:19:04.304Z"
   }
 ]
