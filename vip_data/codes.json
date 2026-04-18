@@ -20844,14 +20844,15 @@
   {
     "code": "n040911",
     "used": true,
-    "exported": true,
-    "exportedAt": "2026-04-18T02:19:04.304Z",
     "usedBy": "c222835dbd657c48a38d1bcbdf9cc42aa51b1e446935ddb473f4133427016ebc",
-    "usedByShort": "c222835dbd657c48",
     "usedAt": "2026-04-18T02:19:20.977Z",
-    "usedAtLocal": "2026-04-18T09:19:20+07:00",
-    "tz": "Asia/Bangkok",
-    "app": "mh.q.truyenhinh",
-    "deviceId": "0b8d4b82650dfdb3"
+    "exported": true,
+    "exportedAt": "2026-04-18T02:19:04.304Z"
+  },
+  {
+    "code": "b627135",
+    "used": false,
+    "exported": true,
+    "exportedAt": "2026-04-18T07:47:10.516Z"
   }
 ]
