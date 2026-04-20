@@ -21330,9 +21330,16 @@
   },
   {
     "code": "r139572",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-04-20T05:18:03.341Z"
+    "exportedAt": "2026-04-20T05:18:03.341Z",
+    "usedBy": "e566f94e1aa0242e71b182ffb923c0578399b11f0ebf19133827fd442e113027",
+    "usedByShort": "e566f94e1aa0242e",
+    "usedAt": "2026-04-20T13:52:17.474Z",
+    "usedAtLocal": "2026-04-20T20:52:17+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "bdc89f94b02d7d89"
   },
   {
     "code": "f085551",
