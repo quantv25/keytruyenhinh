@@ -20962,9 +20962,16 @@
   },
   {
     "code": "t327836",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-04-20T05:18:03.341Z"
+    "exportedAt": "2026-04-20T05:18:03.341Z",
+    "usedBy": "56fc3a289e8d085cdb75ffbb1ec99d24f6092d0e3c6faa8451eeb6858306247f",
+    "usedByShort": "56fc3a289e8d085c",
+    "usedAt": "2026-04-20T05:59:04.665Z",
+    "usedAtLocal": "2026-04-20T12:59:04+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "418c1f98c5edfcd2"
   },
   {
     "code": "g255704",
