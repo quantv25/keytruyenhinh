@@ -20972,9 +20972,16 @@
   },
   {
     "code": "k960232",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-04-20T05:18:03.341Z"
+    "exportedAt": "2026-04-20T05:18:03.341Z",
+    "usedBy": "5e4ee8166b7fd8a2f3671494200d7117f75002bc9494dcb273a7a0baa4326247",
+    "usedByShort": "5e4ee8166b7fd8a2",
+    "usedAt": "2026-04-20T08:14:19.910Z",
+    "usedAtLocal": "2026-04-20T15:14:19+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "5959460a7d1b03bc"
   },
   {
     "code": "g566101",
