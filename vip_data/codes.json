@@ -3268,9 +3268,16 @@
   },
   {
     "code": "k132793",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-09T05:02:46.815Z"
+    "exportedAt": "2025-12-09T05:02:46.815Z",
+    "usedBy": "8350b35768f03983258c0b2d5c75cd1c0b41c6b75e84159f1fdddd6de95af903",
+    "usedByShort": "8350b35768f03983",
+    "usedAt": "2026-05-02T07:50:00.145Z",
+    "usedAtLocal": "2026-05-02T14:50:00+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "68fdffcba9813091"
   },
   {
     "code": "a950800",
