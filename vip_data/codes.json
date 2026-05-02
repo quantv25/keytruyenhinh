@@ -3255,9 +3255,16 @@
   },
   {
     "code": "u302825",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-09T05:02:46.815Z"
+    "exportedAt": "2025-12-09T05:02:46.815Z",
+    "usedBy": "1c841d6863d5a15b92735dfacce66eb88dd227af7accea757fe648a2cc1af9e7",
+    "usedByShort": "1c841d6863d5a15b",
+    "usedAt": "2026-05-02T02:36:38.588Z",
+    "usedAtLocal": "2026-05-02T09:36:38+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "vn.quan.iptvmobile",
+    "deviceId": "2a390f0b27317cfc"
   },
   {
     "code": "k132793",
