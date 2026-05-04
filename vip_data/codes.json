@@ -4883,9 +4883,16 @@
   },
   {
     "code": "p001780",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-13T01:55:26.526Z"
+    "exportedAt": "2025-12-13T01:55:26.526Z",
+    "usedBy": "e5bf22613fa174582429acefeb1c43f1a6f9b7ee0b8d167582608e9a11400aed",
+    "usedByShort": "e5bf22613fa17458",
+    "usedAt": "2026-05-04T13:02:38.279Z",
+    "usedAtLocal": "2026-05-04T20:02:38+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "79878b1c7c0d8680"
   },
   {
     "code": "g860332",
