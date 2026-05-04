@@ -3910,9 +3910,16 @@
   },
   {
     "code": "n232379",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2025-12-11T09:12:45.836Z"
+    "exportedAt": "2025-12-11T09:12:45.836Z",
+    "usedBy": "5a8dd417537f755197a6f3c84bdb83a3458854ccb58863ec4bc3ef15362dcbec",
+    "usedByShort": "5a8dd417537f7551",
+    "usedAt": "2026-05-04T12:35:53.353Z",
+    "usedAtLocal": "2026-05-04T19:35:53+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "f01a70e3f100d1ee"
   },
   {
     "code": "h569415",
