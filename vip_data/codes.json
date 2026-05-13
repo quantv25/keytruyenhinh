@@ -24470,9 +24470,16 @@
   },
   {
     "code": "t472784",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-05-13T02:05:52.667Z"
+    "exportedAt": "2026-05-13T02:05:52.667Z",
+    "usedBy": "ee4fb02c38c92208cb4548796d49bca2745bb7ee019ccffe6a7e43f14eac01d5",
+    "usedByShort": "ee4fb02c38c92208",
+    "usedAt": "2026-05-13T15:18:18.057Z",
+    "usedAtLocal": "2026-05-13T22:18:18+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "3cb685b4d875c231"
   },
   {
     "code": "r625906",
