@@ -24256,9 +24256,16 @@
   },
   {
     "code": "u255103",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-05-13T02:05:52.667Z"
+    "exportedAt": "2026-05-13T02:05:52.667Z",
+    "usedBy": "a523e8320c6ac44df3ac76f5530cd4cc42b5ea40d873e84e5dbe00089cd3e537",
+    "usedByShort": "a523e8320c6ac44d",
+    "usedAt": "2026-05-13T13:50:49.450Z",
+    "usedAtLocal": "2026-05-13T20:50:49+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "808630dc3004992e"
   },
   {
     "code": "j688653",
