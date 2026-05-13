@@ -23824,9 +23824,16 @@
   },
   {
     "code": "k240053",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-05-13T02:05:52.667Z"
+    "exportedAt": "2026-05-13T02:05:52.667Z",
+    "usedBy": "e7912e582f277b2feed919c6fcb7a2423fe25b15beb85cdda3e2882c11fd3e0a",
+    "usedByShort": "e7912e582f277b2f",
+    "usedAt": "2026-05-13T09:40:56.890Z",
+    "usedAtLocal": "2026-05-13T16:40:56+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "b6a20edd69171e74"
   },
   {
     "code": "f899382",
