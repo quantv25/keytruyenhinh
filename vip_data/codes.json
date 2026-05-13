@@ -23427,9 +23427,16 @@
   },
   {
     "code": "u386822",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-05-13T02:05:52.667Z"
+    "exportedAt": "2026-05-13T02:05:52.667Z",
+    "usedBy": "bd1ce3349d43c065f1eb3b63c2bfc44b3bc193260532c3313cf0f69b9d61f7b6",
+    "usedByShort": "bd1ce3349d43c065",
+    "usedAt": "2026-05-13T03:13:45.801Z",
+    "usedAtLocal": "2026-05-13T10:13:45+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "495e4953537e965d"
   },
   {
     "code": "c031482",
