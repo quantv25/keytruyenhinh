@@ -23876,9 +23876,16 @@
   },
   {
     "code": "r105939",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-05-13T02:05:52.667Z"
+    "exportedAt": "2026-05-13T02:05:52.667Z",
+    "usedBy": "30038823a36ce206427c52b0c185300efc21a1dd90a308b3eea51c00396e9009",
+    "usedByShort": "30038823a36ce206",
+    "usedAt": "2026-05-13T10:06:12.692Z",
+    "usedAtLocal": "2026-05-13T17:06:12+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "8dccb34a50913296"
   },
   {
     "code": "q890870",
