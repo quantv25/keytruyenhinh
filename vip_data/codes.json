@@ -24150,9 +24150,16 @@
   },
   {
     "code": "f236035",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-05-14T02:55:53.133Z"
+    "exportedAt": "2026-05-14T02:55:53.133Z",
+    "usedBy": "66c6a7e670370259542c441ec7089bdd10cf1a7221c4a70966ae6192b78cba24",
+    "usedByShort": "66c6a7e670370259",
+    "usedAt": "2026-05-14T02:59:39.723Z",
+    "usedAtLocal": "2026-05-14T09:59:39+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "e27bdb264c4960ad"
   },
   {
     "code": "u881680",
