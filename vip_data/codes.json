@@ -26534,9 +26534,16 @@
   },
   {
     "code": "d242001",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-05-14T03:46:12.271Z"
+    "exportedAt": "2026-05-14T03:46:12.271Z",
+    "usedBy": "208c477fe51c26fa6ec1a5cf51bce2cb258c983562a037149321bc475fd4ed56",
+    "usedByShort": "208c477fe51c26fa",
+    "usedAt": "2026-05-16T07:43:52.912Z",
+    "usedAtLocal": "2026-05-16T14:43:52+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "78f42743e0b638fd"
   },
   {
     "code": "z834056",
