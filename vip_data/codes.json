@@ -26125,9 +26125,16 @@
   },
   {
     "code": "g487141",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-05-14T03:46:12.271Z"
+    "exportedAt": "2026-05-14T03:46:12.271Z",
+    "usedBy": "3e06e02086416008a55ef8289eab7c05b86db10945afe50142b6fd330541ed11",
+    "usedByShort": "3e06e02086416008",
+    "usedAt": "2026-05-19T10:44:16.817Z",
+    "usedAtLocal": "2026-05-19T17:44:16+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "27ea8d20aa7bf464"
   },
   {
     "code": "x670471",
