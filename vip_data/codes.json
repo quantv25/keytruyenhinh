@@ -26229,9 +26229,16 @@
   },
   {
     "code": "w229599",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-05-14T03:46:12.271Z"
+    "exportedAt": "2026-05-14T03:46:12.271Z",
+    "usedBy": "1495beda5891e312257f1c1092928679b63a31f1aad12465c0794418d002a80c",
+    "usedByShort": "1495beda5891e312",
+    "usedAt": "2026-05-19T12:12:11.866Z",
+    "usedAtLocal": "2026-05-19T19:12:11+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "a80ebd8595f88b19"
   },
   {
     "code": "r473371",
