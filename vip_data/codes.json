@@ -26252,9 +26252,16 @@
   },
   {
     "code": "d237530",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-05-14T03:46:12.271Z"
+    "exportedAt": "2026-05-14T03:46:12.271Z",
+    "usedBy": "65dbad689f61fc92239aa66e0010fa510f38168cedbdc8737fb851508928da9e",
+    "usedByShort": "65dbad689f61fc92",
+    "usedAt": "2026-05-19T11:50:12.909Z",
+    "usedAtLocal": "2026-05-19T18:50:12+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "c367f6de886bc11f"
   },
   {
     "code": "u002794",
