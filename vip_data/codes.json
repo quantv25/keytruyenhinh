@@ -27643,9 +27643,16 @@
   },
   {
     "code": "j136926",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-05-14T03:46:12.271Z"
+    "exportedAt": "2026-05-14T03:46:12.271Z",
+    "usedBy": "f6619f0293acf5fcfcb77c1ab0673bfcb64ac75beb9caa2d1bc47815c34c80f1",
+    "usedByShort": "f6619f0293acf5fc",
+    "usedAt": "2026-05-20T04:02:21.001Z",
+    "usedAtLocal": "2026-05-20T11:02:21+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "f0c0ad7582265e20"
   },
   {
     "code": "a591340",
