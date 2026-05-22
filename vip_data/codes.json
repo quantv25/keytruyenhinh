@@ -28334,9 +28334,16 @@
   },
   {
     "code": "k142873",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-05-14T03:46:12.271Z"
+    "exportedAt": "2026-05-14T03:46:12.271Z",
+    "usedBy": "cf0a3c93a66cddf41c8cf1091369da72da391a844d078a1b5b798da7048c1fe6",
+    "usedByShort": "cf0a3c93a66cddf4",
+    "usedAt": "2026-05-22T11:15:24.480Z",
+    "usedAtLocal": "2026-05-22T18:15:24+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "ef0652192ca9fd9d"
   },
   {
     "code": "j287250",
