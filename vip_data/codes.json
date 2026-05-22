@@ -28022,9 +28022,16 @@
   },
   {
     "code": "k680472",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-05-14T03:46:12.271Z"
+    "exportedAt": "2026-05-14T03:46:12.271Z",
+    "usedBy": "8ba951edf6fa0e4c37724cc12e431004c62a92acbb9e812ee3147a1513af9806",
+    "usedByShort": "8ba951edf6fa0e4c",
+    "usedAt": "2026-05-22T09:37:52.870Z",
+    "usedAtLocal": "2026-05-22T16:37:52+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "781d923b631838e2"
   },
   {
     "code": "z628810",
