@@ -6908,9 +6908,16 @@
   },
   {
     "code": "e029755",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-02T08:55:22.503Z"
+    "exportedAt": "2026-01-02T08:55:22.503Z",
+    "usedBy": "7e122de496324ab63d6f8b1e242ce946586d41579fee36e8899c430440ad885c",
+    "usedByShort": "7e122de496324ab6",
+    "usedAt": "2026-05-22T06:45:01.453Z",
+    "usedAtLocal": "2026-05-22T13:45:01+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "810e97753be72b09"
   },
   {
     "code": "z226905",
