@@ -28451,9 +28451,16 @@
   },
   {
     "code": "q142226",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-05-14T03:46:12.271Z"
+    "exportedAt": "2026-05-14T03:46:12.271Z",
+    "usedBy": "e1745555ea9c98e208331b60afb814315ed72b9286a205b755b42121928128af",
+    "usedByShort": "e1745555ea9c98e2",
+    "usedAt": "2026-05-22T11:52:24.661Z",
+    "usedAtLocal": "2026-05-22T18:52:24+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "08de9cb4cbde6b3d"
   },
   {
     "code": "g022154",
