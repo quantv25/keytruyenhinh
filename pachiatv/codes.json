@@ -33,9 +33,13 @@
   },
   {
     "code": "f792104",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-16T08:38:08.048Z"
+    "exportedAt": "2026-01-16T08:38:08.048Z",
+    "usedBy": "1c841d6863d5a15b",
+    "usedAt": "2026-05-23T07:01:38.364Z",
+    "usedAtLocal": "2026-05-23T14:01:38+07:00",
+    "tz": "Asia/Bangkok"
   },
   {
     "code": "n028318",
