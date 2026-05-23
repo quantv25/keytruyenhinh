@@ -79,8 +79,12 @@
   },
   {
     "code": "u966533",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-05-14T09:55:16.455Z"
+    "exportedAt": "2026-05-14T09:55:16.455Z",
+    "usedBy": "1c841d6863d5a15b",
+    "usedAt": "2026-05-23T07:28:05.095Z",
+    "usedAtLocal": "2026-05-23T14:28:05+07:00",
+    "tz": "Asia/Bangkok"
   }
 ]
