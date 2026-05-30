@@ -25625,9 +25625,16 @@
   },
   {
     "code": "q820690",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-05-14T03:46:12.271Z"
+    "exportedAt": "2026-05-14T03:46:12.271Z",
+    "usedBy": "cd28beaa178616c1550193d8ebb87f110672ba5561fdee57b5983715df2749a0",
+    "usedByShort": "cd28beaa178616c1",
+    "usedAt": "2026-05-30T11:11:49.587Z",
+    "usedAtLocal": "2026-05-30T18:11:49+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "672747d9a505274d"
   },
   {
     "code": "k700723",
