@@ -24833,9 +24833,16 @@
   },
   {
     "code": "g467602",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-05-14T03:46:12.271Z"
+    "exportedAt": "2026-05-14T03:46:12.271Z",
+    "usedBy": "fc42d4928a07e150409d5c327b60803356a3e3f1aa405e31c390b7ea0baf98c2",
+    "usedByShort": "fc42d4928a07e150",
+    "usedAt": "2026-06-01T02:23:38.163Z",
+    "usedAtLocal": "2026-06-01T09:23:38+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "15803d96ab7cac5e"
   },
   {
     "code": "u571728",
