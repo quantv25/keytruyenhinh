@@ -7334,9 +7334,16 @@
   },
   {
     "code": "t268269",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-01-03T03:18:53.800Z"
+    "exportedAt": "2026-01-03T03:18:53.800Z",
+    "usedBy": "7b98022212c0bf73aeb270f7cf6d44019a8acb5a6d397ccf6d096763c07bcd3a",
+    "usedByShort": "7b98022212c0bf73",
+    "usedAt": "2026-06-04T13:55:21.766Z",
+    "usedAtLocal": "2026-06-04T20:55:21+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "f01a9316ad745338"
   },
   {
     "code": "b021641",
