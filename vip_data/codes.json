@@ -30272,8 +30272,15 @@
   },
   {
     "code": "k292053",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-05-14T03:46:12.271Z"
+    "exportedAt": "2026-05-14T03:46:12.271Z",
+    "usedBy": "0dc64238ed876aeaafa21cf867a0555fcd0169b1b77d336e2f00a21e63b5ea53",
+    "usedByShort": "0dc64238ed876aea",
+    "usedAt": "2026-06-13T04:25:03.809Z",
+    "usedAtLocal": "2026-06-13T11:25:03+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "f0c20fc25b4e90ae"
   }
 ]
