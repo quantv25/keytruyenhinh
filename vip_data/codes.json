@@ -28309,9 +28309,16 @@
   },
   {
     "code": "n589231",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-06-18T14:24:17.414Z"
+    "exportedAt": "2026-06-18T14:24:17.414Z",
+    "usedBy": "610c3c52d5f57f776f3410f409459e843b7c9ee1a1c22ba3a372c084bcdc5cfa",
+    "usedByShort": "610c3c52d5f57f77",
+    "usedAt": "2026-06-18T15:28:16.323Z",
+    "usedAtLocal": "2026-06-18T22:28:16+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "610c3c52d5f57f776f3410f409459e843b7c9ee1a1c22ba3a372c084bcdc5cfa"
   },
   {
     "code": "s719667",
