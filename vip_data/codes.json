@@ -30708,8 +30708,15 @@
   },
   {
     "code": "z079527",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-06-18T14:24:17.414Z"
+    "exportedAt": "2026-06-18T14:24:17.414Z",
+    "usedBy": "6220f953516a26f109ea1dec7a5fa67720dd881a2c8225b98b4a3faf5d9c3364",
+    "usedByShort": "6220f953516a26f1",
+    "usedAt": "2026-06-19T06:23:32.266Z",
+    "usedAtLocal": "2026-06-19T13:23:32+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "6220f953516a26f109ea1dec7a5fa67720dd881a2c8225b98b4a3faf5d9c3364"
   }
 ]
