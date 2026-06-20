@@ -28669,9 +28669,16 @@
   },
   {
     "code": "x814492",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-06-18T14:24:17.414Z"
+    "exportedAt": "2026-06-18T14:24:17.414Z",
+    "usedBy": "294cdf8fb49b98dca927526469a49477cadad379fe6fdb2484d31effffd3ed8a",
+    "usedByShort": "294cdf8fb49b98dc",
+    "usedAt": "2026-06-20T03:23:03.762Z",
+    "usedAtLocal": "2026-06-20T10:23:03+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "294cdf8fb49b98dca927526469a49477cadad379fe6fdb2484d31effffd3ed8a"
   },
   {
     "code": "m774727",
