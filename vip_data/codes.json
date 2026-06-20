@@ -28442,9 +28442,16 @@
   },
   {
     "code": "w517276",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-06-18T14:24:17.414Z"
+    "exportedAt": "2026-06-18T14:24:17.414Z",
+    "usedBy": "cb2b0ee8da710ea06c173e2a10b8321f381e721bf001c55fd1de684c67b09432",
+    "usedByShort": "cb2b0ee8da710ea0",
+    "usedAt": "2026-06-20T04:14:37.912Z",
+    "usedAtLocal": "2026-06-20T11:14:37+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "cb2b0ee8da710ea06c173e2a10b8321f381e721bf001c55fd1de684c67b09432"
   },
   {
     "code": "v513760",
