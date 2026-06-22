@@ -31260,9 +31260,16 @@
   },
   {
     "code": "a990886",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-06-18T14:24:17.414Z"
+    "exportedAt": "2026-06-18T14:24:17.414Z",
+    "usedBy": "d4d66025d084fa603de3ca0ff9f7519e613ee4dd42d19578f6e0b8ec3d0c3e7f",
+    "usedByShort": "d4d66025d084fa60",
+    "usedAt": "2026-06-22T22:26:53.893Z",
+    "usedAtLocal": "2026-06-23T05:26:53+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "d4d66025d084fa603de3ca0ff9f7519e613ee4dd42d19578f6e0b8ec3d0c3e7f"
   },
   {
     "code": "s547345",
