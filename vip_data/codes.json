@@ -29770,9 +29770,16 @@
   },
   {
     "code": "a050579",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-06-18T14:24:17.414Z"
+    "exportedAt": "2026-06-18T14:24:17.414Z",
+    "usedBy": "b9f4140e68161b76c69e178a6f247036b969084a459bceeba32a0a9d7e4d8eef",
+    "usedByShort": "b9f4140e68161b76",
+    "usedAt": "2026-06-24T02:56:40.210Z",
+    "usedAtLocal": "2026-06-24T09:56:40+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "b9f4140e68161b76c69e178a6f247036b969084a459bceeba32a0a9d7e4d8eef"
   },
   {
     "code": "h246800",
