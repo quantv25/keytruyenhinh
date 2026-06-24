@@ -30028,9 +30028,16 @@
   },
   {
     "code": "e600217",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-06-18T14:24:17.414Z"
+    "exportedAt": "2026-06-18T14:24:17.414Z",
+    "usedBy": "3e2c0df908ad7ea21b6e8ee9d86d06f2333a0fe0585d1e180a551e2bfa66b59e",
+    "usedByShort": "3e2c0df908ad7ea2",
+    "usedAt": "2026-06-24T02:25:21.231Z",
+    "usedAtLocal": "2026-06-24T09:25:21+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "3e2c0df908ad7ea21b6e8ee9d86d06f2333a0fe0585d1e180a551e2bfa66b59e"
   },
   {
     "code": "m616400",
