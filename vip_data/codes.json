@@ -31073,9 +31073,16 @@
   },
   {
     "code": "p247069",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-06-18T14:24:17.414Z"
+    "exportedAt": "2026-06-18T14:24:17.414Z",
+    "usedBy": "f71f735db7284207f0b57e62b679041f7bcb79093a87cf4341e74ca9f4c9c8a8",
+    "usedByShort": "f71f735db7284207",
+    "usedAt": "2026-06-29T03:51:04.392Z",
+    "usedAtLocal": "2026-06-29T10:51:04+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "f71f735db7284207f0b57e62b679041f7bcb79093a87cf4341e74ca9f4c9c8a8"
   },
   {
     "code": "n726196",
