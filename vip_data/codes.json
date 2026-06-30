@@ -31257,9 +31257,16 @@
   },
   {
     "code": "m231380",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-06-18T14:24:17.414Z"
+    "exportedAt": "2026-06-18T14:24:17.414Z",
+    "usedBy": "fd1f4bbef33e4ee63623f971173a0504db271f0d5860685268a1c3e88daa98ca",
+    "usedByShort": "fd1f4bbef33e4ee6",
+    "usedAt": "2026-06-30T06:50:48.282Z",
+    "usedAtLocal": "2026-06-30T13:50:48+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "fd1f4bbef33e4ee63623f971173a0504db271f0d5860685268a1c3e88daa98ca"
   },
   {
     "code": "u103492",
