@@ -30722,9 +30722,16 @@
   },
   {
     "code": "g788650",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-06-18T14:24:17.414Z"
+    "exportedAt": "2026-06-18T14:24:17.414Z",
+    "usedBy": "dff00dcb97ba7cebd24dda2a80e72637616d6c03e20efae17a17a0e6aa3db3f8",
+    "usedByShort": "dff00dcb97ba7ceb",
+    "usedAt": "2026-07-01T04:17:47.140Z",
+    "usedAtLocal": "2026-07-01T11:17:47+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "dff00dcb97ba7cebd24dda2a80e72637616d6c03e20efae17a17a0e6aa3db3f8"
   },
   {
     "code": "s730749",
