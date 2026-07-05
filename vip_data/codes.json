@@ -30817,9 +30817,16 @@
   },
   {
     "code": "p239105",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-06-18T14:24:17.414Z"
+    "exportedAt": "2026-06-18T14:24:17.414Z",
+    "usedBy": "e724be296b88d13e6ef94c226cbc68f5bf1c59cc39d000056050afcce81c14f7",
+    "usedByShort": "e724be296b88d13e",
+    "usedAt": "2026-07-05T12:37:35.191Z",
+    "usedAtLocal": "2026-07-05T19:37:35+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "e724be296b88d13e6ef94c226cbc68f5bf1c59cc39d000056050afcce81c14f7"
   },
   {
     "code": "x901907",
