@@ -31286,9 +31286,16 @@
   },
   {
     "code": "u829846",
-    "used": false,
+    "used": true,
     "exported": true,
-    "exportedAt": "2026-06-18T14:24:17.414Z"
+    "exportedAt": "2026-06-18T14:24:17.414Z",
+    "usedBy": "e5d0b339de03d003e0c554447b37cd0b1672ec04196d2d6be6db7ae99cc8134e",
+    "usedByShort": "e5d0b339de03d003",
+    "usedAt": "2026-07-09T11:18:26.420Z",
+    "usedAtLocal": "2026-07-09T18:18:26+07:00",
+    "tz": "Asia/Bangkok",
+    "app": "mh.q.truyenhinh",
+    "deviceId": "e5d0b339de03d003e0c554447b37cd0b1672ec04196d2d6be6db7ae99cc8134e"
   },
   {
     "code": "f898789",
